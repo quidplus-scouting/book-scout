@@ -217,7 +217,7 @@ def collect_amazon(col):
                 time.sleep(2)
                 if r is None or r.status_code != 200 or is_blocked(r.text):
                     status["amazon_blocked"] += 1
-                    log(f"  Amazon BLOCCATO/errore: {url} ({r.status_code if r else 'nessuna risposta'})")
+                    log(f"  Amazon BLOCCATO/errore: {url} ({r.status_code if r is not None else 'nessuna risposta'})")
                     continue
                 rows = parse_amazon_grid(r.text)
                 status["amazon_ok"] += 1
@@ -241,7 +241,7 @@ def collect_nyt(col):
                 params={"api-key": NYT_KEY})
         time.sleep(13)  # limite NYT: 5 richieste al minuto
         if r is None or r.status_code != 200:
-            log(f"  NYT {slug}: errore {r.status_code if r else ''}")
+            log(f"  NYT {slug}: errore {r.status_code if r is not None else 'rete'}")
             continue
         ok += 1
         books = r.json().get("results", {}).get("books", [])
@@ -285,7 +285,8 @@ def google_books(q, **params):
         status["google_errors"] += 1
         google_fail_streak += 1
         if status["google_errors"] <= 3:
-            log(f"  Google Books errore {r.status_code if r else 'rete'}: {r.text[:200] if r else ''}")
+            log(f"  Google Books errore {r.status_code if r is not None else 'rete'}: "
+                f"{r.text[:300] if r is not None else ''}")
         if google_fail_streak == 8:
             log("  Google Books non disponibile (quota o chiave): uso solo Open Library")
         return None
