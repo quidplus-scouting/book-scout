@@ -265,21 +265,28 @@ google_fail_streak = 0
 
 def google_books(q, **params):
     global google_fail_streak
-    # dopo 5 errori consecutivi (quota esaurita o chiave mancante) si smette di insistere
-    if status["google_calls"] >= GB_BUDGET or google_fail_streak >= 5:
+    # dopo 8 errori consecutivi (quota esaurita o chiave non valida) si smette di insistere
+    if status["google_calls"] >= GB_BUDGET or google_fail_streak >= 8:
         return None
     params = {"q": q, "maxResults": 40, "printType": "books", **params}
     if GB_KEY:
         params["key"] = GB_KEY
     status["google_calls"] += 1
-    try:
-        r = session.get("https://www.googleapis.com/books/v1/volumes", params=params, timeout=30)
-    except requests.RequestException:
-        r = None
+    r = None
+    for wait in (0, 3, 10, 30):  # il 429 di Google e' spesso un limite al minuto: si riprova
+        time.sleep(wait or 0.4)
+        try:
+            r = session.get("https://www.googleapis.com/books/v1/volumes", params=params, timeout=30)
+        except requests.RequestException:
+            r = None
+        if r is None or r.status_code != 429:
+            break
     if r is None or r.status_code != 200:
         status["google_errors"] += 1
         google_fail_streak += 1
-        if google_fail_streak == 5:
+        if status["google_errors"] <= 3:
+            log(f"  Google Books errore {r.status_code if r else 'rete'}: {r.text[:200] if r else ''}")
+        if google_fail_streak == 8:
             log("  Google Books non disponibile (quota o chiave): uso solo Open Library")
         return None
     google_fail_streak = 0
@@ -347,7 +354,7 @@ def enrich_children(it, cache):
 def italian_author_check(author, cache):
     """Libri dell'autore gia' usciti in italiano (titoli ed editori)."""
     name = first_author(author)
-    if not name:
+    if not name or name.lower() in {"various", "various authors", "anonymous", "unknown"}:
         return None
     key = " ".join(norm(name))
     cached = cache["authors"].get(key)
@@ -371,9 +378,8 @@ def italian_author_check(author, cache):
             params={"author": name, "language": "ita", "fields": "title,publisher", "limit": 20})
     if r is not None and r.status_code == 200:
         docs = r.json().get("docs", [])
+        # gli editori di Open Library mescolano tutte le edizioni (anche non italiane): si usano solo i titoli
         titles += [d.get("title", "") for d in docs]
-        for d in docs:
-            publishers += (d.get("publisher") or [])[:1]
         # Open Library da sola e' incompleta: un risultato vuoto non basta a dire "inedito"
         ok = ok or bool(docs)
 
@@ -497,6 +503,9 @@ def main():
         cache.setdefault(k, {})
     # le ricerche di titolo vanno ripetute ogni volta: i libri vengono tradotti nel tempo
     cache["title_hits"] = {}
+    # le verifiche autore fatte senza Google Books (versione 1) non sono affidabili
+    if cache.get("version") != 2:
+        cache["authors"], cache["version"] = {}, 2
 
     col = Collector()
     log("== Amazon.com")
