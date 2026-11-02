@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-02T14:05+00:00",
+ "generated": "2026-11-02T14:22+00:00",
  "weeks_of_history": 1,
  "status": {
-  "amazon_ok": 21,
-  "amazon_blocked": 1,
-  "nyt": "non configurato",
-  "google_calls": 25,
+  "amazon_ok": 22,
+  "amazon_blocked": 0,
+  "nyt": "5/6 liste lette",
+  "google_calls": 19,
   "google_errors": 14,
-  "product_pages": 0
+  "product_pages": 1
  },
  "items": [
   {
@@ -27,6 +27,11 @@
      "source": "amazon",
      "list": "Amazon Novità · Children's Books",
      "rank": 1
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 1
     }
    ],
    "isbn13": "9781419782701",
@@ -36,14 +41,15 @@
    "rating": 4.8,
    "reviews": 1222,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81uG4RY0uoL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Amulet",
+   "description": "The travails and challenges of adolescence. (Ages 9 to 12)",
+   "nyt_weeks": 919,
    "pub_date": "2026-10-20",
-   "publisher_us": "Amulet Books",
-   "description": "When the going gets tough, what's a wimpy kid to do? In Fight or Flight, Greg Heffley faces his biggest challenge yet as he becomes a target for the school bully. Luckily for Greg, his best friend, Rowley Jefferson, takes karate, so at least Greg's got someone in his corner. But an unexpected twist makes Greg realize he's facing an uphill battle. Will Greg step into the ring or throw in the towel?",
    "age_min": 8,
    "reading_age": "8 - 12 years",
    "pub_date_amz": "October 20, 2026",
    "italy": {
-    "status": "autore_tradotto",
+    "status": "da_verificare",
     "titles": [
      "Cabin Fever",
      "Diary of a Wimpy Kid",
@@ -52,35 +58,213 @@
      "The Last Straw",
      "Wimpy Kid"
     ],
-    "publishers": [
-     "Abrams Books",
-     "Amulet Book",
-     "Baumhaus Verlag GmbH",
-     "Bound to Stay Bound Books",
-     "Duo Dizayn"
-    ]
+    "publishers": []
    },
    "best_rank": 1,
-   "weeks": 1,
+   "weeks": 919,
    "days_since_pub": 13,
-   "score": 45,
+   "score": 61,
    "score_parts": {
     "classifica": 25,
-    "longevita": 1,
+    "longevita": 25,
     "crescita": 0,
     "novita": 15,
     "recensioni": 11
    },
    "reasons": [
     "#1 in Amazon Best Sellers · Children's Books",
+    "919 settimane in classifica",
     "uscito da 1 mesi",
     "4.8★ su 1.222 recensioni"
    ]
   },
   {
-   "key": "a:B0H2B1DH6L",
-   "title": "100,000 Whys for Kids: A Full-Color Visual Encyclopedia of Big Questions, Clear Answers, Science, Space, Animals, Nature, His",
-   "author": "Elliott Wonder",
+   "key": "i:9781419788109",
+   "title": "Rowley Jefferson’s Awesome Friendly Spooky Stories 2: From the Creator of Diary of a Wimpy Kid (The Awesome Friendly Kid Seri",
+   "author": "Jeff Kinney",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Children's Books",
+     "rank": 9
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 4
+    }
+   ],
+   "isbn13": "9781419788109",
+   "asin": "1419788108",
+   "amazon_url": "https://www.amazon.com/dp/1419788108",
+   "format": "Hardcover",
+   "rating": 4.6,
+   "reviews": 511,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81y0+A3LSTL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Amulet",
+   "description": "Rowley Jefferson chronicles his life story and adventures. (Ages 9 to 12)",
+   "nyt_weeks": 59,
+   "age_min": 8,
+   "reading_age": "8 - 10 years",
+   "pub_date_amz": "August 11, 2026",
+   "pub_date": "2026-08-11",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Cabin Fever",
+     "Diary of a Wimpy Kid",
+     "Dog Days",
+     "Rodrick Rules",
+     "The Last Straw",
+     "Wimpy Kid"
+    ],
+    "publishers": []
+   },
+   "best_rank": 4,
+   "weeks": 59,
+   "days_since_pub": 83,
+   "score": 58,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 15,
+    "recensioni": 9
+   },
+   "reasons": [
+    "#4 in NYT Series",
+    "59 settimane in classifica",
+    "uscito da 2 mesi",
+    "4.6★ su 511 recensioni"
+   ]
+  },
+  {
+   "key": "a:B0DFMZMKFJ",
+   "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can’t Stop Talking About",
+   "author": "Mel Robbins",
+   "macro": [
+    "Manualistica e varia",
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Self-Help",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Business & Money",
+     "rank": 1
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 4
+    }
+   ],
+   "isbn13": "9781401971366",
+   "asin": "B0DFMZMKFJ",
+   "amazon_url": "https://www.amazon.com/dp/B0DFMZMKFJ",
+   "format": "Audible Audiobook",
+   "rating": 4.6,
+   "reviews": 49498,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91tK0tVAf+L._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Hay House",
+   "nyt_weeks": 96,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 1,
+   "weeks": 96,
+   "score": 51,
+   "score_parts": {
+    "classifica": 25,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#1 in Amazon Best Sellers · Business & Money",
+    "96 settimane in classifica",
+    "4.6★ su 49.498 recensioni"
+   ]
+  },
+  {
+   "key": "a:B07RFSSYBH",
+   "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+   "author": "James Clear",
+   "macro": [
+    "Manualistica e varia",
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Self-Help",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Parenting & Relationships",
+     "rank": 3
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Business & Money",
+     "rank": 2
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 6
+    }
+   ],
+   "isbn13": "9780735211292",
+   "asin": "B07RFSSYBH",
+   "amazon_url": "https://www.amazon.com/dp/B07RFSSYBH",
+   "format": "Audible Audiobook",
+   "rating": 4.8,
+   "reviews": 150378,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71F4+7rk2eL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Avery",
+   "nyt_weeks": 360,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 360,
+   "score": 51,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#2 in Amazon Best Sellers · Health, Fitness & Dieting",
+    "360 settimane in classifica",
+    "4.8★ su 150.378 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781728235202",
+   "title": "The Leaf Thief: (The Perfect Fall Book for Children and Toddlers)",
+   "author": "Alice Hemming",
    "macro": [
     "Bambini"
    ],
@@ -88,38 +272,196 @@
     {
      "source": "amazon",
      "list": "Amazon Best Sellers · Children's Books",
-     "rank": 18
+     "rank": 12
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 1
     }
    ],
-   "isbn13": null,
-   "asin": "B0H2B1DH6L",
-   "amazon_url": "https://www.amazon.com/dp/B0H2B1DH6L",
-   "format": "Paperback",
-   "rating": 4.4,
-   "reviews": 902,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81TY-sCrRxL._AC_UL300_SR300,200_.jpg",
-   "pub_date_amz": "May 18, 2026",
-   "pub_date": "2026-05-18",
+   "isbn13": "9781728235202",
+   "asin": "1728235200",
+   "amazon_url": "https://www.amazon.com/dp/1728235200",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 4242,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/A18OnuYW2dL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Sourcebooks Jabberwocky",
+   "description": "Squirrel attempts to figure out who has stolen his leaves. (Ages 4 to 8)",
+   "nyt_weeks": 41,
+   "pub_date": "2021-08-03",
+   "age_min": 2,
+   "reading_age": "2 - 5 years",
+   "pub_date_amz": "August 3, 2021",
    "italy": {
-    "status": "autore_inedito",
+    "status": "da_verificare",
     "titles": [],
     "publishers": []
    },
-   "best_rank": 18,
-   "weeks": 1,
-   "days_since_pub": 168,
-   "score": 43,
+   "best_rank": 1,
+   "weeks": 41,
+   "days_since_pub": 1917,
+   "score": 50,
    "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
+    "classifica": 25,
+    "longevita": 25,
     "crescita": 0,
-    "novita": 15,
-    "recensioni": 10
+    "novita": 0,
+    "recensioni": 13
    },
    "reasons": [
-    "#18 in Amazon Best Sellers · Children's Books",
-    "uscito da 5 mesi",
-    "4.4★ su 902 recensioni"
+    "#1 in NYT Picture Books",
+    "41 settimane in classifica",
+    "4.8★ su 4.242 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781492670025",
+   "title": "The Complete Cookbook for Young Chefs: 100+ Recipes that You'll Love to Cook and Eat",
+   "author": "America’s Test Kitchen Kids",
+   "macro": [
+    "Manualistica e varia",
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 18
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 5
+    }
+   ],
+   "isbn13": "9781492670025",
+   "asin": "1492670022",
+   "amazon_url": "https://www.amazon.com/dp/1492670022",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 25603,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91GqAI8VDUL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Sourcebooks Jabberwocky",
+   "description": "Over 100 kid-tested recipes from America's Test Kitchen. (Ages 8 and up)",
+   "nyt_weeks": 292,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 5,
+   "weeks": 292,
+   "score": 50,
+   "score_parts": {
+    "classifica": 23,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#5 in NYT Middle Grade",
+    "292 settimane in classifica",
+    "4.8★ su 25.603 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781510704848",
+   "title": "See You Later, Alligator (RhymeTime Animals)",
+   "author": "Sally Hopgood",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 26
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 9
+    }
+   ],
+   "isbn13": "9781510704848",
+   "asin": "1510704841",
+   "amazon_url": "https://www.amazon.com/dp/1510704841",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 4746,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71Aj3RpT9rL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Sky Pony",
+   "description": "A departing tortoise says goodbye to all his animal friends. (Ages 3 to 6)",
+   "nyt_weeks": 41,
+   "nyt_new": true,
+   "age_min": 2,
+   "reading_age": "2 - 4 years",
+   "pub_date_amz": "September 20, 2016",
+   "pub_date": "2016-09-20",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 9,
+   "weeks": 41,
+   "days_since_pub": 3695,
+   "score": 47,
+   "score_parts": {
+    "classifica": 21,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 13
+   },
+   "reasons": [
+    "#9 in NYT Picture Books",
+    "41 settimane in classifica",
+    "4.8★ su 4.746 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781492648949",
+   "title": "How To Catch A Monster",
+   "author": "Adam Wallace",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 2
+    }
+   ],
+   "isbn13": "9781492648949",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781492648949.jpg",
+   "publisher_us": "Sourcebooks Jabberwocky",
+   "description": "A boy attempts to catch the monster in his closet. (Ages 4 to 8)",
+   "amazon_url": "https://www.amazon.com/dp/1492648949?tag=thenewyorktim-20",
+   "nyt_weeks": 35,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 35,
+   "score": 40,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#2 in NYT Picture Books",
+    "35 settimane in classifica"
    ]
   },
   {
@@ -169,6 +511,199 @@
    ]
   },
   {
+   "key": "i:9780593234174",
+   "title": "Simply Ina: A Barefoot Contessa Cookbook",
+   "author": "Ina Garten",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 1
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Cookbooks, Food & Wine",
+     "rank": 1
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 1
+    }
+   ],
+   "isbn13": "9780593234174",
+   "asin": "0593234170",
+   "amazon_url": "https://www.amazon.com/dp/0593234170",
+   "format": "Hardcover",
+   "rating": 3.9,
+   "reviews": 244,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81kIUUyLdnL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Clarkson Potter",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 1,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 39,
+   "score_parts": {
+    "classifica": 25,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 7
+   },
+   "reasons": [
+    "#1 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "a:B0H8NTFHP4",
+   "title": "WTF America?!: The Way Out of This Hell and Back to Democracy",
+   "author": "Ben Meiselas",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Politics & Social Sciences",
+     "rank": 11
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 4
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 3
+    }
+   ],
+   "isbn13": "9781538787175",
+   "asin": "B0H8NTFHP4",
+   "amazon_url": "https://www.amazon.com/dp/B0H8NTFHP4",
+   "format": "Audible Audiobook",
+   "rating": 4.8,
+   "reviews": 157,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81yq-pXvNRL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Grand Central",
+   "description": "The founders of the independent news network MeidasTouch give their take on our current political and social climate.",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 3,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 39,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 8
+   },
+   "reasons": [
+    "#3 in NYT Hardcover Nonfiction",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "i:9781728210353",
+   "title": "How To Catch A Witch",
+   "author": "Alice Walstead",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 3
+    }
+   ],
+   "isbn13": "9781728210353",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781728210353.jpg",
+   "publisher_us": "Sourcebooks Wonderland",
+   "description": "The Catch Club Kids attempt to snare a witch on Halloween. (Ages 4 to 7)",
+   "amazon_url": "https://www.amazon.com/dp/1728210356?tag=thenewyorktim-20",
+   "nyt_weeks": 36,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 3,
+   "weeks": 36,
+   "score": 39,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#3 in NYT Picture Books",
+    "36 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781442402973",
+   "title": "Creepy Carrots!",
+   "author": "Aaron Reynolds",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 4
+    }
+   ],
+   "isbn13": "9781442402973",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781442402973.jpg",
+   "publisher_us": "Simon & Schuster",
+   "description": "A rabbit’s comeuppance. (Ages 4 to 8)",
+   "amazon_url": "http://www.amazon.com/Creepy-Carrots-Aaron-Reynolds/dp/1442402970?tag=thenewyorktim-20",
+   "nyt_weeks": 22,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 4,
+   "weeks": 22,
+   "score": 39,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#4 in NYT Picture Books",
+    "22 settimane in classifica"
+   ]
+  },
+  {
    "key": "i:9781665986717",
    "title": "Spy School Goes East",
    "author": "Stuart Gibbs",
@@ -215,6 +750,319 @@
    ]
   },
   {
+   "key": "i:9780593799901",
+   "title": "Mediterranean All the Way: Bold Flavors, Built to Share: A Cookbook",
+   "author": "Ayesha Nurdjaja",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 7
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Cookbooks, Food & Wine",
+     "rank": 4
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 7
+    }
+   ],
+   "isbn13": "9780593799901",
+   "asin": "0593799909",
+   "amazon_url": "https://www.amazon.com/dp/0593799909",
+   "format": "Hardcover",
+   "rating": 5.0,
+   "reviews": 112,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91AUgb-jhvL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Clarkson Potter",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 4,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 38,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 8
+   },
+   "reasons": [
+    "#4 in Amazon Novità · Cookbooks, Food & Wine",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "a:B0GGYQNWHJ",
+   "title": "Unelected",
+   "author": "Jennica Pounds",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Business & Money",
+     "rank": 23
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Business & Money",
+     "rank": 5
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · History",
+     "rank": 18
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · History",
+     "rank": 8
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Politics & Social Sciences",
+     "rank": 26
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 8
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 9
+    }
+   ],
+   "isbn13": "9798901160626",
+   "asin": "B0GGYQNWHJ",
+   "amazon_url": "https://www.amazon.com/dp/B0GGYQNWHJ",
+   "format": "Hardcover",
+   "rating": 5.0,
+   "reviews": 170,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/815IxkropyL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Passage",
+   "description": "A data analyst blames non-governmental organizations for the current state of our economy.",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 5,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 38,
+   "score_parts": {
+    "classifica": 23,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 8
+   },
+   "reasons": [
+    "#5 in Amazon Novità · Business & Money",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "i:9781442402980",
+   "title": "Creepy Pair Of Underwear",
+   "author": "Aaron Reynolds",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 6
+    }
+   ],
+   "isbn13": "9781442402980",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781442402980.jpg",
+   "publisher_us": "Simon & Schuster",
+   "description": "Jasper Rabbit deals with a pair of glowing underwear that won't go away. (Ages 4 to 8)",
+   "amazon_url": "https://www.amazon.com/Creepy-Pair-Underwear-Aaron-Reynolds/dp/1442402989?tag=thenewyorktim-20",
+   "nyt_weeks": 48,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 6,
+   "weeks": 48,
+   "score": 38,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#6 in NYT Picture Books",
+    "48 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9780316599399",
+   "title": "The Twilight Saga",
+   "author": "Stephenie Meyer",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 5
+    }
+   ],
+   "isbn13": "9780316599399",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780316599399.jpg",
+   "publisher_us": "Little, Brown",
+   "description": "Vampires and werewolves and their intrigues in high school. (Ages 12 and up)",
+   "amazon_url": "https://www.amazon.com/dp/0316599395?tag=thenewyorktim-20",
+   "nyt_weeks": 294,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Eclipse",
+     "New Moon",
+     "The Short Second Life of Bree Tanner"
+    ],
+    "publishers": []
+   },
+   "best_rank": 5,
+   "weeks": 294,
+   "score": 38,
+   "score_parts": {
+    "classifica": 23,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#5 in NYT Series",
+    "294 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9780316382007",
+   "title": "The Wild Robot",
+   "author": "Peter Brown",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 6
+    }
+   ],
+   "isbn13": "9780316382007",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780316382007.jpg",
+   "publisher_us": "Little, Brown",
+   "description": "Roz the robot adapts to her surroundings on a remote, wild island. (Ages 7 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/0316382000?tag=thenewyorktim-20",
+   "nyt_weeks": 140,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Christian prayers and meditations in English French, Italian, Spanish, Greeke, and Latine..",
+     "Gestione Dei Progetti",
+     "Governanti e intellettuali",
+     "Governanti e intellettuali, popolo di Roma e popolo di Dio",
+     "Love, Death + Robots",
+     "Povertà e carità dalla Roma tardo-antica al '700 italiano"
+    ],
+    "publishers": []
+   },
+   "best_rank": 6,
+   "weeks": 140,
+   "score": 38,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#6 in NYT Series",
+    "140 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9780544336261",
+   "title": "Giver Quartet",
+   "author": "Lois Lowry",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 7
+    }
+   ],
+   "isbn13": "9780544336261",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780544336261.jpg",
+   "publisher_us": "Clarion",
+   "description": "Exploring human connection in a post-apocalyptic world. (Ages 12 to 18)",
+   "amazon_url": "https://www.amazon.com/dp/0544336267?tag=thenewyorktim-20",
+   "nyt_weeks": 188,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Anastasia Again",
+     "Anastasia Krupnik",
+     "Anastasia e suo fratello",
+     "Anastasia's Chosen Career",
+     "The Giver",
+     "Zooman Sam"
+    ],
+    "publishers": []
+   },
+   "best_rank": 7,
+   "weeks": 188,
+   "score": 38,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#7 in NYT Series",
+    "188 settimane in classifica"
+   ]
+  },
+  {
    "key": "a:B0GJ9V42V9",
    "title": "Little Golden Books Advent Calendar: Countdown to Christmas: With 24 Winter Holiday Books",
    "author": "Various",
@@ -239,24 +1087,8 @@
    "pub_date": "2026-09-22",
    "italy": {
     "status": "da_verificare",
-    "titles": [
-     "101 Cavalli d'autore",
-     "Actes du IVe Congres International de Speleologie en Yougoslavie (12-26 IX 1965)",
-     "Atti del IV Convegno di Speleologia del Friuli Venezia Giulia",
-     "Bianco Su Bianco",
-     "Carta di donna",
-     "Goya"
-    ],
-    "publishers": [
-     "A+U Pub. Co.",
-     "Art Books Intl Ltd",
-     "Commissione Speleologica Jama",
-     "Electa",
-     "Federation Yougoslave de Speleologie",
-     "First Ballantine Books",
-     "Franco Muzzio & C. Editore",
-     "Fratelli Alinari"
-    ]
+    "titles": [],
+    "publishers": []
    },
    "best_rank": 4,
    "weeks": 1,
@@ -319,63 +1151,483 @@
    ]
   },
   {
-   "key": "i:9781419788109",
-   "title": "Rowley Jefferson’s Awesome Friendly Spooky Stories 2: From the Creator of Diary of a Wimpy Kid (The Awesome Friendly Kid Seri",
-   "author": "Jeff Kinney",
+   "key": "a:B0H2GKC5PZ",
+   "title": "Co-Existence: The Next Phase of AI",
+   "author": "Ethan Mollick",
+   "macro": [
+    "Saggistica",
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Business & Money",
+     "rank": 9
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 3
+    }
+   ],
+   "isbn13": "9798217181391",
+   "asin": "B0H2GKC5PZ",
+   "amazon_url": "https://www.amazon.com/dp/B0H2GKC5PZ",
+   "format": "Audible Audiobook",
+   "rating": 4.8,
+   "reviews": 37,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91L270lCzLL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Portfolio",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 3,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 37,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 6
+   },
+   "reasons": [
+    "#3 in NYT Advice & How-To",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "i:9781546012276",
+   "title": "America's Golden Age: Trumpism and an Era of Limitless Possibilities",
+   "author": "Newt Gingrich",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · History",
+     "rank": 16
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 21
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 4
+    }
+   ],
+   "isbn13": "9781546012276",
+   "asin": "1546012273",
+   "amazon_url": "https://www.amazon.com/dp/1546012273",
+   "format": "Hardcover",
+   "rating": 4.6,
+   "reviews": 61,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71fhocNY5UL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Center Street",
+   "description": "The former speaker of the House prognosticates about the future of our country based on developments in technology and the actions of President Trump.",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 4,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 37,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 6
+   },
+   "reasons": [
+    "#4 in NYT Hardcover Nonfiction",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "i:9780385376716",
+   "title": "The Wonderful Things You Will Be",
+   "author": "Emily Winfield Martin",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 8
+    }
+   ],
+   "isbn13": "9780385376716",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780385376716.jpg",
+   "publisher_us": "Random House",
+   "description": "A celebration of future possibilities. (Ages 3 to 7)",
+   "amazon_url": "https://www.amazon.com/dp/0385376715?tag=thenewyorktim-20",
+   "nyt_weeks": 480,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 8,
+   "weeks": 480,
+   "score": 37,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#8 in NYT Picture Books",
+    "480 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9780063221178",
+   "title": "Wombat Waiting",
+   "author": "Katherine Applegate",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 9
+    }
+   ],
+   "isbn13": "9780063221178",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780063221178.jpg",
+   "publisher_us": "Storytide",
+   "description": "A homeless pup patiently waits for her “special person.” (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/0063221179?tag=thenewyorktim-20",
+   "nyt_weeks": 24,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "The Visitor"
+    ],
+    "publishers": []
+   },
+   "best_rank": 9,
+   "weeks": 24,
+   "score": 37,
+   "score_parts": {
+    "classifica": 21,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#9 in NYT Middle Grade",
+    "24 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9780375813658",
+   "title": "Magic Tree House",
+   "author": "Mary Pope Osborne",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 8
+    }
+   ],
+   "isbn13": "9780375813658",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780375813658.jpg",
+   "publisher_us": "Stepping Stone/Random House",
+   "description": "These siblings can overcome space and time. (Ages 6 to 9)",
+   "amazon_url": "https://www.amazon.com/dp/0375813659?tag=thenewyorktim-20",
+   "nyt_weeks": 345,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Carnival at Candlelight",
+     "Dinosaurs",
+     "Rain forests",
+     "Vacation Under the Volcano"
+    ],
+    "publishers": []
+   },
+   "best_rank": 8,
+   "weeks": 345,
+   "score": 37,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#8 in NYT Series",
+    "345 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781250462039",
+   "title": "Once Upon A Broken Heart",
+   "author": "Stephanie Garber",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 9
+    }
+   ],
+   "isbn13": "9781250462039",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781250462039.jpg",
+   "publisher_us": "Flatiron",
+   "description": "The story of Evangeline Fox, Jacks, the Prince of Hearts and the pursuit of true love. (Ages 13 to 18)",
+   "amazon_url": "https://www.amazon.com/dp/1250462037?tag=thenewyorktim-20",
+   "nyt_weeks": 32,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 9,
+   "weeks": 32,
+   "score": 37,
+   "score_parts": {
+    "classifica": 21,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#9 in NYT Series",
+    "32 settimane in classifica"
+   ]
+  },
+  {
+   "key": "a:B0GSYJP51M",
+   "title": "Andy's Bravo Scrapbook: Twenty Years Behind the Scenes of the Real Housewives and the Bravoverse",
+   "author": "Andy Cohen",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 14
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 2
+    }
+   ],
+   "isbn13": "9798217090143",
+   "asin": "B0GSYJP51M",
+   "amazon_url": "https://www.amazon.com/dp/B0GSYJP51M",
+   "format": "Hardcover",
+   "rating": 4.4,
+   "reviews": 20,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81e+NPUZ-EL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Andy Cohen",
+   "description": "The Emmy Award–winning host shares recollections and photographs from reality TV over two decades.",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 36,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 4
+   },
+   "reasons": [
+    "#2 in NYT Hardcover Nonfiction",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "i:9780062954541",
+   "title": "The Bad Seed Presents: The Good, The Bad, And The Spooky",
+   "author": "Jory John",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9780062954541",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780062954541.jpg",
+   "publisher_us": "HarperCollins",
+   "description": "Bad Seed seeks the perfect Halloween costume. (Ages 4 to 8)",
+   "amazon_url": "https://www.amazon.com/dp/0062954547?tag=thenewyorktim-20",
+   "nyt_weeks": 41,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "All My Friends Are Dead"
+    ],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 41,
+   "score": 36,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#10 in NYT Picture Books",
+    "41 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781368051477",
+   "title": "Percy Jackson & The Olympians",
+   "author": "Rick Riordan",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9781368051477",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781368051477.jpg",
+   "publisher_us": "Disney-Hyperion",
+   "description": "A boy battles mythological monsters. (Ages 9 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/1368051472?tag=thenewyorktim-20",
+   "nyt_weeks": 849,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "The Blood of Olympus",
+     "The Last Olympian",
+     "The Lightning Thief",
+     "The Red Pyramid",
+     "The lightning thief"
+    ],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 849,
+   "score": 36,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#10 in NYT Series",
+    "849 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781546199359",
+   "title": "Dog Man: A Sprinkle in Time: A Graphic Novel (Dog Man #15): From the Creator of Captain Underpants (15)",
+   "author": "Dav Pilkey",
    "macro": [
     "Bambini"
    ],
    "appearances": [
     {
      "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
      "list": "Amazon Novità · Children's Books",
-     "rank": 9
+     "rank": 2
     }
    ],
-   "isbn13": "9781419788109",
-   "asin": "1419788108",
-   "amazon_url": "https://www.amazon.com/dp/1419788108",
+   "isbn13": "9781546199359",
+   "asin": "1546199357",
+   "amazon_url": "https://www.amazon.com/dp/1546199357",
    "format": "Hardcover",
-   "rating": 4.6,
-   "reviews": 511,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81y0+A3LSTL._AC_UL300_SR300,200_.jpg",
-   "age_min": 8,
-   "reading_age": "8 - 10 years",
-   "pub_date_amz": "August 11, 2026",
-   "pub_date": "2026-08-11",
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81glY29DtfL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "2026-11-03",
+   "publisher_us": "Graphix",
+   "description": "An all-new adventure from the #1 global bestselling Dog Man phenomenon coming November 3, 2026! In the newest saga, our anti-hero, Grandpa, alters the fabric of time and space. Is his evil the necessary soil for Dog Man and friends to grow and bloom? Can we all step up to be the change? It's the saga of the century -- Dog Man: A Sprinkle in Time!",
+   "age_min": 7,
+   "reading_age": "7 years and up",
+   "pub_date_amz": "November 3, 2026",
    "italy": {
-    "status": "da_verificare",
+    "status": "autore_tradotto",
     "titles": [
-     "Cabin Fever",
-     "Diary of a Wimpy Kid",
-     "Dog Days",
-     "Rodrick Rules",
-     "The Last Straw",
-     "Wimpy Kid"
+     "Capitan Mutanda contro i malefici zombi babbei",
+     "Capitan Mutanda contro il principe delle caccole - Vol. 1",
+     "Capitan Mutanda contro il principe delle caccole - Vol. 2 - Tutto a colori",
+     "Capitan Mutanda e il perfido piano del Professor Pannolino - Tutto a colori",
+     "Capitan Mutanda e la rivincita degli ultranonni - Tutto a colori",
+     "Capitan Mutanda e la vendetta della superprof"
     ],
-    "publishers": [
-     "Abrams Books",
-     "Amulet Book",
-     "Baumhaus Verlag GmbH",
-     "Bound to Stay Bound Books",
-     "Duo Dizayn"
-    ]
+    "publishers": []
    },
-   "best_rank": 9,
+   "best_rank": 2,
    "weeks": 1,
-   "days_since_pub": 83,
-   "score": 37,
+   "days_since_pub": -1,
+   "score": 35,
    "score_parts": {
-    "classifica": 21,
+    "classifica": 24,
     "longevita": 1,
     "crescita": 0,
     "novita": 15,
-    "recensioni": 9
+    "recensioni": 0
    },
    "reasons": [
-    "#9 in Amazon Novità · Children's Books",
-    "uscito da 2 mesi",
-    "4.6★ su 511 recensioni"
+    "#2 in Amazon Best Sellers · Children's Books",
+    "in uscita prossimamente"
    ]
   },
   {
@@ -420,6 +1672,101 @@
    "reasons": [
     "#15 in Amazon Novità · Children's Books",
     "uscito da 1 mesi"
+   ]
+  },
+  {
+   "key": "a:B0GHX4XTGP",
+   "title": "Simply Plants: Feel-Good Vegan Recipes to Nourish the Body and Soul: A Cookbook",
+   "author": "Sadia Badiei",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Cookbooks, Food & Wine",
+     "rank": 19
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 8
+    }
+   ],
+   "isbn13": "9798217033843",
+   "asin": "B0GHX4XTGP",
+   "amazon_url": "https://www.amazon.com/dp/B0GHX4XTGP",
+   "format": "Hardcover",
+   "rating": 5.0,
+   "reviews": 57,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91u5oLq-1UL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Clarkson Potter",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 8,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 35,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 7
+   },
+   "reasons": [
+    "#8 in NYT Advice & How-To",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "a:B0H2B1DH6L",
+   "title": "100,000 Whys for Kids: A Full-Color Visual Encyclopedia of Big Questions, Clear Answers, Science, Space, Animals, Nature, His",
+   "author": "Elliott Wonder",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 18
+    }
+   ],
+   "isbn13": null,
+   "asin": "B0H2B1DH6L",
+   "amazon_url": "https://www.amazon.com/dp/B0H2B1DH6L",
+   "format": "Paperback",
+   "rating": 4.4,
+   "reviews": 902,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81TY-sCrRxL._AC_UL300_SR300,200_.jpg",
+   "pub_date_amz": "May 18, 2026",
+   "pub_date": "2026-05-18",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 18,
+   "weeks": 1,
+   "days_since_pub": 168,
+   "score": 34,
+   "score_parts": {
+    "classifica": 16,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 15,
+    "recensioni": 10
+   },
+   "reasons": [
+    "#18 in Amazon Best Sellers · Children's Books",
+    "uscito da 5 mesi",
+    "4.4★ su 902 recensioni"
    ]
   },
   {
@@ -469,110 +1816,128 @@
    ]
   },
   {
-   "key": "i:9781546199359",
-   "title": "Dog Man: A Sprinkle in Time: A Graphic Novel (Dog Man #15): From the Creator of Captain Underpants (15)",
-   "author": "Dav Pilkey",
+   "key": "i:9781668032145",
+   "title": "Protocols: An Operating Manual for the Human Body",
+   "author": "Andrew D. Huberman Ph.D.",
    "macro": [
-    "Bambini"
+    "Manualistica e varia",
+    "Saggistica"
    ],
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
+     "list": "Amazon Best Sellers · Self-Help",
+     "rank": 6
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Self-Help",
      "rank": 2
     },
     {
      "source": "amazon",
-     "list": "Amazon Novità · Children's Books",
-     "rank": 2
+     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
+     "rank": 3
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Health, Fitness & Dieting",
+     "rank": 1
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Science & Math",
+     "rank": 3
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Science & Math",
+     "rank": 1
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 5
     }
    ],
-   "isbn13": "9781546199359",
-   "asin": "1546199357",
-   "amazon_url": "https://www.amazon.com/dp/1546199357",
+   "isbn13": "9781668032145",
+   "asin": "1668032147",
+   "amazon_url": "https://www.amazon.com/dp/1668032147",
    "format": "Hardcover",
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81glY29DtfL._AC_UL300_SR300,200_.jpg",
-   "age_min": 7,
-   "reading_age": "7 years and up",
-   "pub_date_amz": "November 3, 2026",
-   "pub_date": "2026-11-03",
+   "rating": 4.6,
+   "reviews": 593,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/61-XSfSVAEL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Simon Element",
+   "nyt_weeks": 6,
    "italy": {
     "status": "da_verificare",
-    "titles": [
-     "Capitan Mutanda contro i malefici zombi babbei",
-     "Capitan Mutanda contro il principe delle caccole - Vol. 1",
-     "Capitan Mutanda contro il principe delle caccole - Vol. 2 - Tutto a colori",
-     "Capitan Mutanda e il perfido piano del Professor Pannolino - Tutto a colori",
-     "Capitan Mutanda e la rivincita degli ultranonni - Tutto a colori",
-     "Capitan Mutanda e la vendetta della superprof"
-    ],
-    "publishers": [
-     "Edizioni Piemme spa",
-     "NB Publishers Limited",
-     "Piemme",
-     "Scholastic en Espanol"
-    ]
+    "titles": [],
+    "publishers": []
    },
-   "best_rank": 2,
-   "weeks": 1,
-   "days_since_pub": -1,
-   "score": 33,
+   "best_rank": 1,
+   "weeks": 6,
+   "score": 34,
    "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
+    "classifica": 25,
+    "longevita": 8,
     "crescita": 0,
-    "novita": 15,
-    "recensioni": 0
+    "novita": 0,
+    "recensioni": 10
    },
    "reasons": [
-    "#2 in Amazon Best Sellers · Children's Books",
-    "in uscita prossimamente"
+    "#1 in Amazon Novità · Health, Fitness & Dieting",
+    "6 settimane in classifica",
+    "4.6★ su 593 recensioni"
    ]
   },
   {
-   "key": "i:9781492664352",
-   "title": "How to Catch® a Turkey",
-   "author": "Adam Wallace",
+   "key": "i:9781668212462",
+   "title": "Welcome to the Afterlife: A No-Nonsense Tour for Those in Mourning or the Merely Curious with Denise, Heaven's Receptionist",
+   "author": "Taryn Delanie Smith",
    "macro": [
-    "Bambini"
+    "Manualistica e varia"
    ],
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 15
+     "list": "Amazon Novità · Self-Help",
+     "rank": 28
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 9
     }
    ],
-   "isbn13": "9781492664352",
-   "asin": "1492664359",
-   "amazon_url": "https://www.amazon.com/dp/1492664359",
+   "isbn13": "9781668212462",
+   "asin": "1668212463",
+   "amazon_url": "https://www.amazon.com/dp/1668212463",
    "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 6622,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81P9B8sY4AL._AC_UL300_SR300,200_.jpg",
-   "age_min": 2,
-   "reading_age": "2 - 6 years",
-   "pub_date_amz": "September 4, 2018",
-   "pub_date": "2018-09-04",
+   "rating": 4.5,
+   "reviews": 42,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/710Kb3n-tJL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "37 Ink",
+   "nyt_weeks": 1,
+   "nyt_new": true,
    "italy": {
-    "status": "autore_inedito",
+    "status": "da_verificare",
     "titles": [],
     "publishers": []
    },
-   "best_rank": 15,
+   "best_rank": 9,
    "weeks": 1,
-   "days_since_pub": 2981,
-   "score": 33,
+   "new_entry": true,
+   "score": 34,
    "score_parts": {
-    "classifica": 18,
+    "classifica": 21,
     "longevita": 1,
-    "crescita": 0,
+    "crescita": 15,
     "novita": 0,
-    "recensioni": 14
+    "recensioni": 5
    },
    "reasons": [
-    "#15 in Amazon Best Sellers · Children's Books",
-    "4.8★ su 6.622 recensioni"
+    "#9 in NYT Advice & How-To",
+    "nuovo ingresso NYT"
    ]
   },
   {
@@ -745,13 +2110,7 @@
      "The Red Pyramid",
      "The lightning thief"
     ],
-    "publishers": [
-     "Brilliance Audio",
-     "Doğan Egmont",
-     "Hyperion Book CH",
-     "SALAMANDRA (PUBLICACIONES Y EDICIONES SALAMANDRA S.A.)",
-     "me"
-    ]
+    "publishers": []
    },
    "best_rank": 28,
    "weeks": 1,
@@ -817,53 +2176,6 @@
    ]
   },
   {
-   "key": "a:B0DFMZMKFJ",
-   "title": "The Let Them Theory: A Life-Changing Tool That Millions of People Can’t Stop Talking About",
-   "author": "Mel Robbins",
-   "macro": [
-    "Manualistica e varia",
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Self-Help",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Business & Money",
-     "rank": 1
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0DFMZMKFJ",
-   "amazon_url": "https://www.amazon.com/dp/B0DFMZMKFJ",
-   "format": "Audible Audiobook",
-   "rating": 4.6,
-   "reviews": 49498,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91tK0tVAf+L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 1,
-   "weeks": 1,
-   "score": 32,
-   "score_parts": {
-    "classifica": 25,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#1 in Amazon Best Sellers · Business & Money",
-    "4.6★ su 49.498 recensioni"
-   ]
-  },
-  {
    "key": "i:9780062378071",
    "title": "SAS Survival Handbook, Third Edition: The Ultimate Guide to Surviving Anywhere ― The Classic Survival Handbook, Updated with",
    "author": "John 'Lofty' Wiseman",
@@ -926,9 +2238,9 @@
    ]
   },
   {
-   "key": "a:B07RFSSYBH",
-   "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
-   "author": "James Clear",
+   "key": "a:B0DWC81527",
+   "title": "The Steps: A Memoir",
+   "author": "Sylvester Stallone",
    "macro": [
     "Manualistica e varia",
     "Saggistica"
@@ -937,49 +2249,58 @@
     {
      "source": "amazon",
      "list": "Amazon Best Sellers · Self-Help",
-     "rank": 4
+     "rank": 8
     },
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Parenting & Relationships",
+     "list": "Amazon Novità · Self-Help",
      "rank": 3
     },
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Business & Money",
-     "rank": 2
+     "list": "Amazon Best Sellers · Biographies & Memoirs",
+     "rank": 5
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Biographies & Memoirs",
+     "rank": 3
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 7
     }
    ],
-   "isbn13": "9780735211292",
-   "asin": "B07RFSSYBH",
-   "amazon_url": "https://www.amazon.com/dp/B07RFSSYBH",
+   "isbn13": "9780063443914",
+   "asin": "B0DWC81527",
+   "amazon_url": "https://www.amazon.com/dp/B0DWC81527",
    "format": "Audible Audiobook",
    "rating": 4.8,
-   "reviews": 150378,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71F4+7rk2eL._AC_UL300_SR300,200_.jpg",
+   "reviews": 1574,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91LlGZJHbBL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Morrow",
+   "description": "The Hollywood icon describes the challenges he encountered during his childhood and the start of his career.",
+   "nyt_weeks": 4,
    "italy": {
     "status": "da_verificare",
     "titles": [],
     "publishers": []
    },
-   "best_rank": 2,
-   "weeks": 1,
+   "best_rank": 3,
+   "weeks": 4,
    "score": 32,
    "score_parts": {
     "classifica": 24,
-    "longevita": 1,
+    "longevita": 5,
     "crescita": 0,
     "novita": 0,
-    "recensioni": 14
+    "recensioni": 12
    },
    "reasons": [
-    "#2 in Amazon Best Sellers · Health, Fitness & Dieting",
-    "4.8★ su 150.378 recensioni"
+    "#3 in Amazon Novità · Self-Help",
+    "4 settimane in classifica",
+    "4.8★ su 1.574 recensioni"
    ]
   },
   {
@@ -1031,11 +2352,7 @@
      "Logoterapia e analisi esistenziale",
      "Sacerdozio & senso della vita"
     ],
-    "publishers": [
-     "Ares",
-     "Morcelliana",
-     "Verlag für Jugend und Volk"
-    ]
+    "publishers": []
    },
    "best_rank": 1,
    "weeks": 1,
@@ -1110,6 +2427,260 @@
    ]
   },
   {
+   "key": "i:9781648213021",
+   "title": "Why Fauci MUST Rot in Prison",
+   "author": "Peter Navarro",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Science & Math",
+     "rank": 24
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 14
+    }
+   ],
+   "isbn13": "9781648213021",
+   "asin": "1648213022",
+   "amazon_url": "https://www.amazon.com/dp/1648213022",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 30,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81J14JMgeTL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "War Room",
+   "description": "The senior counselor and assistant to the president in the Trump White House assesses the work of the former chief medical adviser to the president.",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 14,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 32,
+   "score_parts": {
+    "classifica": 18,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 5
+   },
+   "reasons": [
+    "#14 in NYT Hardcover Nonfiction",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "a:B0GLHWQ7B7",
+   "title": "The American Way of Killing: The Invention of an Epidemic",
+   "author": "Malcolm Gladwell",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · History",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · History",
+     "rank": 1
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Politics & Social Sciences",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 2
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 11
+    }
+   ],
+   "isbn13": "9780316603782",
+   "asin": "B0GLHWQ7B7",
+   "amazon_url": "https://www.amazon.com/dp/B0GLHWQ7B7",
+   "format": "Audible Audiobook",
+   "rating": 4.6,
+   "reviews": 813,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71PYjcI1U0L._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Little, Brown",
+   "description": "Gladwell examines why there are so many homicides in the United States and what stops us from fixing this issue.",
+   "nyt_weeks": 4,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 1,
+   "weeks": 4,
+   "score": 32,
+   "score_parts": {
+    "classifica": 25,
+    "longevita": 5,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 10
+   },
+   "reasons": [
+    "#1 in Amazon Novità · History",
+    "4 settimane in classifica",
+    "4.6★ su 813 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781665954785",
+   "title": "Chicka Chicka Tricka Treat",
+   "author": "Julien Chung",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 7
+    }
+   ],
+   "isbn13": "9781665954785",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781665954785.jpg",
+   "publisher_us": "Beach Lane",
+   "description": "The alphabet letters climb the creaky old tree for Halloween. (Ages 4 to 8)",
+   "amazon_url": "https://www.amazon.com/dp/1665954787?tag=thenewyorktim-20",
+   "nyt_weeks": 14,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 7,
+   "weeks": 14,
+   "score": 32,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 18,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#7 in NYT Picture Books",
+    "14 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9798217113248",
+   "title": "Dragonborn: The Twilight Child",
+   "author": "Struan Murray",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 3
+    }
+   ],
+   "isbn13": "9798217113248",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9798217113248.jpg",
+   "publisher_us": "Dutton",
+   "description": "In this sequel to “Dragonborn,” Alex and her friends undertake a perilous journey to stop Drak Midna’s plot to kill all humans. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/B0GHX7YYBV?tag=thenewyorktim-20",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 3,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 32,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#3 in NYT Middle Grade",
+    "nuovo ingresso NYT"
+   ]
+  },
+  {
+   "key": "i:9781400356829",
+   "title": "Contend: Standing Boldly for Biblical Truth While Winning the War Within",
+   "author": "Philip Anthony Mitchell",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Self-Help",
+     "rank": 1
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Self-Help",
+     "rank": 1
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 2
+    }
+   ],
+   "isbn13": "9781400356829",
+   "asin": "1400356822",
+   "amazon_url": "https://www.amazon.com/dp/1400356822",
+   "format": "Hardcover",
+   "rating": 4.9,
+   "reviews": 838,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/812qlvJI8hL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Thomas Nelson",
+   "nyt_weeks": 2,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 1,
+   "weeks": 2,
+   "score": 31,
+   "score_parts": {
+    "classifica": 25,
+    "longevita": 2,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 11
+   },
+   "reasons": [
+    "#1 in Amazon Best Sellers · Self-Help",
+    "4.9★ su 838 recensioni"
+   ]
+  },
+  {
    "key": "a:B001WYVB7O",
    "title": "The Science of Getting Rich",
    "author": "Wallace D. Wattles",
@@ -1142,9 +2713,7 @@
      "Scienza Di Diventare Ricco la Scienco de Riĉiĝi",
      "Scienza per Diventare Ricchi"
     ],
-    "publishers": [
-     "Independently Published"
-    ]
+    "publishers": []
    },
    "best_rank": 3,
    "weeks": 1,
@@ -1312,6 +2881,47 @@
    ]
   },
   {
+   "key": "i:9780764566370",
+   "title": "Betty Crocker's Cooky Book (facsimile Edition): Classic Cookie Recipes from the Beloved 1963 Edition, with 450 Favorites from",
+   "author": "Betty Crocker",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 2
+    }
+   ],
+   "isbn13": "9780764566370",
+   "asin": "0764566377",
+   "amazon_url": "https://www.amazon.com/dp/0764566377",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 4195,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81M44pZ57VL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 1,
+   "score": 31,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 13
+   },
+   "reasons": [
+    "#2 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.8★ su 4.195 recensioni"
+   ]
+  },
+  {
    "key": "a:B08TX585RN",
    "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
    "author": "Bessel van der Kolk M.D.",
@@ -1439,10 +3049,7 @@
     "titles": [
      "Friar Bacon and Friar Bungay"
     ],
-    "publishers": [
-     "La Nuova Italia",
-     "Printed for The Malone Society by J. Johnson at the Oxford University Press]"
-    ]
+    "publishers": []
    },
    "best_rank": 5,
    "weeks": 1,
@@ -1567,9 +3174,7 @@
     "titles": [
      "Richard Wagner über Tristan und Isolde"
     ],
-    "publishers": [
-     "Breitkopf & Haertel"
-    ]
+    "publishers": []
    },
    "best_rank": 3,
    "weeks": 1,
@@ -1632,9 +3237,7 @@
      "My First Book of Fruits",
      "My First Book of Numbers - Numeri"
     ],
-    "publishers": [
-     "Prakash Book Depot"
-    ]
+    "publishers": []
    },
    "best_rank": 5,
    "weeks": 1,
@@ -1653,9 +3256,9 @@
    ]
   },
   {
-   "key": "i:9781400356829",
-   "title": "Contend: Standing Boldly for Biblical Truth While Winning the War Within",
-   "author": "Philip Anthony Mitchell",
+   "key": "i:9781400230723",
+   "title": "Making Peace with What I Can’t Control: Find Relief from the Exhaustion of Overthinking, Trying to Fix Others, and Wanting to",
+   "author": "Lysa TerKeurst",
    "macro": [
     "Manualistica e varia"
    ],
@@ -1663,39 +3266,67 @@
     {
      "source": "amazon",
      "list": "Amazon Best Sellers · Self-Help",
-     "rank": 1
+     "rank": 10
     },
     {
      "source": "amazon",
      "list": "Amazon Novità · Self-Help",
-     "rank": 1
+     "rank": 5
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
+     "rank": 12
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Health, Fitness & Dieting",
+     "rank": 3
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Parenting & Relationships",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Parenting & Relationships",
+     "rank": 2
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Advice & How-To",
+     "rank": 10
     }
    ],
-   "isbn13": "9781400356829",
-   "asin": "1400356822",
-   "amazon_url": "https://www.amazon.com/dp/1400356822",
+   "isbn13": "9781400230723",
+   "asin": "1400230721",
+   "amazon_url": "https://www.amazon.com/dp/1400230721",
    "format": "Hardcover",
-   "rating": 4.9,
-   "reviews": 838,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/812qlvJI8hL._AC_UL300_SR300,200_.jpg",
+   "rating": 4.8,
+   "reviews": 206,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81ZZaxvIRWL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Thomas Nelson",
+   "nyt_weeks": 4,
+   "nyt_new": true,
    "italy": {
     "status": "da_verificare",
     "titles": [],
     "publishers": []
    },
-   "best_rank": 1,
-   "weeks": 1,
+   "best_rank": 2,
+   "weeks": 4,
    "score": 30,
    "score_parts": {
-    "classifica": 25,
-    "longevita": 1,
+    "classifica": 24,
+    "longevita": 5,
     "crescita": 0,
     "novita": 0,
-    "recensioni": 11
+    "recensioni": 8
    },
    "reasons": [
-    "#1 in Amazon Best Sellers · Self-Help",
-    "4.9★ su 838 recensioni"
+    "#2 in Amazon Novità · Parenting & Relationships",
+    "4 settimane in classifica"
    ]
   },
   {
@@ -1890,6 +3521,90 @@
    ]
   },
   {
+   "key": "a:B0H37XZPDZ",
+   "title": "Out of the Shadows: Revealing the Truth About Non-Human Intelligent Life",
+   "author": "Jay Stratton",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Science & Math",
+     "rank": 5
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Science & Math",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · History",
+     "rank": 3
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · History",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Biographies & Memoirs",
+     "rank": 9
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Biographies & Memoirs",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Politics & Social Sciences",
+     "rank": 15
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 5
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 6
+    }
+   ],
+   "isbn13": "9780063384538",
+   "asin": "B0H37XZPDZ",
+   "amazon_url": "https://www.amazon.com/dp/B0H37XZPDZ",
+   "format": "Audible Audiobook",
+   "rating": 4.5,
+   "reviews": 882,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81CDRy7fUEL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Morrow",
+   "description": "A former senior U.S. intelligence official gives his account of investigations into unidentified anomalous phenomena and non-human intelligent life.",
+   "nyt_weeks": 2,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 2,
+   "score": 30,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 2,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 10
+   },
+   "reasons": [
+    "#2 in Amazon Novità · Science & Math",
+    "4.5★ su 882 recensioni"
+   ]
+  },
+  {
    "key": "a:B0DJX3VP68",
    "title": "Everything Is Tuberculosis: The History and Persistence of Our Deadliest Infection",
    "author": "John Green",
@@ -1921,10 +3636,7 @@
      "Looking for Alaska",
      "Paper Towns"
     ],
-    "publishers": [
-     "Bukowy Las",
-     "ספרי חמד"
-    ]
+    "publishers": []
    },
    "best_rank": 6,
    "weeks": 1,
@@ -1976,12 +3688,7 @@
      "Italian-English Visual Bilingual Dictionary",
      "Trees"
     ],
-    "publishers": [
-     "DK",
-     "DK ADULT",
-     "Dorling Kindersley Publishers Ltd",
-     "Independently Published"
-    ]
+    "publishers": []
    },
    "best_rank": 6,
    "weeks": 1,
@@ -2029,9 +3736,7 @@
     "titles": [
      "Bacon-Shakespeare's Venus und Adonis"
     ],
-    "publishers": [
-     "E. Bormann's Selbstverlag"
-    ]
+    "publishers": []
    },
    "best_rank": 3,
    "weeks": 1,
@@ -2046,6 +3751,145 @@
    "reasons": [
     "#3 in Amazon Novità · History",
     "4.7★ su 3.096 recensioni"
+   ]
+  },
+  {
+   "key": "a:B0HN3CK5V6",
+   "title": "Blockers: Rebels in the Deep State",
+   "author": "Michael Lewis",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Politics & Social Sciences",
+     "rank": 6
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 3
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9781324131656",
+   "asin": "B0HN3CK5V6",
+   "amazon_url": "https://www.amazon.com/dp/B0HN3CK5V6",
+   "format": "Audible Audiobook",
+   "rating": 4.4,
+   "reviews": 602,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81Z45v5d9YL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Norton",
+   "description": "The author of “The Fifth Risk” tells the story of President Trump’s Department of Government Efficiency through the lens of six public servants.",
+   "nyt_weeks": 3,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 3,
+   "weeks": 3,
+   "score": 30,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 4,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 9
+   },
+   "reasons": [
+    "#3 in Amazon Novità · Politics & Social Sciences",
+    "3 settimane in classifica",
+    "4.4★ su 602 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781464268076",
+   "title": "The Pumpkin Thief",
+   "author": "Alice Hemming",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Picture Books",
+     "rank": 5
+    }
+   ],
+   "isbn13": "9781464268076",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781464268076.jpg",
+   "publisher_us": "Sourcebooks Jabberwocky",
+   "description": "Squirrel and Bird investigate the disappearance of pumpkins from the vegetable garden. (Ages 4 to 8)",
+   "amazon_url": "https://www.amazon.com/dp/146426807X?tag=thenewyorktim-20",
+   "nyt_weeks": 12,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 5,
+   "weeks": 12,
+   "score": 30,
+   "score_parts": {
+    "classifica": 23,
+    "longevita": 15,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#5 in NYT Picture Books",
+    "12 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781546185949",
+   "title": "Licorice",
+   "author": "Kara LaReau",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 8
+    }
+   ],
+   "isbn13": "9781546185949",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781546185949.jpg",
+   "publisher_us": "Scholastic",
+   "description": "Kitty feels like she's living in the shadow of Max's former cat, Licorice. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/1546185941?tag=thenewyorktim-20",
+   "nyt_weeks": 1,
+   "nyt_new": true,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 8,
+   "weeks": 1,
+   "new_entry": true,
+   "score": 30,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 1,
+    "crescita": 15,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#8 in NYT Middle Grade",
+    "nuovo ingresso NYT"
    ]
   },
   {
@@ -2239,73 +4083,6 @@
    ]
   },
   {
-   "key": "i:9781668032145",
-   "title": "Protocols: An Operating Manual for the Human Body",
-   "author": "Andrew D. Huberman Ph.D.",
-   "macro": [
-    "Manualistica e varia",
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Self-Help",
-     "rank": 6
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Self-Help",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
-     "rank": 3
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Health, Fitness & Dieting",
-     "rank": 1
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Science & Math",
-     "rank": 3
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Science & Math",
-     "rank": 1
-    }
-   ],
-   "isbn13": "9781668032145",
-   "asin": "1668032147",
-   "amazon_url": "https://www.amazon.com/dp/1668032147",
-   "format": "Hardcover",
-   "rating": 4.6,
-   "reviews": 593,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/61-XSfSVAEL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 1,
-   "weeks": 1,
-   "score": 29,
-   "score_parts": {
-    "classifica": 25,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 10
-   },
-   "reasons": [
-    "#1 in Amazon Novità · Health, Fitness & Dieting",
-    "4.6★ su 593 recensioni"
-   ]
-  },
-  {
    "key": "a:B0FJP3TFG3",
    "title": "Stop Letting Everything Affect You: How to Break Free from Overthinking, Emotional Chaos, and Self-Sabotage",
    "author": "Daniel Chidiac",
@@ -2344,63 +4121,6 @@
    "reasons": [
     "#7 in Amazon Best Sellers · Self-Help",
     "4.7★ su 4.390 recensioni"
-   ]
-  },
-  {
-   "key": "a:B0DWC81527",
-   "title": "The Steps: A Memoir",
-   "author": "Sylvester Stallone",
-   "macro": [
-    "Manualistica e varia",
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Self-Help",
-     "rank": 8
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Self-Help",
-     "rank": 3
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Biographies & Memoirs",
-     "rank": 5
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Biographies & Memoirs",
-     "rank": 3
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0DWC81527",
-   "amazon_url": "https://www.amazon.com/dp/B0DWC81527",
-   "format": "Audible Audiobook",
-   "rating": 4.8,
-   "reviews": 1574,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91LlGZJHbBL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 3,
-   "weeks": 1,
-   "score": 29,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 12
-   },
-   "reasons": [
-    "#3 in Amazon Novità · Self-Help",
-    "4.8★ su 1.574 recensioni"
    ]
   },
   {
@@ -2723,138 +4443,6 @@
    ]
   },
   {
-   "key": "a:B0H37XZPDZ",
-   "title": "Out of the Shadows: Revealing the Truth About Non-Human Intelligent Life",
-   "author": "Jay Stratton",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Science & Math",
-     "rank": 5
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Science & Math",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · History",
-     "rank": 3
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · History",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Biographies & Memoirs",
-     "rank": 9
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Biographies & Memoirs",
-     "rank": 4
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Politics & Social Sciences",
-     "rank": 15
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 5
-    }
-   ],
-   "isbn13": "9780063384538",
-   "asin": "B0H37XZPDZ",
-   "amazon_url": "https://www.amazon.com/dp/B0H37XZPDZ",
-   "format": "Audible Audiobook",
-   "rating": 4.5,
-   "reviews": 882,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81CDRy7fUEL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 2,
-   "weeks": 1,
-   "score": 29,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 10
-   },
-   "reasons": [
-    "#2 in Amazon Novità · Science & Math",
-    "4.5★ su 882 recensioni"
-   ]
-  },
-  {
-   "key": "a:B0GLHWQ7B7",
-   "title": "The American Way of Killing: The Invention of an Epidemic",
-   "author": "Malcolm Gladwell",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · History",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · History",
-     "rank": 1
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Politics & Social Sciences",
-     "rank": 4
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 2
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0GLHWQ7B7",
-   "amazon_url": "https://www.amazon.com/dp/B0GLHWQ7B7",
-   "format": "Audible Audiobook",
-   "rating": 4.6,
-   "reviews": 813,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71PYjcI1U0L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 1,
-   "weeks": 1,
-   "score": 29,
-   "score_parts": {
-    "classifica": 25,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 10
-   },
-   "reasons": [
-    "#1 in Amazon Novità · History",
-    "4.6★ su 813 recensioni"
-   ]
-  },
-  {
    "key": "a:B0CJCKGRW1",
    "title": "The Book. The Ultimate Guide to Rebuilding a Civilization | Inspirational Science Books for Adults - Unique Artifact - Knowle",
    "author": "HUNGRY MINDS",
@@ -2931,16 +4519,7 @@
      "Easy Go",
      "Imparare L'Inglese"
     ],
-    "publishers": [
-     "Arrow Books Ltd",
-     "Arrows Books",
-     "BCA",
-     "Brilliance Audio",
-     "Buccaneer Books",
-     "Independently Published",
-     "Pan",
-     "Penguin Random House"
-    ]
+    "publishers": []
    },
    "best_rank": 2,
    "weeks": 1,
@@ -3315,13 +4894,7 @@
      "The Red Pyramid",
      "The lightning thief"
     ],
-    "publishers": [
-     "Brilliance Audio",
-     "Doğan Egmont",
-     "Hyperion Book CH",
-     "SALAMANDRA (PUBLICACIONES Y EDICIONES SALAMANDRA S.A.)",
-     "me"
-    ]
+    "publishers": []
    },
    "best_rank": 30,
    "weeks": 1,
@@ -3567,6 +5140,47 @@
    ]
   },
   {
+   "key": "a:B07PJL9BZC",
+   "title": "Martha Stewart's Cookie Perfection: 100+ Recipes to Take Your Sweet Treats to the Next Level: A Baking Book",
+   "author": "Editors of Martha Stewart Living",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 5
+    }
+   ],
+   "isbn13": null,
+   "asin": "B07PJL9BZC",
+   "amazon_url": "https://www.amazon.com/dp/B07PJL9BZC",
+   "format": "Kindle Edition",
+   "rating": 4.7,
+   "reviews": 1529,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81v4sylho3L._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 5,
+   "weeks": 1,
+   "score": 28,
+   "score_parts": {
+    "classifica": 23,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 11
+   },
+   "reasons": [
+    "#5 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.7★ su 1.529 recensioni"
+   ]
+  },
+  {
    "key": "i:9780306837517",
    "title": "PlantYou Quickies: 140+ Nourishing Plant-Based Recipes for Busy People",
    "author": "Carleigh Bodrug",
@@ -3574,6 +5188,11 @@
     "Manualistica e varia"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 6
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -3618,6 +5237,94 @@
    ]
   },
   {
+   "key": "i:9780062409959",
+   "title": "Appetites: A Cookbook",
+   "author": "Anthony Bourdain",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 11
+    }
+   ],
+   "isbn13": "9780062409959",
+   "asin": "0062409956",
+   "amazon_url": "https://www.amazon.com/dp/0062409956",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 5063,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91HboHo-STL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 11,
+   "weeks": 1,
+   "score": 28,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 13
+   },
+   "reasons": [
+    "#11 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.8★ su 5.063 recensioni"
+   ]
+  },
+  {
+   "key": "a:B09S4MDZHZ",
+   "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More than They Expect",
+   "author": "Will Guidara",
+   "macro": [
+    "Manualistica e varia",
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 13
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Business & Money",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9780593418574",
+   "asin": "B09S4MDZHZ",
+   "amazon_url": "https://www.amazon.com/dp/B09S4MDZHZ",
+   "format": "Audible Audiobook",
+   "rating": 4.7,
+   "reviews": 7310,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71hQ0JFkAXL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 1,
+   "score": 28,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#10 in Amazon Best Sellers · Business & Money",
+    "4.7★ su 7.310 recensioni"
+   ]
+  },
+  {
    "key": "a:B005Z9GAJG",
    "title": "Thinking, Fast and Slow",
    "author": "Daniel Kahneman",
@@ -3654,9 +5361,7 @@
     "titles": [
      "Economia della felicità"
     ],
-    "publishers": [
-     "Il Sole 24 ore libri"
-    ]
+    "publishers": []
    },
    "best_rank": 11,
    "weeks": 1,
@@ -3712,47 +5417,6 @@
    "reasons": [
     "#11 in Amazon Best Sellers · Parenting & Relationships",
     "4.7★ su 15.699 recensioni"
-   ]
-  },
-  {
-   "key": "i:9780593418574",
-   "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect (The Unreasonable Hospitality Collectio",
-   "author": "Will Guidara",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Business & Money",
-     "rank": 10
-    }
-   ],
-   "isbn13": "9780593418574",
-   "asin": "0593418573",
-   "amazon_url": "https://www.amazon.com/dp/0593418573",
-   "format": "Hardcover",
-   "rating": 4.7,
-   "reviews": 7310,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71KOER-LUQL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 10,
-   "weeks": 1,
-   "score": 28,
-   "score_parts": {
-    "classifica": 20,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#10 in Amazon Best Sellers · Business & Money",
-    "4.7★ su 7.310 recensioni"
    ]
   },
   {
@@ -3858,52 +5522,6 @@
    ]
   },
   {
-   "key": "a:B0HN3CK5V6",
-   "title": "Blockers: Rebels in the Deep State",
-   "author": "Michael Lewis",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Politics & Social Sciences",
-     "rank": 6
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 3
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0HN3CK5V6",
-   "amazon_url": "https://www.amazon.com/dp/B0HN3CK5V6",
-   "format": "Audible Audiobook",
-   "rating": 4.4,
-   "reviews": 602,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81Z45v5d9YL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 3,
-   "weeks": 1,
-   "score": 28,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 9
-   },
-   "reasons": [
-    "#3 in Amazon Novità · Politics & Social Sciences",
-    "4.4★ su 602 recensioni"
-   ]
-  },
-  {
    "key": "i:9780593804216",
    "title": "Yesteryear: A GMA Book Club Pick: A Novel",
    "author": "Caro Claire Burke",
@@ -3986,54 +5604,6 @@
    ]
   },
   {
-   "key": "i:9781728235202",
-   "title": "The Leaf Thief: (The Perfect Fall Book for Children and Toddlers)",
-   "author": "Alice Hemming",
-   "macro": [
-    "Bambini"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 12
-    }
-   ],
-   "isbn13": "9781728235202",
-   "asin": "1728235200",
-   "amazon_url": "https://www.amazon.com/dp/1728235200",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 4242,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/A18OnuYW2dL._AC_UL300_SR300,200_.jpg",
-   "pub_date": "2021-08-03",
-   "publisher_us": "Sourcebooks Jabberwocky",
-   "description": "Perfect for fans of Fletcher and the Falling Leaves, The Leaf Thiefis a funny picture book that teaches kids about autumn, adapting to change, and the seasons. Squirrel loves counting the leaves on his tree--red leaves, gold leaves, orange, and more. But hold on! One of his leaves is missing! On a quest to find the missing leaf, Squirrel teams up with his good friend Bird to discover who the leaf ",
-   "age_min": 2,
-   "reading_age": "2 - 5 years",
-   "pub_date_amz": "August 3, 2021",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 12,
-   "weeks": 1,
-   "days_since_pub": 1917,
-   "score": 27,
-   "score_parts": {
-    "classifica": 20,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#12 in Amazon Best Sellers · Children's Books",
-    "4.8★ su 4.242 recensioni"
-   ]
-  },
-  {
    "key": "i:9781419773211",
    "title": "The Web of War (Nathan Hale's Hazardous Tales #14): A World War II Tale (Volume 14)",
    "author": "Nathan Hale",
@@ -4072,16 +5642,7 @@
      "Milton's Poems",
      "Paradise Lost"
     ],
-    "publishers": [
-     "A.A. Knopf",
-     "Bloomsbury Publ.",
-     "Bompiani",
-     "Chez Cailleau ..., Brunet ..., Bordelet ..., Henry ...",
-     "Constable",
-     "Creative Media Partners, LLC",
-     "Humphrey Milford ; Oxford University Press",
-     "Independently Published"
-    ]
+    "publishers": []
    },
    "best_rank": 16,
    "weeks": 1,
@@ -4127,9 +5688,7 @@
     "titles": [
      "All My Friends Are Dead"
     ],
-    "publishers": [
-     "Chronicle Books"
-    ]
+    "publishers": []
    },
    "best_rank": 17,
    "weeks": 1,
@@ -4191,71 +5750,6 @@
    "reasons": [
     "#20 in Amazon Novità · Children's Books",
     "uscito da 1 mesi"
-   ]
-  },
-  {
-   "key": "i:9781400230723",
-   "title": "Making Peace with What I Can’t Control: Find Relief from the Exhaustion of Overthinking, Trying to Fix Others, and Wanting to",
-   "author": "Lysa TerKeurst",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Self-Help",
-     "rank": 10
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Self-Help",
-     "rank": 5
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
-     "rank": 12
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Health, Fitness & Dieting",
-     "rank": 3
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Parenting & Relationships",
-     "rank": 4
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Parenting & Relationships",
-     "rank": 2
-    }
-   ],
-   "isbn13": "9781400230723",
-   "asin": "1400230721",
-   "amazon_url": "https://www.amazon.com/dp/1400230721",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 206,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81ZZaxvIRWL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 2,
-   "weeks": 1,
-   "score": 27,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 8
-   },
-   "reasons": [
-    "#2 in Amazon Novità · Parenting & Relationships"
    ]
   },
   {
@@ -4601,43 +6095,125 @@
    ]
   },
   {
-   "key": "i:9780593234174",
-   "title": "Simply Ina: A Barefoot Contessa Cookbook",
-   "author": "Ina Garten",
+   "key": "a:B0G4XZ6H4L",
+   "title": "The Ultimate Dry Mix Pantry Cookbook: 150+ Easy, Budget-Friendly Homemade Recipes for Quick Meals, Clean Ingredients, & an Or",
+   "author": "Lila Andersen",
    "macro": [
     "Manualistica e varia"
    ],
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Novità · Cookbooks, Food & Wine",
-     "rank": 1
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 4
     }
    ],
-   "isbn13": "9780593234174",
-   "asin": "0593234170",
-   "amazon_url": "https://www.amazon.com/dp/0593234170",
-   "format": "Hardcover",
-   "rating": 3.9,
-   "reviews": 244,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81kIUUyLdnL._AC_UL300_SR300,200_.jpg",
+   "isbn13": null,
+   "asin": "B0G4XZ6H4L",
+   "amazon_url": "https://www.amazon.com/dp/B0G4XZ6H4L",
+   "format": "Kindle Edition",
+   "rating": 4.6,
+   "reviews": 381,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81vUyRGr+zL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
     "titles": [],
     "publishers": []
    },
-   "best_rank": 1,
+   "best_rank": 4,
    "weeks": 1,
    "score": 27,
    "score_parts": {
-    "classifica": 25,
+    "classifica": 24,
     "longevita": 1,
     "crescita": 0,
     "novita": 0,
-    "recensioni": 7
+    "recensioni": 9
    },
    "reasons": [
-    "#1 in Amazon Novità · Cookbooks, Food & Wine"
+    "#4 in Amazon Best Sellers · Cookbooks, Food & Wine"
+   ]
+  },
+  {
+   "key": "i:9780736978941",
+   "title": "The Homestead Canning Cookbook: 150+ Recipes for Home Food Preservation | Water Bath and Pressure Canning (The Homestead Esse",
+   "author": "Georgia Varozza",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9780736978941",
+   "asin": "0736978941",
+   "amazon_url": "https://www.amazon.com/dp/0736978941",
+   "format": "Paperback",
+   "rating": 4.7,
+   "reviews": 2048,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81DzAupd1rL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 1,
+   "score": 27,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 12
+   },
+   "reasons": [
+    "#10 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.7★ su 2.048 recensioni"
+   ]
+  },
+  {
+   "key": "i:9780778801313",
+   "title": "Ball Complete Book of Home Preserving",
+   "author": "Judi Kingry",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 15
+    }
+   ],
+   "isbn13": "9780778801313",
+   "asin": "0778801314",
+   "amazon_url": "https://www.amazon.com/dp/0778801314",
+   "format": "Paperback",
+   "rating": 4.8,
+   "reviews": 22623,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71cMY5jsc1L._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 15,
+   "weeks": 1,
+   "score": 27,
+   "score_parts": {
+    "classifica": 18,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#15 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.8★ su 22.623 recensioni"
    ]
   },
   {
@@ -4672,10 +6248,7 @@
     "titles": [
      "Friar Bacon and Friar Bungay"
     ],
-    "publishers": [
-     "La Nuova Italia",
-     "Printed for The Malone Society by J. Johnson at the Oxford University Press]"
-    ]
+    "publishers": []
    },
    "best_rank": 16,
    "weeks": 1,
@@ -4766,10 +6339,7 @@
      "La grande guerra",
      "Tommaso Jefferson, apostolo della libertà (1743-1826)"
     ],
-    "publishers": [
-     "Collezione Princeton",
-     "R. Bemporad & Figlio"
-    ]
+    "publishers": []
    },
    "best_rank": 15,
    "weeks": 1,
@@ -4893,6 +6463,79 @@
    ]
   },
   {
+   "key": "i:9780063490031",
+   "title": "Uniting the States: Six Crucial Moments That Forged the American Miracle – Six Founders Who Shaped America's Revolutionary De",
+   "author": "Brian Kilmeade",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · History",
+     "rank": 8
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · History",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Biographies & Memoirs",
+     "rank": 15
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Biographies & Memoirs",
+     "rank": 7
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Politics & Social Sciences",
+     "rank": 17
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Politics & Social Sciences",
+     "rank": 7
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 5
+    }
+   ],
+   "isbn13": "9780063490031",
+   "asin": "006349003X",
+   "amazon_url": "https://www.amazon.com/dp/006349003X",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 108,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91ZmMufeDlL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Morrow",
+   "description": "A co-host of “Fox & Friends” portrays contributions made by six key people around the time of the formation of our country.",
+   "nyt_weeks": 2,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 4,
+   "weeks": 2,
+   "score": 27,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 2,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 7
+   },
+   "reasons": [
+    "#4 in Amazon Novità · History"
+   ]
+  },
+  {
    "key": "a:B005ERIRHW",
    "title": "Code Talker: The First and Only Memoir By One of the Original Navajo Code Talkers of WWII",
    "author": "Chester Nez",
@@ -4974,16 +6617,7 @@
      "Il Golem",
      "Il processo di Shamgorod"
     ],
-    "publishers": [
-     "Bompiani",
-     "De Agostini Scuola",
-     "Edizioni Morcelliana",
-     "Edizioni Terra Santa",
-     "Gangemi",
-     "Giuntina",
-     "La Giuntina",
-     "Marietti"
-    ]
+    "publishers": []
    },
    "best_rank": 14,
    "weeks": 1,
@@ -4998,6 +6632,93 @@
    "reasons": [
     "#14 in Amazon Best Sellers · History",
     "4.7★ su 23.877 recensioni"
+   ]
+  },
+  {
+   "key": "i:9798217236558",
+   "title": "Kiki'S Delivery Service",
+   "author": "Eiko Kadono",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 6
+    }
+   ],
+   "isbn13": "9798217236558",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9798217236558.jpg",
+   "publisher_us": "Delacorte",
+   "description": "When Kiki turns 13, she follows the witches’ tradition of living in another town for a year, the seaside village of Koriko; translated by Emily Balistrieri. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/B0G432W2KC?tag=thenewyorktim-20",
+   "nyt_weeks": 9,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 6,
+   "weeks": 9,
+   "score": 27,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 11,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#6 in NYT Middle Grade",
+    "9 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781492664352",
+   "title": "How to Catch® a Turkey",
+   "author": "Adam Wallace",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 15
+    }
+   ],
+   "isbn13": "9781492664352",
+   "asin": "1492664359",
+   "amazon_url": "https://www.amazon.com/dp/1492664359",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 6622,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81P9B8sY4AL._AC_UL300_SR300,200_.jpg",
+   "age_min": 2,
+   "reading_age": "2 - 6 years",
+   "pub_date_amz": "September 4, 2018",
+   "pub_date": "2018-09-04",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 15,
+   "weeks": 1,
+   "days_since_pub": 2981,
+   "score": 26,
+   "score_parts": {
+    "classifica": 18,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#15 in Amazon Best Sellers · Children's Books",
+    "4.8★ su 6.622 recensioni"
    ]
   },
   {
@@ -5033,14 +6754,7 @@
      "The Hunger Games",
      "The Hunger Games Trilogy (Hunger Games / Catching Fire / Mockingjay)"
     ],
-    "publishers": [
-     "Círculo de Lectores",
-     "Molino, Editorial",
-     "Precious Pages Corporation",
-     "RBA Bolsillo",
-     "Scholastic Inc",
-     "Scholastic, Inc."
-    ]
+    "publishers": []
    },
    "best_rank": 16,
    "weeks": 1,
@@ -5056,6 +6770,61 @@
    "reasons": [
     "#16 in Amazon Best Sellers · Children's Books",
     "4.5★ su 111.004 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781558585362",
+   "title": "The Rainbow Fish",
+   "author": "Marcus Pfister",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 17
+    }
+   ],
+   "isbn13": "9781558585362",
+   "asin": "1558585362",
+   "amazon_url": "https://www.amazon.com/dp/1558585362",
+   "format": "Board book",
+   "rating": 4.8,
+   "reviews": 9558,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81YNkSjQ+XL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "1996",
+   "publisher_us": "North South Books",
+   "description": "The most beautiful fish in the entire ocean discovers the real value of personal beauty and friendship. On board pages.",
+   "age_min": 0,
+   "reading_age": "Baby - 3 years",
+   "pub_date_amz": "January 27, 1999",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Das Regenbogenfisch Puzzlebuch",
+     "Der Regenbogenfisch",
+     "Der Regenbogenfisch stiftet Frieden",
+     "Der kleine Dino",
+     "Fiocco, il coniglietto delle nevi",
+     "Hoppel findet einen Freund"
+    ],
+    "publishers": []
+   },
+   "best_rank": 17,
+   "weeks": 1,
+   "days_since_pub": 11263,
+   "score": 26,
+   "score_parts": {
+    "classifica": 17,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#17 in Amazon Best Sellers · Children's Books",
+    "4.8★ su 9.558 recensioni"
    ]
   },
   {
@@ -5148,6 +6917,80 @@
    "reasons": [
     "#22 in Amazon Novità · Children's Books",
     "uscito da 1 mesi"
+   ]
+  },
+  {
+   "key": "a:B0GPJQ4B6H",
+   "title": "Vibe: The Secrets of Strong Connections in a Lonely World",
+   "author": "Adam Grant",
+   "macro": [
+    "Manualistica e varia",
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Self-Help",
+     "rank": 9
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Self-Help",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
+     "rank": 4
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Health, Fitness & Dieting",
+     "rank": 2
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Business & Money",
+     "rank": 6
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Business & Money",
+     "rank": 2
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 8
+    }
+   ],
+   "isbn13": "9798217059706",
+   "asin": "B0GPJQ4B6H",
+   "amazon_url": "https://www.amazon.com/dp/B0GPJQ4B6H",
+   "format": "Audible Audiobook",
+   "rating": 4.4,
+   "reviews": 58,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71DFKQn0y6L._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Viking",
+   "description": "The author of “Think Again” delves into what might reinforce the strengths or exacerbate the weaknesses of bonds within relationships.",
+   "nyt_weeks": 2,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 2,
+   "score": 26,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 2,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 6
+   },
+   "reasons": [
+    "#2 in Amazon Novità · Health, Fitness & Dieting"
    ]
   },
   {
@@ -5268,9 +7111,7 @@
     "titles": [
      "Metamorfosi"
     ],
-    "publishers": [
-     "Blackie & Son Ltd"
-    ]
+    "publishers": []
    },
    "best_rank": 11,
    "weeks": 1,
@@ -5461,43 +7302,44 @@
    ]
   },
   {
-   "key": "i:9780593799901",
-   "title": "Mediterranean All the Way: Bold Flavors, Built to Share: A Cookbook",
-   "author": "Ayesha Nurdjaja",
+   "key": "i:9781561486403",
+   "title": "Fix-It and Forget-It Big Cookbook: 1400 Best Slow Cooker Recipes!",
+   "author": "Phyllis Good",
    "macro": [
     "Manualistica e varia"
    ],
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Novità · Cookbooks, Food & Wine",
-     "rank": 4
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 14
     }
    ],
-   "isbn13": "9780593799901",
-   "asin": "0593799909",
-   "amazon_url": "https://www.amazon.com/dp/0593799909",
+   "isbn13": "9781561486403",
+   "asin": "156148640X",
+   "amazon_url": "https://www.amazon.com/dp/156148640X",
    "format": "Hardcover",
-   "rating": 5.0,
-   "reviews": 112,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91AUgb-jhvL._AC_UL300_SR300,200_.jpg",
+   "rating": 4.6,
+   "reviews": 5981,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71o4MCiay5L._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
     "titles": [],
     "publishers": []
    },
-   "best_rank": 4,
+   "best_rank": 14,
    "weeks": 1,
    "score": 26,
    "score_parts": {
-    "classifica": 24,
+    "classifica": 18,
     "longevita": 1,
     "crescita": 0,
     "novita": 0,
-    "recensioni": 8
+    "recensioni": 13
    },
    "reasons": [
-    "#4 in Amazon Novità · Cookbooks, Food & Wine"
+    "#14 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.6★ su 5.981 recensioni"
    ]
   },
   {
@@ -5677,71 +7519,6 @@
    ]
   },
   {
-   "key": "a:B0GGYQNWHJ",
-   "title": "Unelected",
-   "author": "Jennica Pounds",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Business & Money",
-     "rank": 23
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Business & Money",
-     "rank": 5
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · History",
-     "rank": 18
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · History",
-     "rank": 8
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Politics & Social Sciences",
-     "rank": 26
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 8
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0GGYQNWHJ",
-   "amazon_url": "https://www.amazon.com/dp/B0GGYQNWHJ",
-   "format": "Hardcover",
-   "rating": 5.0,
-   "reviews": 170,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/815IxkropyL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 5,
-   "weeks": 1,
-   "score": 26,
-   "score_parts": {
-    "classifica": 23,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 8
-   },
-   "reasons": [
-    "#5 in Amazon Novità · Business & Money"
-   ]
-  },
-  {
    "key": "a:B0G8KWVHBJ",
    "title": "The Nerd Reich: Silicon Valley Fascism and the War on Democracy",
    "author": "Gil Durán",
@@ -5873,9 +7650,7 @@
     "titles": [
      "This Changes Everything"
     ],
-    "publishers": [
-     "Vintage Canada"
-    ]
+    "publishers": []
    },
    "best_rank": 7,
    "weeks": 1,
@@ -5889,71 +7664,6 @@
    },
    "reasons": [
     "#7 in Amazon Novità · Science & Math"
-   ]
-  },
-  {
-   "key": "i:9780063490031",
-   "title": "Uniting the States: Six Crucial Moments That Forged the American Miracle – Six Founders Who Shaped America's Revolutionary De",
-   "author": "Brian Kilmeade",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · History",
-     "rank": 8
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · History",
-     "rank": 4
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Biographies & Memoirs",
-     "rank": 15
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Biographies & Memoirs",
-     "rank": 7
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Politics & Social Sciences",
-     "rank": 17
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 7
-    }
-   ],
-   "isbn13": "9780063490031",
-   "asin": "006349003X",
-   "amazon_url": "https://www.amazon.com/dp/006349003X",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 108,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91ZmMufeDlL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 4,
-   "weeks": 1,
-   "score": 26,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 7
-   },
-   "reasons": [
-    "#4 in Amazon Novità · History"
    ]
   },
   {
@@ -5995,51 +7705,6 @@
    "reasons": [
     "#17 in Amazon Best Sellers · Biographies & Memoirs",
     "4.6★ su 75.927 recensioni"
-   ]
-  },
-  {
-   "key": "a:B0H8NTFHP4",
-   "title": "WTF America?!: The Way Out of This Hell and Back to Democracy",
-   "author": "Ben Meiselas",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Politics & Social Sciences",
-     "rank": 11
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 4
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0H8NTFHP4",
-   "amazon_url": "https://www.amazon.com/dp/B0H8NTFHP4",
-   "format": "Audible Audiobook",
-   "rating": 4.8,
-   "reviews": 157,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81yq-pXvNRL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 4,
-   "weeks": 1,
-   "score": 26,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 8
-   },
-   "reasons": [
-    "#4 in Amazon Novità · Politics & Social Sciences"
    ]
   },
   {
@@ -6087,72 +7752,6 @@
    ]
   },
   {
-   "key": "a:B0GPJQ4B6H",
-   "title": "Vibe: The Secrets of Strong Connections in a Lonely World",
-   "author": "Adam Grant",
-   "macro": [
-    "Manualistica e varia",
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Self-Help",
-     "rank": 9
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Self-Help",
-     "rank": 4
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Health, Fitness & Dieting",
-     "rank": 4
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Health, Fitness & Dieting",
-     "rank": 2
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Business & Money",
-     "rank": 6
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Business & Money",
-     "rank": 2
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0GPJQ4B6H",
-   "amazon_url": "https://www.amazon.com/dp/B0GPJQ4B6H",
-   "format": "Audible Audiobook",
-   "rating": 4.4,
-   "reviews": 58,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71DFKQn0y6L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 2,
-   "weeks": 1,
-   "score": 25,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 6
-   },
-   "reasons": [
-    "#2 in Amazon Novità · Health, Fitness & Dieting"
-   ]
-  },
-  {
    "key": "a:B09WXLQM7J",
    "title": "The Mountain Is You: Transforming Self-Sabotage into Self-Mastery",
    "author": "Brianna Wiest",
@@ -6189,9 +7788,7 @@
     "titles": [
      "Pivot Year"
     ],
-    "publishers": [
-     "Sonzogno"
-    ]
+    "publishers": []
    },
    "best_rank": 20,
    "weeks": 1,
@@ -6239,10 +7836,7 @@
     "titles": [
      "Friar Bacon and Friar Bungay"
     ],
-    "publishers": [
-     "La Nuova Italia",
-     "Printed for The Malone Society by J. Johnson at the Oxford University Press]"
-    ]
+    "publishers": []
    },
    "best_rank": 18,
    "weeks": 1,
@@ -6503,6 +8097,47 @@
    ]
   },
   {
+   "key": "i:9781476753836",
+   "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+   "author": "Samin Nosrat",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 20
+    }
+   ],
+   "isbn13": "9781476753836",
+   "asin": "1476753830",
+   "amazon_url": "https://www.amazon.com/dp/1476753830",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 24321,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81JVTtQzJ+L._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 20,
+   "weeks": 1,
+   "score": 25,
+   "score_parts": {
+    "classifica": 16,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#20 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.8★ su 24.321 recensioni"
+   ]
+  },
+  {
    "key": "i:9780063159488",
    "title": "Good Inside: A Guide to Becoming the Parent You Want to Be",
    "author": "Becky Kennedy",
@@ -6614,11 +8249,7 @@
      "Insegnare il pensiero critico",
      "Scrivere al buio"
     ],
-    "publishers": [
-     "La tartaruga",
-     "Meltemi",
-     "Taylor & Francis Group"
-    ]
+    "publishers": []
    },
    "best_rank": 20,
    "weeks": 1,
@@ -6854,9 +8485,7 @@
     "titles": [
      "Astrofisica per ragazzi che vanno di fretta"
     ],
-    "publishers": [
-     "Raffaello Cortina Editore"
-    ]
+    "publishers": []
    },
    "best_rank": 8,
    "weeks": 1,
@@ -6908,16 +8537,7 @@
      "Principe Caspian : le Cronache Di Narnia 2",
      "The Horse and His Boy"
     ],
-    "publishers": [
-     "Adelphi",
-     "Destino Ediciones",
-     "Galaxy",
-     "HarperChildrensAudio",
-     "HarperCollins Children's Books",
-     "Independently Published",
-     "Mondadori",
-     "NXB Kim Đồng"
-    ]
+    "publishers": []
    },
    "best_rank": 18,
    "weeks": 1,
@@ -7026,9 +8646,7 @@
     "titles": [
      "Sashenka"
     ],
-    "publishers": [
-     "Simon & Schuster"
-    ]
+    "publishers": []
    },
    "best_rank": 9,
    "weeks": 1,
@@ -7080,9 +8698,7 @@
     "titles": [
      "Warfare and agriculture in classical Greece"
     ],
-    "publishers": [
-     "Giardini"
-    ]
+    "publishers": []
    },
    "best_rank": 10,
    "weeks": 1,
@@ -7240,6 +8856,47 @@
    "reasons": [
     "#19 in Amazon Best Sellers · Politics & Social Sciences",
     "4.6★ su 44.300 recensioni"
+   ]
+  },
+  {
+   "key": "i:9798217227105",
+   "title": "Kiki And The New Magic",
+   "author": "Eiko Kadono",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9798217227105",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9798217227105.jpg",
+   "publisher_us": "Delacorte",
+   "description": "Kiki faces the challenges of growing up as an honest-to-goodness witch; translated by Emily Balistrieri. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/B0G433VQQQ?tag=thenewyorktim-20",
+   "nyt_weeks": 9,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 9,
+   "score": 25,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 11,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#10 in NYT Middle Grade",
+    "9 settimane in classifica"
    ]
   },
   {
@@ -7516,6 +9173,11 @@
    "appearances": [
     {
      "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 12
+    },
+    {
+     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 7
     }
@@ -7547,6 +9209,135 @@
    ]
   },
   {
+   "key": "a:B09MHH9T6Z",
+   "title": "Be A Plant-Based Woman Warrior: Live Fierce, Stay Bold, Eat Delicious: A Cookbook",
+   "author": "Jane Esselstyn",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 16
+    }
+   ],
+   "isbn13": null,
+   "asin": "B09MHH9T6Z",
+   "amazon_url": "https://www.amazon.com/dp/B09MHH9T6Z",
+   "format": "Kindle Edition",
+   "rating": 4.7,
+   "reviews": 1829,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/A1gaMrpCgQL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 16,
+   "weeks": 1,
+   "score": 24,
+   "score_parts": {
+    "classifica": 18,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 11
+   },
+   "reasons": [
+    "#16 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.7★ su 1.829 recensioni"
+   ]
+  },
+  {
+   "key": "i:9780142001615",
+   "title": "Salt: A World History",
+   "author": "Mark Kurlansky",
+   "macro": [
+    "Manualistica e varia",
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 17
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Science & Math",
+     "rank": 25
+    }
+   ],
+   "isbn13": "9780142001615",
+   "asin": "0142001619",
+   "amazon_url": "https://www.amazon.com/dp/0142001619",
+   "format": "Paperback",
+   "rating": 4.3,
+   "reviews": 4651,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71MSytdEgVL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 17,
+   "weeks": 1,
+   "score": 24,
+   "score_parts": {
+    "classifica": 17,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 12
+   },
+   "reasons": [
+    "#17 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.3★ su 4.651 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781645174424",
+   "title": "Recipes from the World of Tolkien - Tolkien Reference Book, Literary Cookbook: Inspired by the Legends",
+   "author": "Robert Tuesley Anderson",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 21
+    }
+   ],
+   "isbn13": "9781645174424",
+   "asin": "1645174425",
+   "amazon_url": "https://www.amazon.com/dp/1645174425",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 5174,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/815ZhKLmpOL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 21,
+   "weeks": 1,
+   "score": 24,
+   "score_parts": {
+    "classifica": 15,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 13
+   },
+   "reasons": [
+    "#21 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.8★ su 5.174 recensioni"
+   ]
+  },
+  {
    "key": "i:9781454963264",
    "title": "What to Cook When You Don’t Feel Like Cooking: Make It Fast",
    "author": "Caroline Chambers",
@@ -7554,6 +9345,11 @@
     "Manualistica e varia"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 26
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -8044,16 +9840,7 @@
      "Of Mice and Men",
      "The Grapes of Wrath"
     ],
-    "publishers": [
-     "Blue Ribbon books, Inc.",
-     "Bompiani",
-     "Corgi Books",
-     "Círculo de Lectores",
-     "Dramatists play service",
-     "Ernest Benn Limited",
-     "International Collectors Library",
-     "New York Herald Tribune Syndicate"
-    ]
+    "publishers": []
    },
    "best_rank": 22,
    "weeks": 1,
@@ -8068,6 +9855,101 @@
    "reasons": [
     "#22 in Amazon Best Sellers · Politics & Social Sciences",
     "4.7★ su 17.375 recensioni"
+   ]
+  },
+  {
+   "key": "i:9798217445981",
+   "title": "The Wild Zone",
+   "author": "Rick Riordan and Annabelle Oh",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 1
+    }
+   ],
+   "isbn13": "9798217445981",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9798217445981.jpg",
+   "publisher_us": "Random House",
+   "description": "Campers venture into the forest’s forbidden Wild Zone. (Ages 10 to 14)",
+   "amazon_url": "https://www.amazon.com/dp/B0GQ6PGS7P?tag=thenewyorktim-20",
+   "nyt_weeks": 4,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "The Blood of Olympus",
+     "The Last Olympian",
+     "The Lightning Thief",
+     "The Red Pyramid",
+     "The lightning thief"
+    ],
+    "publishers": []
+   },
+   "best_rank": 1,
+   "weeks": 4,
+   "score": 24,
+   "score_parts": {
+    "classifica": 25,
+    "longevita": 5,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#1 in NYT Middle Grade",
+    "4 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9780063515109",
+   "title": "Building 903",
+   "author": "Lois Lowry",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 2
+    }
+   ],
+   "isbn13": "9780063515109",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780063515109.jpg",
+   "publisher_us": "Clarion",
+   "description": "Tessa delves into the mystery of her missing twin brother, Theo. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/0063515105?tag=thenewyorktim-20",
+   "nyt_weeks": 4,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Anastasia Again",
+     "Anastasia Krupnik",
+     "Anastasia e suo fratello",
+     "Anastasia's Chosen Career",
+     "The Giver",
+     "Zooman Sam"
+    ],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 4,
+   "score": 24,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 5,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#2 in NYT Middle Grade",
+    "4 settimane in classifica"
    ]
   },
   {
@@ -8369,6 +10251,88 @@
    ]
   },
   {
+   "key": "a:B00005AAQ7",
+   "title": "Kitchen Confidential: Adventures in the Culinary Underbelly",
+   "author": "Anthony Bourdain",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 22
+    }
+   ],
+   "isbn13": null,
+   "asin": "B00005AAQ7",
+   "amazon_url": "https://www.amazon.com/dp/B00005AAQ7",
+   "format": "Audible Audiobook",
+   "rating": 4.5,
+   "reviews": 27870,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71TqnCYXPaL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 22,
+   "weeks": 1,
+   "score": 23,
+   "score_parts": {
+    "classifica": 14,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#22 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.5★ su 27.870 recensioni"
+   ]
+  },
+  {
+   "key": "a:B0CWMNP1S4",
+   "title": "Be Ready When the Luck Happens: A Memoir",
+   "author": "Ina Garten",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 23
+    }
+   ],
+   "isbn13": null,
+   "asin": "B0CWMNP1S4",
+   "amazon_url": "https://www.amazon.com/dp/B0CWMNP1S4",
+   "format": "Audible Audiobook",
+   "rating": 4.6,
+   "reviews": 15170,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91BX+mhkfoL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 23,
+   "weeks": 1,
+   "score": 23,
+   "score_parts": {
+    "classifica": 14,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#23 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.6★ su 15.170 recensioni"
+   ]
+  },
+  {
    "key": "a:B0HJXTPBFK",
    "title": "The Amish Dry Mix Pantry Cookbook: 150 Easy, Budget-Friendly From-Scratch Baking Mixes, Soups, Gravies & Seasonings | Shop On",
    "author": "Molly Danvers",
@@ -8376,6 +10340,11 @@
     "Manualistica e varia"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 24
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -8601,10 +10570,7 @@
     "titles": [
      "Friar Bacon and Friar Bungay"
     ],
-    "publishers": [
-     "La Nuova Italia",
-     "Printed for The Malone Society by J. Johnson at the Oxford University Press]"
-    ]
+    "publishers": []
    },
    "best_rank": 25,
    "weeks": 1,
@@ -8777,12 +10743,7 @@
      "La costruzione della città",
      "Urban Space"
     ],
-    "publishers": [
-     "Aión",
-     "Ernst & Sohn",
-     "Idea Books",
-     "Wasmuth Verlag GmbH & Company, Ernst J."
-    ]
+    "publishers": []
    },
    "best_rank": 8,
    "weeks": 1,
@@ -8796,6 +10757,54 @@
    },
    "reasons": [
     "#8 in Amazon Novità · Business & Money"
+   ]
+  },
+  {
+   "key": "i:9781324123637",
+   "title": "The Game",
+   "author": "Peter King",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Business & Money",
+     "rank": 10
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 15
+    }
+   ],
+   "isbn13": "9781324123637",
+   "asin": "132412363X",
+   "amazon_url": "https://www.amazon.com/dp/132412363X",
+   "format": "Hardcover",
+   "rating": 4.7,
+   "reviews": 34,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/914XG2wo8lL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Norton",
+   "description": "The rise of the National Football League over the last four decades told through the stories of some of the players, teams, coaches and controversies.",
+   "nyt_weeks": 2,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 2,
+   "score": 23,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 2,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 5
+   },
+   "reasons": [
+    "#10 in Amazon Novità · Business & Money"
    ]
   },
   {
@@ -9050,16 +11059,7 @@
      "Ligeia",
      "Maelzel's Chess Player"
     ],
-    "publishers": [
-     "Buccaneer Books",
-     "Dreamscape Media, LLC",
-     "Edizioni Theoria",
-     "Haskell House Pub Ltd",
-     "Independently Published",
-     "Independently published",
-     "Lanciano",
-     "Newton Compton"
-    ]
+    "publishers": []
    },
    "best_rank": 12,
    "weeks": 1,
@@ -9074,52 +11074,6 @@
    "reasons": [
     "#12 in Amazon Best Sellers · Biographies & Memoirs",
     "3.6★ su 1.009 recensioni"
-   ]
-  },
-  {
-   "key": "i:9781510704848",
-   "title": "See You Later, Alligator (RhymeTime Animals)",
-   "author": "Sally Hopgood",
-   "macro": [
-    "Bambini"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 26
-    }
-   ],
-   "isbn13": "9781510704848",
-   "asin": "1510704841",
-   "amazon_url": "https://www.amazon.com/dp/1510704841",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 4746,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71Aj3RpT9rL._AC_UL300_SR300,200_.jpg",
-   "age_min": 2,
-   "reading_age": "2 - 4 years",
-   "pub_date_amz": "September 20, 2016",
-   "pub_date": "2016-09-20",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 26,
-   "weeks": 1,
-   "days_since_pub": 3695,
-   "score": 22,
-   "score_parts": {
-    "classifica": 12,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#26 in Amazon Best Sellers · Children's Books",
-    "4.8★ su 4.746 recensioni"
    ]
   },
   {
@@ -9205,9 +11159,7 @@
     "titles": [
      "Illy Collection"
     ],
-    "publishers": [
-     "Charta"
-    ]
+    "publishers": []
    },
    "best_rank": 6,
    "weeks": 1,
@@ -9309,15 +11261,7 @@
      "Novelist As a Vocation",
      "Novels (1973年のピンボール / 風の歌を聴け)"
     ],
-    "publishers": [
-     "Diversified Publishing",
-     "Einaudi",
-     "Feltrinelli",
-     "Kodansha",
-     "Kodansha International",
-     "Penguin Random House",
-     "Vintage International"
-    ]
+    "publishers": []
    },
    "best_rank": 8,
    "weeks": 1,
@@ -9364,16 +11308,7 @@
      "L'Opera di Lucas Cranach",
      "LIBRO DA COLORARE lέGΘ NiηJΆGO"
     ],
-    "publishers": [
-     "AD Classic",
-     "Alianza Editorial",
-     "Clarendon Press",
-     "Círculo de Lectores",
-     "Dtv",
-     "Electra Editrice",
-     "Fratelli Fabbri Editori",
-     "Haus der Bayerischen Geschichte"
-    ]
+    "publishers": []
    },
    "best_rank": 24,
    "weeks": 1,
@@ -9480,6 +11415,11 @@
     "Saggistica"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 29
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -9922,13 +11862,7 @@
      "Avventure Di Tom Sawyer",
      "Diari Di Adamo Ed Eva"
     ],
-    "publishers": [
-     "Edizioni Terra Santa",
-     "Independently Published",
-     "IndyPublish.com",
-     "Macmillan Collector's Library",
-     "idb"
-    ]
+    "publishers": []
    },
    "best_rank": 26,
    "weeks": 1,
@@ -9943,86 +11877,6 @@
    "reasons": [
     "#26 in Amazon Best Sellers · Business & Money",
     "4.7★ su 16.728 recensioni"
-   ]
-  },
-  {
-   "key": "a:B0H2GKC5PZ",
-   "title": "Co-Existence: The Next Phase of AI",
-   "author": "Ethan Mollick",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Business & Money",
-     "rank": 9
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0H2GKC5PZ",
-   "amazon_url": "https://www.amazon.com/dp/B0H2GKC5PZ",
-   "format": "Audible Audiobook",
-   "rating": 4.8,
-   "reviews": 37,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91L270lCzLL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 9,
-   "weeks": 1,
-   "score": 22,
-   "score_parts": {
-    "classifica": 21,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 6
-   },
-   "reasons": [
-    "#9 in Amazon Novità · Business & Money"
-   ]
-  },
-  {
-   "key": "i:9781324123637",
-   "title": "The Game",
-   "author": "Peter King",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Business & Money",
-     "rank": 10
-    }
-   ],
-   "isbn13": "9781324123637",
-   "asin": "132412363X",
-   "amazon_url": "https://www.amazon.com/dp/132412363X",
-   "format": "Hardcover",
-   "rating": 4.7,
-   "reviews": 34,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/914XG2wo8lL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 10,
-   "weeks": 1,
-   "score": 22,
-   "score_parts": {
-    "classifica": 20,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 5
-   },
-   "reasons": [
-    "#10 in Amazon Novità · Business & Money"
    ]
   },
   {
@@ -10234,6 +12088,87 @@
    ]
   },
   {
+   "key": "i:9781250424990",
+   "title": "Game Of Pets: The Boy Who Knew Too Much",
+   "author": "Aaron Blabey",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 7
+    }
+   ],
+   "isbn13": "9781250424990",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781250424990.jpg",
+   "publisher_us": "Odd Dot",
+   "description": "An 11-year-old named Griff is Earth’s last hope against an extraterrestrial threat. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/1250424992?tag=thenewyorktim-20",
+   "nyt_weeks": 4,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 7,
+   "weeks": 4,
+   "score": 22,
+   "score_parts": {
+    "classifica": 22,
+    "longevita": 5,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#7 in NYT Middle Grade",
+    "4 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781538784723",
+   "title": "In The Shadow Of Eight",
+   "author": "Collin Gosselin with Allie Kingsley Baker",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 1
+    }
+   ],
+   "isbn13": "9781538784723",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781538784723.jpg",
+   "publisher_us": "Grand Central",
+   "description": "A dark tell-all by one of the sextuplets from the reality TV series “Jon & Kate Plus 8.”",
+   "amazon_url": "https://www.amazon.com/dp/1538784726?tag=thenewyorktim-20",
+   "nyt_weeks": 2,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 1,
+   "weeks": 2,
+   "score": 22,
+   "score_parts": {
+    "classifica": 25,
+    "longevita": 2,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#1 in NYT Hardcover Nonfiction"
+   ]
+  },
+  {
    "key": "i:9780062404527",
    "title": "Pete the Cat 12-Book Phonics Fun!: A Box of 12 Mini-Books Featuring Short and Long Vowel Sounds – Expert-Reviewed Beginning R",
    "author": "James Dean",
@@ -10439,9 +12374,7 @@
     "titles": [
      "Death Do Us Part"
     ],
-    "publishers": [
-     "Little, Brown"
-    ]
+    "publishers": []
    },
    "best_rank": 2,
    "weeks": 1,
@@ -10546,6 +12479,11 @@
     "Manualistica e varia"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 3
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -10993,47 +12931,6 @@
    ]
   },
   {
-   "key": "i:9780142001615",
-   "title": "Salt: A World History",
-   "author": "Mark Kurlansky",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Science & Math",
-     "rank": 25
-    }
-   ],
-   "isbn13": "9780142001615",
-   "asin": "0142001619",
-   "amazon_url": "https://www.amazon.com/dp/0142001619",
-   "format": "Paperback",
-   "rating": 4.3,
-   "reviews": 4651,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71MSytdEgVL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 25,
-   "weeks": 1,
-   "score": 21,
-   "score_parts": {
-    "classifica": 13,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 12
-   },
-   "reasons": [
-    "#25 in Amazon Best Sellers · Science & Math",
-    "4.3★ su 4.651 recensioni"
-   ]
-  },
-  {
    "key": "i:9781645471165",
    "title": "The Happiness Trap (Second Edition): How to Stop Struggling and Start Living",
    "author": "Russ Harris",
@@ -11060,10 +12957,7 @@
      "Jerry Cornelius",
      "Le cronache di Corum - Gli dei perduti"
     ],
-    "publishers": [
-     "Editoriale Cosmo",
-     "Fanucci Editore"
-    ]
+    "publishers": []
    },
    "best_rank": 28,
    "weeks": 1,
@@ -11152,14 +13046,7 @@
      "Helgoland",
      "La realtà non è come ci appare"
     ],
-    "publishers": [
-     "Adelphi Edizioni S.p.a.",
-     "Arnoldo Mondadori Editore",
-     "Corriere della Sera",
-     "Mondadori università",
-     "Penguin Books, Limited",
-     "Raffaello Cortina Editore"
-    ]
+    "publishers": []
    },
    "best_rank": 14,
    "weeks": 1,
@@ -11293,16 +13180,7 @@
      "Hunters of the Red Moon",
      "I principi demoni"
     ],
-    "publishers": [
-     "Berkley,",
-     "Coronet",
-     "DAW",
-     "E.S.I.",
-     "Ediciones Gigamesh",
-     "Legend",
-     "Marconi Foundation at Columbia University",
-     "Meulenhoff, Amsterdam"
-    ]
+    "publishers": []
    },
    "best_rank": 17,
    "weeks": 1,
@@ -11735,16 +13613,7 @@
      "Economia. Con connect. Con e-book",
      "Economics, an introductory analysis"
     ],
-    "publishers": [
-     "Arnoldo Mondadori",
-     "CreateSpace Independent Publishing Platform",
-     "DAW",
-     "Eyre & Spottiswoode",
-     "G.C. Sansoni",
-     "Giulio Einaudi",
-     "Hutchinson",
-     "Independently Published"
-    ]
+    "publishers": []
    },
    "best_rank": 18,
    "weeks": 1,
@@ -11758,6 +13627,132 @@
    },
    "reasons": [
     "#18 in Amazon Novità · Crafts, Hobbies & Home"
+   ]
+  },
+  {
+   "key": "a:B0FMYKGJ14",
+   "title": "Spain My Way: Eat, Drink, and Cook Like a Spaniard",
+   "author": "José Andrés",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 19
+    }
+   ],
+   "isbn13": null,
+   "asin": "B0FMYKGJ14",
+   "amazon_url": "https://www.amazon.com/dp/B0FMYKGJ14",
+   "format": "Kindle Edition",
+   "rating": 4.8,
+   "reviews": 128,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81w6oAej9BL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Paradiso"
+    ],
+    "publishers": []
+   },
+   "best_rank": 19,
+   "weeks": 1,
+   "score": 20,
+   "score_parts": {
+    "classifica": 16,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 8
+   },
+   "reasons": [
+    "#19 in Amazon Best Sellers · Cookbooks, Food & Wine"
+   ]
+  },
+  {
+   "key": "i:9780593138410",
+   "title": "The Perfect Loaf: The Craft and Science of Sourdough Breads, Sweets, and More: A Baking Book",
+   "author": "Maurizio Leo",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 28
+    }
+   ],
+   "isbn13": "9780593138410",
+   "asin": "0593138414",
+   "amazon_url": "https://www.amazon.com/dp/0593138414",
+   "format": "Hardcover",
+   "rating": 4.7,
+   "reviews": 3590,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/91317KnOnRL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [
+     "Le imposte sui redditi nel testo unico"
+    ],
+    "publishers": []
+   },
+   "best_rank": 28,
+   "weeks": 1,
+   "score": 20,
+   "score_parts": {
+    "classifica": 12,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 13
+   },
+   "reasons": [
+    "#28 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.7★ su 3.590 recensioni"
+   ]
+  },
+  {
+   "key": "i:9781948703949",
+   "title": "The Complete Mediterranean Cookbook Gift Edition: 500 Vibrant, Kitchen-Tested Recipes for Living and Eating Well Every Day",
+   "author": "America's Test Kitchen",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 30
+    }
+   ],
+   "isbn13": "9781948703949",
+   "asin": "1948703947",
+   "amazon_url": "https://www.amazon.com/dp/1948703947",
+   "format": "Hardcover",
+   "rating": 4.5,
+   "reviews": 22228,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/918EzSkFnmL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 30,
+   "weeks": 1,
+   "score": 20,
+   "score_parts": {
+    "classifica": 10,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#30 in Amazon Best Sellers · Cookbooks, Food & Wine",
+    "4.5★ su 22.228 recensioni"
    ]
   },
   {
@@ -12049,10 +14044,7 @@
      "Cervelli che parlano",
      "Descartes' Error"
     ],
-    "publishers": [
-     "B. Mondadori",
-     "Penguin (Non-Classics)"
-    ]
+    "publishers": []
    },
    "best_rank": 12,
    "weeks": 1,
@@ -12151,51 +14143,6 @@
    },
    "reasons": [
     "#15 in Amazon Novità · History"
-   ]
-  },
-  {
-   "key": "i:9781546012276",
-   "title": "America's Golden Age: Trumpism and an Era of Limitless Possibilities",
-   "author": "Newt Gingrich",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · History",
-     "rank": 16
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 21
-    }
-   ],
-   "isbn13": "9781546012276",
-   "asin": "1546012273",
-   "amazon_url": "https://www.amazon.com/dp/1546012273",
-   "format": "Hardcover",
-   "rating": 4.6,
-   "reviews": 61,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71fhocNY5UL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 16,
-   "weeks": 1,
-   "score": 20,
-   "score_parts": {
-    "classifica": 18,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 6
-   },
-   "reasons": [
-    "#16 in Amazon Novità · History"
    ]
   },
   {
@@ -12594,6 +14541,11 @@
    "appearances": [
     {
      "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 8
+    },
+    {
+     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 5
     }
@@ -12630,6 +14582,11 @@
     "Manualistica e varia"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 9
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -12741,46 +14698,6 @@
    ]
   },
   {
-   "key": "a:B0GHX4XTGP",
-   "title": "Simply Plants: Feel-Good Vegan Recipes to Nourish the Body and Soul: A Cookbook",
-   "author": "Sadia Badiei",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Cookbooks, Food & Wine",
-     "rank": 19
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0GHX4XTGP",
-   "amazon_url": "https://www.amazon.com/dp/B0GHX4XTGP",
-   "format": "Hardcover",
-   "rating": 5.0,
-   "reviews": 57,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91u5oLq-1UL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 19,
-   "weeks": 1,
-   "score": 19,
-   "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 7
-   },
-   "reasons": [
-    "#19 in Amazon Novità · Cookbooks, Food & Wine"
-   ]
-  },
-  {
    "key": "a:B0G7M7LJ8W",
    "title": "The Land and Its People: Essays",
    "author": "David Sedaris",
@@ -12806,9 +14723,7 @@
     "titles": [
      "Dress Your Family in Corduroy and Denim"
     ],
-    "publishers": [
-     "Hachette Audio"
-    ]
+    "publishers": []
    },
    "best_rank": 30,
    "weeks": 1,
@@ -13018,9 +14933,7 @@
     "titles": [
      "American Prometheus"
     ],
-    "publishers": [
-     "Knopf Doubleday Publishing Group"
-    ]
+    "publishers": []
    },
    "best_rank": 23,
    "weeks": 1,
@@ -13074,46 +14987,6 @@
    },
    "reasons": [
     "#24 in Amazon Novità · History"
-   ]
-  },
-  {
-   "key": "a:B0GSYJP51M",
-   "title": "Andy's Bravo Scrapbook: Twenty Years Behind the Scenes of the Real Housewives and the Bravoverse",
-   "author": "Andy Cohen",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Politics & Social Sciences",
-     "rank": 14
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0GSYJP51M",
-   "amazon_url": "https://www.amazon.com/dp/B0GSYJP51M",
-   "format": "Hardcover",
-   "rating": 4.4,
-   "reviews": 20,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81e+NPUZ-EL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 14,
-   "weeks": 1,
-   "score": 19,
-   "score_parts": {
-    "classifica": 18,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 4
-   },
-   "reasons": [
-    "#14 in Amazon Novità · Politics & Social Sciences"
    ]
   },
   {
@@ -13290,16 +15163,7 @@
      "Gli incredibili",
      "Il Re Leone"
     ],
-    "publishers": [
-     "Arnoldo Mondadori Editore",
-     "Corriere della sera",
-     "Istituto geografico De Agostini",
-     "Literary Licensing, LLC",
-     "Mondadori",
-     "The Walt Disney Company Italia",
-     "Walt Disney",
-     "Walt Disney Italia"
-    ]
+    "publishers": []
    },
    "best_rank": 12,
    "weeks": 1,
@@ -13313,6 +15177,46 @@
    },
    "reasons": [
     "#12 in Amazon Novità · Parenting & Relationships"
+   ]
+  },
+  {
+   "key": "a:B0CQKB3XJZ",
+   "title": "Love Your Gut: Supercharge Your Digestive Health and Transform Your Well-Being from the Inside Out",
+   "author": "Megan Rossi",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 25
+    }
+   ],
+   "isbn13": null,
+   "asin": "B0CQKB3XJZ",
+   "amazon_url": "https://www.amazon.com/dp/B0CQKB3XJZ",
+   "format": "Kindle Edition",
+   "rating": 4.7,
+   "reviews": 311,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71kGZUAU9sL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 25,
+   "weeks": 1,
+   "score": 18,
+   "score_parts": {
+    "classifica": 13,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 9
+   },
+   "reasons": [
+    "#25 in Amazon Best Sellers · Cookbooks, Food & Wine"
    ]
   },
   {
@@ -13626,10 +15530,7 @@
      "Dreams from My Father",
      "The Audacity of Hope"
     ],
-    "publishers": [
-     "Riemann",
-     "[Seuil]"
-    ]
+    "publishers": []
    },
    "best_rank": 13,
    "weeks": 1,
@@ -13723,6 +15624,47 @@
    },
    "reasons": [
     "#27 in Amazon Novità · Biographies & Memoirs"
+   ]
+  },
+  {
+   "key": "i:9781538782224",
+   "title": "One Helluva Ride",
+   "author": "Michael Douglas with Shane Salerno and Michael Fleming Jr",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 13
+    }
+   ],
+   "isbn13": "9781538782224",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781538782224.jpg",
+   "publisher_us": "Grand Central",
+   "description": "The Hollywood icon shares stories about his career and relationships.",
+   "amazon_url": "https://www.amazon.com/dp/1538782227?tag=thenewyorktim-20",
+   "nyt_weeks": 3,
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 13,
+   "weeks": 3,
+   "score": 18,
+   "score_parts": {
+    "classifica": 19,
+    "longevita": 4,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#13 in NYT Hardcover Nonfiction",
+    "3 settimane in classifica"
    ]
   },
   {
@@ -14061,6 +16003,11 @@
     "Saggistica"
    ],
    "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
+     "rank": 27
+    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -14468,10 +16415,7 @@
     "titles": [
      "Friar Bacon and Friar Bungay"
     ],
-    "publishers": [
-     "La Nuova Italia",
-     "Printed for The Malone Society by J. Johnson at the Oxford University Press]"
-    ]
+    "publishers": []
    },
    "best_rank": 13,
    "weeks": 1,
@@ -14942,46 +16886,6 @@
    ]
   },
   {
-   "key": "i:9781648213021",
-   "title": "Why Fauci MUST Rot in Prison",
-   "author": "Peter Navarro",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Science & Math",
-     "rank": 24
-    }
-   ],
-   "isbn13": "9781648213021",
-   "asin": "1648213022",
-   "amazon_url": "https://www.amazon.com/dp/1648213022",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 30,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81J14JMgeTL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 24,
-   "weeks": 1,
-   "score": 16,
-   "score_parts": {
-    "classifica": 14,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 5
-   },
-   "reasons": [
-    "#24 in Amazon Novità · Science & Math"
-   ]
-  },
-  {
    "key": "i:9780593725276",
    "title": "Tidal Wave: The Pilots, the Princess, and the Enemy Ace - A True Story of Courage and Survival in WWII",
    "author": "Adam Makos",
@@ -15230,11 +17134,7 @@
      "I Am Grateful : (Quaderno a Righe)",
      "Joy Is an Attitude : (Quaderno a Righe)"
     ],
-    "publishers": [
-     "CreateSpace Independent Publishing Platform",
-     "Independently Published",
-     "Provincia autonoma di Trento, Servizio beniculturali, Ufficio beni archeologici"
-    ]
+    "publishers": []
    },
    "best_rank": 23,
    "weeks": 1,
@@ -15291,46 +17191,6 @@
    },
    "reasons": [
     "#17 in Amazon Novità · Health, Fitness & Dieting"
-   ]
-  },
-  {
-   "key": "i:9781668212462",
-   "title": "Welcome to the Afterlife: A No-Nonsense Tour for Those in Mourning or the Merely Curious with Denise, Heaven's Receptionist",
-   "author": "Taryn Delanie Smith",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Self-Help",
-     "rank": 28
-    }
-   ],
-   "isbn13": "9781668212462",
-   "asin": "1668212463",
-   "amazon_url": "https://www.amazon.com/dp/1668212463",
-   "format": "Hardcover",
-   "rating": 4.5,
-   "reviews": 42,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/710Kb3n-tJL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 28,
-   "weeks": 1,
-   "score": 15,
-   "score_parts": {
-    "classifica": 12,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 5
-   },
-   "reasons": [
-    "#28 in Amazon Novità · Self-Help"
    ]
   },
   {
@@ -16077,10 +17937,7 @@
      "Luce accecante",
      "Ultimi giorni a Hong Kong"
     ],
-    "publishers": [
-     "Baldini & Castoldi",
-     "Baldini Castoldi Dalai"
-    ]
+    "publishers": []
    },
    "best_rank": 30,
    "weeks": 1,
@@ -16652,6 +18509,57 @@
    ]
   },
   {
+   "key": "i:9780545791441",
+   "title": "Harry Potter",
+   "author": "J.K. Rowling",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 3
+    }
+   ],
+   "isbn13": "9780545791441",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780545791441.jpg",
+   "publisher_us": "Scholastic",
+   "description": "A wizard hones his conjuring skills in the service of fighting evil. (Ages 10 and up)",
+   "amazon_url": "https://www.amazon.com/dp/0545791448?tag=thenewyorktim-20",
+   "nyt_weeks": 918,
+   "pub_date": "2026",
+   "italy": {
+    "status": "tradotto",
+    "match": "Harry Potter and the Chamber of Secrets",
+    "titles": [
+     "Gli animali fantastici",
+     "Harry Potter and the Chamber of Secrets",
+     "Harry Potter and the Deathly Hallows",
+     "Harry Potter and the Goblet of Fire",
+     "Harry Potter and the Half-Blood Prince",
+     "Harry Potter and the Order of the Phoenix"
+    ],
+    "publishers": []
+   },
+   "best_rank": 3,
+   "weeks": 918,
+   "days_since_pub": 305,
+   "score": 11,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 8,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#3 in NYT Series",
+    "918 settimane in classifica"
+   ]
+  },
+  {
    "key": "a:B0F14PDX2Z",
    "title": "Harry Potter and the Sorcerer’s Stone (Full-Cast Edition)",
    "author": "J.K. Rowling",
@@ -16685,16 +18593,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 3,
    "weeks": 1,
@@ -16746,16 +18645,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 9,
    "weeks": 1,
@@ -16813,16 +18703,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 3,
    "weeks": 1,
@@ -16997,6 +18878,99 @@
    ]
   },
   {
+   "key": "i:9780375869020",
+   "title": "Wonder",
+   "author": "R.J. Palacio",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Middle Grade",
+     "rank": 4
+    }
+   ],
+   "isbn13": "9780375869020",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9780375869020.jpg",
+   "publisher_us": "Knopf",
+   "description": "A boy with a facial deformity starts school. (Ages 8 to 12)",
+   "amazon_url": "https://www.amazon.com/dp/B0051ANPZQ?tag=thenewyorktim-20",
+   "nyt_weeks": 566,
+   "italy": {
+    "status": "tradotto",
+    "match": "Wonder",
+    "titles": [
+     "Wonder"
+    ],
+    "publishers": []
+   },
+   "best_rank": 4,
+   "weeks": 566,
+   "score": 10,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#4 in NYT Middle Grade",
+    "566 settimane in classifica"
+   ]
+  },
+  {
+   "key": "i:9781546171607",
+   "title": "The Hunger Games",
+   "author": "Suzanne Collins",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "nyt",
+     "list": "NYT Series",
+     "rank": 2
+    }
+   ],
+   "isbn13": "9781546171607",
+   "asin": null,
+   "image": "https://static01.nyt.com/bestsellers/images/9781546171607.jpg",
+   "publisher_us": "Scholastic",
+   "description": "In a dystopia, a girl fights for survival on live TV. (Ages 12 and up)",
+   "amazon_url": "https://www.amazon.com/dp/1546171606?tag=thenewyorktim-20",
+   "nyt_weeks": 446,
+   "italy": {
+    "status": "tradotto",
+    "match": "The Hunger Games",
+    "titles": [
+     "Catching Fire",
+     "Gregor and the Prophecy of Bane",
+     "Mockingjay",
+     "Sunrise on the Reaping",
+     "The Hunger Games",
+     "The Hunger Games Trilogy (Hunger Games / Catching Fire / Mockingjay)"
+    ],
+    "publishers": []
+   },
+   "best_rank": 2,
+   "weeks": 446,
+   "score": 10,
+   "score_parts": {
+    "classifica": 24,
+    "longevita": 25,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 0
+   },
+   "reasons": [
+    "#2 in NYT Series",
+    "446 settimane in classifica"
+   ]
+  },
+  {
    "key": "a:B0F151V9H2",
    "title": "Harry Potter and the Chamber of Secrets (Full-Cast Edition)",
    "author": "J.K. Rowling",
@@ -17030,16 +19004,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 5,
    "weeks": 1,
@@ -17091,16 +19056,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 6,
    "weeks": 1,
@@ -17152,16 +19108,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 7,
    "weeks": 1,
@@ -17213,16 +19160,7 @@
      "Harry Potter and the Half-Blood Prince",
      "Harry Potter and the Order of the Phoenix"
     ],
-    "publishers": [
-     "Arthur",
-     "Bloomsbury Children's Books",
-     "Bound to Stay Bound Books",
-     "Empúries",
-     "French and European Publications Inc",
-     "Gallimard - Educa Books",
-     "Mun-hag Sucheob Publishing Company",
-     "Raincoast Books in association with Whizz Hard Books"
-    ]
+    "publishers": []
    },
    "best_rank": 8,
    "weeks": 1,
@@ -17318,14 +19256,7 @@
      "The Hunger Games",
      "The Hunger Games Trilogy (Hunger Games / Catching Fire / Mockingjay)"
     ],
-    "publishers": [
-     "Círculo de Lectores",
-     "Molino, Editorial",
-     "Precious Pages Corporation",
-     "RBA Bolsillo",
-     "Scholastic Inc",
-     "Scholastic, Inc."
-    ]
+    "publishers": []
    },
    "best_rank": 1,
    "weeks": 1,
@@ -17379,14 +19310,7 @@
      "The Very Hungry Caterpillar",
      "The very quiet cricket"
     ],
-    "publishers": [
-     "Franklin Watts",
-     "Gerstenberg Verlag",
-     "HarperCollins Publishers",
-     "Hsin Yi Publications",
-     "Scholastic, Inc.",
-     "imusti"
-    ]
+    "publishers": []
    },
    "best_rank": 8,
    "weeks": 1,
@@ -17402,6 +19326,79 @@
    "reasons": [
     "#8 in Amazon Novità · Children's Books",
     "uscito da 1 mesi"
+   ]
+  },
+  {
+   "key": "a:B0HFNPBTXP",
+   "title": "Swan Song: Diana, my sister",
+   "author": "Charles Spencer",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · History",
+     "rank": 9
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · History",
+     "rank": 5
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Biographies & Memoirs",
+     "rank": 16
+    },
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Biographies & Memoirs",
+     "rank": 8
+    },
+    {
+     "source": "nyt",
+     "list": "NYT Hardcover Nonfiction",
+     "rank": 12
+    }
+   ],
+   "isbn13": "9798217379743",
+   "asin": "B0HFNPBTXP",
+   "amazon_url": "https://www.amazon.com/dp/B0HFNPBTXP",
+   "format": "Audible Audiobook",
+   "rating": 4.5,
+   "reviews": 2269,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81vSwW5brVL._AC_UL300_SR300,200_.jpg",
+   "publisher_us": "Penguin Press",
+   "description": "The ninth Earl Spencer shares personal stories about his sister, Diana, from childhood through her untimely death.",
+   "nyt_weeks": 5,
+   "italy": {
+    "status": "tradotto",
+    "match": "Swan Song",
+    "titles": [
+     "Berenice",
+     "Capitoli burleschi d'incerto autore",
+     "Carmina ex recognitione Barnabae Celsani",
+     "Dal modello sociale al modello politico",
+     "Descent into the Maelström",
+     "Eureka"
+    ],
+    "publishers": []
+   },
+   "best_rank": 5,
+   "weeks": 5,
+   "score": 8,
+   "score_parts": {
+    "classifica": 23,
+    "longevita": 6,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 11
+   },
+   "reasons": [
+    "#5 in Amazon Novità · History",
+    "5 settimane in classifica",
+    "4.5★ su 2.269 recensioni"
    ]
   },
   {
@@ -17438,14 +19435,7 @@
      "The Very Hungry Caterpillar",
      "The very quiet cricket"
     ],
-    "publishers": [
-     "Franklin Watts",
-     "Gerstenberg Verlag",
-     "HarperCollins Publishers",
-     "Hsin Yi Publications",
-     "Scholastic, Inc.",
-     "imusti"
-    ]
+    "publishers": []
    },
    "best_rank": 11,
    "weeks": 1,
@@ -17484,8 +19474,10 @@
    "rating": 4.9,
    "reviews": 31940,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81t-IstQ+ZL._AC_UL300_SR300,200_.jpg",
-   "pub_date_amz": "August 2, 1991",
    "pub_date": "1991-08-02",
+   "publisher_us": "Harper Collins",
+   "description": "In a great green room, tucked away in bed, is a little bunny. \"Goodnight room, goodnight moon.\" And to all the familiar things in the softly lit room--to the picture of the three little bears sitting in chairs, to the clocks and his socks, to the mittens and the kittens, to everything one by one--he says goodnight. In this classic of modern children's literature, beloved by generations of readers ",
+   "pub_date_amz": "August 2, 1991",
    "italy": {
     "status": "tradotto",
     "match": "Goodnight Moon",
@@ -17493,10 +19485,7 @@
      "Goodnight Moon",
      "Willie's Adventures"
     ],
-    "publishers": [
-     "Harpercollins",
-     "Minnesota Humanities Center"
-    ]
+    "publishers": []
    },
    "best_rank": 13,
    "weeks": 1,
@@ -17512,69 +19501,6 @@
    "reasons": [
     "#13 in Amazon Best Sellers · Children's Books",
     "4.9★ su 31.940 recensioni"
-   ]
-  },
-  {
-   "key": "i:9781558585362",
-   "title": "The Rainbow Fish",
-   "author": "Marcus Pfister",
-   "macro": [
-    "Bambini"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 17
-    }
-   ],
-   "isbn13": "9781558585362",
-   "asin": "1558585362",
-   "amazon_url": "https://www.amazon.com/dp/1558585362",
-   "format": "Board book",
-   "rating": 4.8,
-   "reviews": 9558,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81YNkSjQ+XL._AC_UL300_SR300,200_.jpg",
-   "pub_date": "1996",
-   "publisher_us": "North South Books",
-   "description": "The most beautiful fish in the entire ocean discovers the real value of personal beauty and friendship. On board pages.",
-   "age_min": 0,
-   "reading_age": "Baby - 3 years",
-   "pub_date_amz": "January 27, 1999",
-   "italy": {
-    "status": "tradotto",
-    "match": "The Rainbow Fish/Il pesce Arcobaleno English/Italian",
-    "titles": [
-     "Das Regenbogenfisch Puzzlebuch",
-     "Der Regenbogenfisch",
-     "Der Regenbogenfisch stiftet Frieden",
-     "Der kleine Dino",
-     "Fiocco, il coniglietto delle nevi",
-     "Hoppel findet einen Freund"
-    ],
-    "publishers": [
-     "Editions Nord-Sud",
-     "North-South / Night Sky Books",
-     "NorthSouth",
-     "NorthSouth Books",
-     "Parramón",
-     "Sigong Juniŏ"
-    ]
-   },
-   "best_rank": 17,
-   "weeks": 1,
-   "days_since_pub": 11263,
-   "score": 7,
-   "score_parts": {
-    "classifica": 17,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#17 in Amazon Best Sellers · Children's Books",
-    "4.8★ su 9.558 recensioni"
    ]
   },
   {
@@ -17617,11 +19543,7 @@
      "How to Win Friends and Influence People",
      "The Art of Public Speaking"
     ],
-    "publishers": [
-     "Independently Published",
-     "The Home Correspondence School",
-     "rzbook"
-    ]
+    "publishers": []
    },
    "best_rank": 9,
    "weeks": 1,
@@ -17671,10 +19593,7 @@
      "I Quattro Accordi / The Four Agreements",
      "I quattro accordi"
     ],
-    "publishers": [
-     "Distribooks",
-     "Edizioni Il Punto d'incontro"
-    ]
+    "publishers": []
    },
    "best_rank": 10,
    "weeks": 1,
@@ -17723,9 +19642,7 @@
     "titles": [
      "The Anxious Generation"
     ],
-    "publishers": [
-     "Rizzoli"
-    ]
+    "publishers": []
    },
    "best_rank": 9,
    "weeks": 1,
@@ -17769,9 +19686,7 @@
     "titles": [
      "Wild Dark Shore"
     ],
-    "publishers": [
-     "Fazi Editore"
-    ]
+    "publishers": []
    },
    "best_rank": 9,
    "weeks": 1,
@@ -17786,79 +19701,6 @@
    "reasons": [
     "#9 in Amazon Novità · Science & Math",
     "4.3★ su 74.286 recensioni"
-   ]
-  },
-  {
-   "key": "a:B0HFNPBTXP",
-   "title": "Swan Song: Diana, my sister",
-   "author": "Charles Spencer",
-   "macro": [
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · History",
-     "rank": 9
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · History",
-     "rank": 5
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Biographies & Memoirs",
-     "rank": 16
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Biographies & Memoirs",
-     "rank": 8
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0HFNPBTXP",
-   "amazon_url": "https://www.amazon.com/dp/B0HFNPBTXP",
-   "format": "Audible Audiobook",
-   "rating": 4.5,
-   "reviews": 2269,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81vSwW5brVL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "tradotto",
-    "match": "Swan Song",
-    "titles": [
-     "Berenice",
-     "Capitoli burleschi d'incerto autore",
-     "Carmina ex recognitione Barnabae Celsani",
-     "Dal modello sociale al modello politico",
-     "Descent into the Maelström",
-     "Eureka"
-    ],
-    "publishers": [
-     "Appresso Pellegrino Bidelli",
-     "Buccaneer Books",
-     "Centro editoriale toscano",
-     "Dreamscape Media, LLC",
-     "Haskell House Pub Ltd",
-     "Independently published",
-     "Jacobus de Dusa",
-     "Konrad Sweynheim and Arnold Pannartz"
-    ]
-   },
-   "best_rank": 5,
-   "weeks": 1,
-   "score": 7,
-   "score_parts": {
-    "classifica": 23,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 11
-   },
-   "reasons": [
-    "#5 in Amazon Novità · History",
-    "4.5★ su 2.269 recensioni"
    ]
   },
   {
@@ -17891,12 +19733,7 @@
      "Something Wicked This Way Comes",
      "The Martian Chronicles"
     ],
-    "publishers": [
-     "Easton Press",
-     "Jin ri shi jie she",
-     "Mondadori",
-     "Science Fiction Book Club"
-    ]
+    "publishers": []
    },
    "best_rank": 14,
    "weeks": 1,
@@ -17947,14 +19784,7 @@
      "The Hunger Games",
      "The Hunger Games Trilogy (Hunger Games / Catching Fire / Mockingjay)"
     ],
-    "publishers": [
-     "Círculo de Lectores",
-     "Molino, Editorial",
-     "Precious Pages Corporation",
-     "RBA Bolsillo",
-     "Scholastic Inc",
-     "Scholastic, Inc."
-    ]
+    "publishers": []
    },
    "best_rank": 25,
    "weeks": 1,
@@ -17999,9 +19829,7 @@
     "titles": [
      "Rich Dad, Poor Dad"
     ],
-    "publishers": [
-     "First Borders Edition 2009"
-    ]
+    "publishers": []
    },
    "best_rank": 22,
    "weeks": 1,
@@ -18051,10 +19879,7 @@
      "Sapiens",
      "ההיסטוריה של המחר"
     ],
-    "publishers": [
-     "HarperCollins Publishers",
-     "Self-Published"
-    ]
+    "publishers": []
    },
    "best_rank": 20,
    "weeks": 1,
