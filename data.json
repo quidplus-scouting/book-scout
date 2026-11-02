@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-02T12:04+00:00",
+ "generated": "2026-11-02T14:05+00:00",
  "weeks_of_history": 1,
  "status": {
-  "amazon_ok": 22,
-  "amazon_blocked": 0,
+  "amazon_ok": 21,
+  "amazon_blocked": 1,
   "nyt": "non configurato",
-  "google_calls": 5,
-  "google_errors": 5,
-  "product_pages": 57
+  "google_calls": 25,
+  "google_errors": 14,
+  "product_pages": 0
  },
  "items": [
   {
@@ -34,14 +34,16 @@
    "amazon_url": "https://www.amazon.com/dp/1419782703",
    "format": "Hardcover",
    "rating": 4.8,
-   "reviews": 1220,
+   "reviews": 1222,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81uG4RY0uoL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "2026-10-20",
+   "publisher_us": "Amulet Books",
+   "description": "When the going gets tough, what's a wimpy kid to do? In Fight or Flight, Greg Heffley faces his biggest challenge yet as he becomes a target for the school bully. Luckily for Greg, his best friend, Rowley Jefferson, takes karate, so at least Greg's got someone in his corner. But an unexpected twist makes Greg realize he's facing an uphill battle. Will Greg step into the ring or throw in the towel?",
    "age_min": 8,
    "reading_age": "8 - 12 years",
    "pub_date_amz": "October 20, 2026",
-   "pub_date": "2026-10-20",
    "italy": {
-    "status": "da_verificare",
+    "status": "autore_tradotto",
     "titles": [
      "Cabin Fever",
      "Diary of a Wimpy Kid",
@@ -61,7 +63,7 @@
    "best_rank": 1,
    "weeks": 1,
    "days_since_pub": 13,
-   "score": 42,
+   "score": 45,
    "score_parts": {
     "classifica": 25,
     "longevita": 1,
@@ -72,7 +74,52 @@
    "reasons": [
     "#1 in Amazon Best Sellers · Children's Books",
     "uscito da 1 mesi",
-    "4.8★ su 1.220 recensioni"
+    "4.8★ su 1.222 recensioni"
+   ]
+  },
+  {
+   "key": "a:B0H2B1DH6L",
+   "title": "100,000 Whys for Kids: A Full-Color Visual Encyclopedia of Big Questions, Clear Answers, Science, Space, Animals, Nature, His",
+   "author": "Elliott Wonder",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 18
+    }
+   ],
+   "isbn13": null,
+   "asin": "B0H2B1DH6L",
+   "amazon_url": "https://www.amazon.com/dp/B0H2B1DH6L",
+   "format": "Paperback",
+   "rating": 4.4,
+   "reviews": 902,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81TY-sCrRxL._AC_UL300_SR300,200_.jpg",
+   "pub_date_amz": "May 18, 2026",
+   "pub_date": "2026-05-18",
+   "italy": {
+    "status": "autore_inedito",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 18,
+   "weeks": 1,
+   "days_since_pub": 168,
+   "score": 43,
+   "score_parts": {
+    "classifica": 16,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 15,
+    "recensioni": 10
+   },
+   "reasons": [
+    "#18 in Amazon Best Sellers · Children's Books",
+    "uscito da 5 mesi",
+    "4.4★ su 902 recensioni"
    ]
   },
   {
@@ -376,51 +423,6 @@
    ]
   },
   {
-   "key": "a:B0H2B1DH6L",
-   "title": "100,000 Whys for Kids: A Full-Color Visual Encyclopedia of Big Questions, Clear Answers, Science, Space, Animals, Nature, His",
-   "author": "Elliott Wonder",
-   "macro": [
-    "Bambini"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 18
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0H2B1DH6L",
-   "amazon_url": "https://www.amazon.com/dp/B0H2B1DH6L",
-   "format": "Paperback",
-   "rating": 4.4,
-   "reviews": 902,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81TY-sCrRxL._AC_UL300_SR300,200_.jpg",
-   "pub_date_amz": "May 18, 2026",
-   "pub_date": "2026-05-18",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 18,
-   "weeks": 1,
-   "days_since_pub": 168,
-   "score": 34,
-   "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 15,
-    "recensioni": 10
-   },
-   "reasons": [
-    "#18 in Amazon Best Sellers · Children's Books",
-    "uscito da 5 mesi",
-    "4.4★ su 902 recensioni"
-   ]
-  },
-  {
    "key": "i:9781546135401",
    "title": "Karen's New Year: A Graphic Novel (Baby-sitters Little Sister #13) (13) (Baby-Sitters Little Sister Graphix)",
    "author": "DK Yingst",
@@ -525,6 +527,52 @@
    "reasons": [
     "#2 in Amazon Best Sellers · Children's Books",
     "in uscita prossimamente"
+   ]
+  },
+  {
+   "key": "i:9781492664352",
+   "title": "How to Catch® a Turkey",
+   "author": "Adam Wallace",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 15
+    }
+   ],
+   "isbn13": "9781492664352",
+   "asin": "1492664359",
+   "amazon_url": "https://www.amazon.com/dp/1492664359",
+   "format": "Hardcover",
+   "rating": 4.8,
+   "reviews": 6622,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81P9B8sY4AL._AC_UL300_SR300,200_.jpg",
+   "age_min": 2,
+   "reading_age": "2 - 6 years",
+   "pub_date_amz": "September 4, 2018",
+   "pub_date": "2018-09-04",
+   "italy": {
+    "status": "autore_inedito",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 15,
+   "weeks": 1,
+   "days_since_pub": 2981,
+   "score": 33,
+   "score_parts": {
+    "classifica": 18,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#15 in Amazon Best Sellers · Children's Books",
+    "4.8★ su 6.622 recensioni"
    ]
   },
   {
@@ -793,7 +841,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0DFMZMKFJ",
    "format": "Audible Audiobook",
    "rating": 4.6,
-   "reviews": 49497,
+   "reviews": 49498,
    "image": "https://images-na.ssl-images-amazon.com/images/I/91tK0tVAf+L._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -812,7 +860,7 @@
    },
    "reasons": [
     "#1 in Amazon Best Sellers · Business & Money",
-    "4.6★ su 49.497 recensioni"
+    "4.6★ su 49.498 recensioni"
    ]
   },
   {
@@ -1039,7 +1087,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0H5L916Q4",
    "format": "Audible Audiobook",
    "rating": 4.9,
-   "reviews": 5546,
+   "reviews": 5548,
    "image": "https://images-na.ssl-images-amazon.com/images/I/A1z3cWXK3HL._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -1058,7 +1106,7 @@
    },
    "reasons": [
     "#1 in Amazon Best Sellers · Parenting & Relationships",
-    "4.9★ su 5.546 recensioni"
+    "4.9★ su 5.548 recensioni"
    ]
   },
   {
@@ -1261,47 +1309,6 @@
    "reasons": [
     "#2 in Amazon Best Sellers · Crafts, Hobbies & Home",
     "4.5★ su 7.910 recensioni"
-   ]
-  },
-  {
-   "key": "i:9780764566370",
-   "title": "Betty Crocker's Cooky Book (facsimile Edition): Classic Cookie Recipes from the Beloved 1963 Edition, with 450 Favorites from",
-   "author": "Betty Crocker",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 2
-    }
-   ],
-   "isbn13": "9780764566370",
-   "asin": "0764566377",
-   "amazon_url": "https://www.amazon.com/dp/0764566377",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 4194,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81M44pZ57VL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 2,
-   "weeks": 1,
-   "score": 31,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#2 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.8★ su 4.194 recensioni"
    ]
   },
   {
@@ -2068,10 +2075,12 @@
    "rating": 4.8,
    "reviews": 2256,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81ycxEs6EqL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "2011",
+   "publisher_us": "Houghton Mifflin Harcourt",
+   "description": "Presents a tribute to the creator of the giant balloons that fill the sky during the Macy's Thanksgiving Day Parade, tracing the work of artist Tony Sarg, whose innovative \"upside-down puppet\" creations have become the parade's trademark.",
    "age_min": 5,
    "reading_age": "5 - 8 years",
    "pub_date_amz": "November 1, 2011",
-   "pub_date": "2011-11-01",
    "italy": {
     "status": "da_verificare",
     "titles": [],
@@ -2079,7 +2088,7 @@
    },
    "best_rank": 5,
    "weeks": 1,
-   "days_since_pub": 5480,
+   "days_since_pub": 5784,
    "score": 29,
    "score_parts": {
     "classifica": 23,
@@ -2823,7 +2832,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0GLHWQ7B7",
    "format": "Audible Audiobook",
    "rating": 4.6,
-   "reviews": 812,
+   "reviews": 813,
    "image": "https://images-na.ssl-images-amazon.com/images/I/71PYjcI1U0L._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -2842,7 +2851,7 @@
    },
    "reasons": [
     "#1 in Amazon Novità · History",
-    "4.6★ su 812 recensioni"
+    "4.6★ su 813 recensioni"
    ]
   },
   {
@@ -3015,10 +3024,12 @@
    "rating": 4.9,
    "reviews": 57087,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81kZ3Gl3WKL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "1996-09-15",
+   "publisher_us": "Macmillan",
+   "description": "A pictorial representation of a question and answer game played by a teacher and her group.",
    "age_min": 1,
    "reading_age": "1 - 3 years",
    "pub_date_amz": "September 15, 1996",
-   "pub_date": "1996-09-15",
    "italy": {
     "status": "da_verificare",
     "titles": [],
@@ -3196,8 +3207,8 @@
    "asin": "B0HJMB9G9R",
    "amazon_url": "https://www.amazon.com/dp/B0HJMB9G9R",
    "format": "Kindle Edition",
-   "rating": 4.5,
-   "reviews": 104,
+   "rating": 4.4,
+   "reviews": 98,
    "image": "https://images-na.ssl-images-amazon.com/images/I/71DUVCw4JpL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "age_min": 4,
    "reading_age": "4 - 17 years",
@@ -3243,7 +3254,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HFW1PL2Y",
    "format": "Kindle Edition",
    "rating": 4.5,
-   "reviews": 202,
+   "reviews": 200,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81B+zrMjLyL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "age_min": 3,
    "reading_age": "3 - 7 years",
@@ -3556,47 +3567,6 @@
    ]
   },
   {
-   "key": "a:B07PJL9BZC",
-   "title": "Martha Stewart's Cookie Perfection: 100+ Recipes to Take Your Sweet Treats to the Next Level: A Baking Book",
-   "author": "Editors of Martha Stewart Living",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 5
-    }
-   ],
-   "isbn13": null,
-   "asin": "B07PJL9BZC",
-   "amazon_url": "https://www.amazon.com/dp/B07PJL9BZC",
-   "format": "Kindle Edition",
-   "rating": 4.7,
-   "reviews": 1529,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81v4sylho3L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 5,
-   "weeks": 1,
-   "score": 28,
-   "score_parts": {
-    "classifica": 23,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 11
-   },
-   "reasons": [
-    "#5 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.7★ su 1.529 recensioni"
-   ]
-  },
-  {
    "key": "i:9780306837517",
    "title": "PlantYou Quickies: 140+ Nourishing Plant-Based Recipes for Busy People",
    "author": "Carleigh Bodrug",
@@ -3604,11 +3574,6 @@
     "Manualistica e varia"
    ],
    "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 6
-    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -3650,94 +3615,6 @@
    "reasons": [
     "#3 in Amazon Novità · Cookbooks, Food & Wine",
     "4.9★ su 541 recensioni"
-   ]
-  },
-  {
-   "key": "i:9780062409959",
-   "title": "Appetites: A Cookbook",
-   "author": "Anthony Bourdain",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 11
-    }
-   ],
-   "isbn13": "9780062409959",
-   "asin": "0062409956",
-   "amazon_url": "https://www.amazon.com/dp/0062409956",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 5063,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91HboHo-STL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 11,
-   "weeks": 1,
-   "score": 28,
-   "score_parts": {
-    "classifica": 20,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#11 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.8★ su 5.063 recensioni"
-   ]
-  },
-  {
-   "key": "a:B09S4MDZHZ",
-   "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More than They Expect",
-   "author": "Will Guidara",
-   "macro": [
-    "Manualistica e varia",
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 13
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Business & Money",
-     "rank": 10
-    }
-   ],
-   "isbn13": "9780593418574",
-   "asin": "B09S4MDZHZ",
-   "amazon_url": "https://www.amazon.com/dp/B09S4MDZHZ",
-   "format": "Audible Audiobook",
-   "rating": 4.7,
-   "reviews": 7310,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71hQ0JFkAXL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 10,
-   "weeks": 1,
-   "score": 28,
-   "score_parts": {
-    "classifica": 20,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#10 in Amazon Best Sellers · Business & Money",
-    "4.7★ su 7.310 recensioni"
    ]
   },
   {
@@ -3835,6 +3712,47 @@
    "reasons": [
     "#11 in Amazon Best Sellers · Parenting & Relationships",
     "4.7★ su 15.699 recensioni"
+   ]
+  },
+  {
+   "key": "i:9780593418574",
+   "title": "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect (The Unreasonable Hospitality Collectio",
+   "author": "Will Guidara",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Business & Money",
+     "rank": 10
+    }
+   ],
+   "isbn13": "9780593418574",
+   "asin": "0593418573",
+   "amazon_url": "https://www.amazon.com/dp/0593418573",
+   "format": "Hardcover",
+   "rating": 4.7,
+   "reviews": 7310,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71KOER-LUQL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 10,
+   "weeks": 1,
+   "score": 28,
+   "score_parts": {
+    "classifica": 20,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#10 in Amazon Best Sellers · Business & Money",
+    "4.7★ su 7.310 recensioni"
    ]
   },
   {
@@ -4088,10 +4006,12 @@
    "rating": 4.8,
    "reviews": 4242,
    "image": "https://images-na.ssl-images-amazon.com/images/I/A18OnuYW2dL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "2021-08-03",
+   "publisher_us": "Sourcebooks Jabberwocky",
+   "description": "Perfect for fans of Fletcher and the Falling Leaves, The Leaf Thiefis a funny picture book that teaches kids about autumn, adapting to change, and the seasons. Squirrel loves counting the leaves on his tree--red leaves, gold leaves, orange, and more. But hold on! One of his leaves is missing! On a quest to find the missing leaf, Squirrel teams up with his good friend Bird to discover who the leaf ",
    "age_min": 2,
    "reading_age": "2 - 5 years",
    "pub_date_amz": "August 3, 2021",
-   "pub_date": "2021-08-03",
    "italy": {
     "status": "da_verificare",
     "titles": [],
@@ -4690,11 +4610,6 @@
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 1
-    },
-    {
-     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 1
     }
@@ -4722,129 +4637,7 @@
     "recensioni": 7
    },
    "reasons": [
-    "#1 in Amazon Best Sellers · Cookbooks, Food & Wine"
-   ]
-  },
-  {
-   "key": "a:B0G4XZ6H4L",
-   "title": "The Ultimate Dry Mix Pantry Cookbook: 150+ Easy, Budget-Friendly Homemade Recipes for Quick Meals, Clean Ingredients, & an Or",
-   "author": "Lila Andersen",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 4
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0G4XZ6H4L",
-   "amazon_url": "https://www.amazon.com/dp/B0G4XZ6H4L",
-   "format": "Kindle Edition",
-   "rating": 4.6,
-   "reviews": 382,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81vUyRGr+zL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 4,
-   "weeks": 1,
-   "score": 27,
-   "score_parts": {
-    "classifica": 24,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 9
-   },
-   "reasons": [
-    "#4 in Amazon Best Sellers · Cookbooks, Food & Wine"
-   ]
-  },
-  {
-   "key": "i:9780736978941",
-   "title": "The Homestead Canning Cookbook: 150+ Recipes for Home Food Preservation | Water Bath and Pressure Canning (The Homestead Esse",
-   "author": "Georgia Varozza",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 10
-    }
-   ],
-   "isbn13": "9780736978941",
-   "asin": "0736978941",
-   "amazon_url": "https://www.amazon.com/dp/0736978941",
-   "format": "Paperback",
-   "rating": 4.7,
-   "reviews": 2048,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81DzAupd1rL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 10,
-   "weeks": 1,
-   "score": 27,
-   "score_parts": {
-    "classifica": 20,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 12
-   },
-   "reasons": [
-    "#10 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.7★ su 2.048 recensioni"
-   ]
-  },
-  {
-   "key": "i:9780778801313",
-   "title": "Ball Complete Book of Home Preserving",
-   "author": "Judi Kingry",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 15
-    }
-   ],
-   "isbn13": "9780778801313",
-   "asin": "0778801314",
-   "amazon_url": "https://www.amazon.com/dp/0778801314",
-   "format": "Paperback",
-   "rating": 4.8,
-   "reviews": 22623,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71cMY5jsc1L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 15,
-   "weeks": 1,
-   "score": 27,
-   "score_parts": {
-    "classifica": 18,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#15 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.8★ su 22.623 recensioni"
+    "#1 in Amazon Novità · Cookbooks, Food & Wine"
    ]
   },
   {
@@ -5208,52 +5001,6 @@
    ]
   },
   {
-   "key": "i:9781492664352",
-   "title": "How to Catch® a Turkey",
-   "author": "Adam Wallace",
-   "macro": [
-    "Bambini"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 15
-    }
-   ],
-   "isbn13": "9781492664352",
-   "asin": "1492664359",
-   "amazon_url": "https://www.amazon.com/dp/1492664359",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 6622,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81P9B8sY4AL._AC_UL300_SR300,200_.jpg",
-   "age_min": 2,
-   "reading_age": "2 - 6 years",
-   "pub_date_amz": "September 4, 2018",
-   "pub_date": "2018-09-04",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 15,
-   "weeks": 1,
-   "days_since_pub": 2981,
-   "score": 26,
-   "score_parts": {
-    "classifica": 18,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#15 in Amazon Best Sellers · Children's Books",
-    "4.8★ su 6.622 recensioni"
-   ]
-  },
-  {
    "key": "a:B07V5QYVHG",
    "title": "The Ballad of Songbirds and Snakes: A Hunger Games Novel",
    "author": "Suzanne Collins",
@@ -5312,66 +5059,6 @@
    ]
   },
   {
-   "key": "i:9781558585362",
-   "title": "The Rainbow Fish",
-   "author": "Marcus Pfister",
-   "macro": [
-    "Bambini"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Children's Books",
-     "rank": 17
-    }
-   ],
-   "isbn13": "9781558585362",
-   "asin": "1558585362",
-   "amazon_url": "https://www.amazon.com/dp/1558585362",
-   "format": "Board book",
-   "rating": 4.8,
-   "reviews": 9558,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81YNkSjQ+XL._AC_UL300_SR300,200_.jpg",
-   "age_min": 0,
-   "reading_age": "Baby - 3 years",
-   "pub_date_amz": "January 27, 1999",
-   "pub_date": "1999-01-27",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [
-     "Das Regenbogenfisch Puzzlebuch",
-     "Der Regenbogenfisch",
-     "Der Regenbogenfisch stiftet Frieden",
-     "Der kleine Dino",
-     "Fiocco, il coniglietto delle nevi",
-     "Hoppel findet einen Freund"
-    ],
-    "publishers": [
-     "Editions Nord-Sud",
-     "North-South / Night Sky Books",
-     "NorthSouth",
-     "NorthSouth Books",
-     "Parramón",
-     "Sigong Juniŏ"
-    ]
-   },
-   "best_rank": 17,
-   "weeks": 1,
-   "days_since_pub": 10141,
-   "score": 26,
-   "score_parts": {
-    "classifica": 17,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#17 in Amazon Best Sellers · Children's Books",
-    "4.8★ su 9.558 recensioni"
-   ]
-  },
-  {
    "key": "i:9781589255517",
    "title": "I Love You to the Moon and Back",
    "author": "Amelia Hepworth",
@@ -5392,8 +5079,10 @@
    "rating": 4.9,
    "reviews": 82815,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL300_SR300,200_.jpg",
-   "pub_date_amz": "March 3, 2015",
    "pub_date": "2015-03-03",
+   "publisher_us": "Tiger Tales",
+   "description": "Show your child just how strong your love is every minute of the day! Features a \"To\" and \"From\" personalization page, making this sweet board book an ideal gift for baby showers, birthdays, and new parents. The sun rises, and a bear and cub begin their day together. They splash in the water, climb mountains, watch the colorful lights in the shimmering sky, and play with friends. They show their l",
+   "pub_date_amz": "March 3, 2015",
    "italy": {
     "status": "da_verificare",
     "titles": [],
@@ -5781,11 +5470,6 @@
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 7
-    },
-    {
-     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 4
     }
@@ -5814,88 +5498,6 @@
    },
    "reasons": [
     "#4 in Amazon Novità · Cookbooks, Food & Wine"
-   ]
-  },
-  {
-   "key": "i:9781561486403",
-   "title": "Fix-It and Forget-It Big Cookbook: 1400 Best Slow Cooker Recipes!",
-   "author": "Phyllis Good",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 14
-    }
-   ],
-   "isbn13": "9781561486403",
-   "asin": "156148640X",
-   "amazon_url": "https://www.amazon.com/dp/156148640X",
-   "format": "Hardcover",
-   "rating": 4.6,
-   "reviews": 5981,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71o4MCiay5L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 14,
-   "weeks": 1,
-   "score": 26,
-   "score_parts": {
-    "classifica": 18,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#14 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.6★ su 5.981 recensioni"
-   ]
-  },
-  {
-   "key": "i:9781492670025",
-   "title": "The Complete Cookbook for Young Chefs: 100+ Recipes that You'll Love to Cook and Eat",
-   "author": "America’s Test Kitchen Kids",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 18
-    }
-   ],
-   "isbn13": "9781492670025",
-   "asin": "1492670022",
-   "amazon_url": "https://www.amazon.com/dp/1492670022",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 25603,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91GqAI8VDUL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 18,
-   "weeks": 1,
-   "score": 26,
-   "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#18 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.8★ su 25.603 recensioni"
    ]
   },
   {
@@ -6898,47 +6500,6 @@
    },
    "reasons": [
     "#8 in Amazon Novità · Crafts, Hobbies & Home"
-   ]
-  },
-  {
-   "key": "i:9781476753836",
-   "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
-   "author": "Samin Nosrat",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 20
-    }
-   ],
-   "isbn13": "9781476753836",
-   "asin": "1476753830",
-   "amazon_url": "https://www.amazon.com/dp/1476753830",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 24321,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81JVTtQzJ+L._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 20,
-   "weeks": 1,
-   "score": 25,
-   "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#20 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.8★ su 24.321 recensioni"
    ]
   },
   {
@@ -7955,11 +7516,6 @@
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 12
-    },
-    {
-     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 7
     }
@@ -7991,135 +7547,6 @@
    ]
   },
   {
-   "key": "a:B09MHH9T6Z",
-   "title": "Be A Plant-Based Woman Warrior: Live Fierce, Stay Bold, Eat Delicious: A Cookbook",
-   "author": "Jane Esselstyn",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 16
-    }
-   ],
-   "isbn13": null,
-   "asin": "B09MHH9T6Z",
-   "amazon_url": "https://www.amazon.com/dp/B09MHH9T6Z",
-   "format": "Kindle Edition",
-   "rating": 4.7,
-   "reviews": 1829,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/A1gaMrpCgQL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 16,
-   "weeks": 1,
-   "score": 24,
-   "score_parts": {
-    "classifica": 18,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 11
-   },
-   "reasons": [
-    "#16 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.7★ su 1.829 recensioni"
-   ]
-  },
-  {
-   "key": "i:9780142001615",
-   "title": "Salt: A World History",
-   "author": "Mark Kurlansky",
-   "macro": [
-    "Manualistica e varia",
-    "Saggistica"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 17
-    },
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Science & Math",
-     "rank": 25
-    }
-   ],
-   "isbn13": "9780142001615",
-   "asin": "0142001619",
-   "amazon_url": "https://www.amazon.com/dp/0142001619",
-   "format": "Paperback",
-   "rating": 4.3,
-   "reviews": 4651,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71MSytdEgVL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 17,
-   "weeks": 1,
-   "score": 24,
-   "score_parts": {
-    "classifica": 17,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 12
-   },
-   "reasons": [
-    "#17 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.3★ su 4.651 recensioni"
-   ]
-  },
-  {
-   "key": "i:9781645174424",
-   "title": "Recipes from the World of Tolkien - Tolkien Reference Book, Literary Cookbook: Inspired by the Legends",
-   "author": "Robert Tuesley Anderson",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 21
-    }
-   ],
-   "isbn13": "9781645174424",
-   "asin": "1645174425",
-   "amazon_url": "https://www.amazon.com/dp/1645174425",
-   "format": "Hardcover",
-   "rating": 4.8,
-   "reviews": 5174,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/815ZhKLmpOL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 21,
-   "weeks": 1,
-   "score": 24,
-   "score_parts": {
-    "classifica": 15,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#21 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.8★ su 5.174 recensioni"
-   ]
-  },
-  {
    "key": "i:9781454963264",
    "title": "What to Cook When You Don’t Feel Like Cooking: Make It Fast",
    "author": "Caroline Chambers",
@@ -8127,11 +7554,6 @@
     "Manualistica e varia"
    ],
    "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 26
-    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -8356,7 +7778,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HGP6KPZQ",
    "format": "Kindle Edition",
    "rating": 4.1,
-   "reviews": 1359,
+   "reviews": 1356,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81B+B4cOnmL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -8375,7 +7797,7 @@
    },
    "reasons": [
     "#13 in Amazon Novità · Parenting & Relationships",
-    "4.1★ su 1.359 recensioni"
+    "4.1★ su 1.356 recensioni"
    ]
   },
   {
@@ -8844,7 +8266,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0D943SQXV",
    "format": "Paperback",
    "rating": 4.8,
-   "reviews": 8085,
+   "reviews": 8086,
    "image": "https://images-na.ssl-images-amazon.com/images/I/71jfsEP8G4L._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -8863,7 +8285,7 @@
    },
    "reasons": [
     "#25 in Amazon Best Sellers · Crafts, Hobbies & Home",
-    "4.8★ su 8.085 recensioni"
+    "4.8★ su 8.086 recensioni"
    ]
   },
   {
@@ -8947,88 +8369,6 @@
    ]
   },
   {
-   "key": "a:B00005AAQ7",
-   "title": "Kitchen Confidential: Adventures in the Culinary Underbelly",
-   "author": "Anthony Bourdain",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 22
-    }
-   ],
-   "isbn13": null,
-   "asin": "B00005AAQ7",
-   "amazon_url": "https://www.amazon.com/dp/B00005AAQ7",
-   "format": "Audible Audiobook",
-   "rating": 4.5,
-   "reviews": 27870,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71TqnCYXPaL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 22,
-   "weeks": 1,
-   "score": 23,
-   "score_parts": {
-    "classifica": 14,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#22 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.5★ su 27.870 recensioni"
-   ]
-  },
-  {
-   "key": "a:B0CWMNP1S4",
-   "title": "Be Ready When the Luck Happens: A Memoir",
-   "author": "Ina Garten",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 23
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0CWMNP1S4",
-   "amazon_url": "https://www.amazon.com/dp/B0CWMNP1S4",
-   "format": "Audible Audiobook",
-   "rating": 4.6,
-   "reviews": 15170,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91BX+mhkfoL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 23,
-   "weeks": 1,
-   "score": 23,
-   "score_parts": {
-    "classifica": 14,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#23 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.6★ su 15.170 recensioni"
-   ]
-  },
-  {
    "key": "a:B0HJXTPBFK",
    "title": "The Amish Dry Mix Pantry Cookbook: 150 Easy, Budget-Friendly From-Scratch Baking Mixes, Soups, Gravies & Seasonings | Shop On",
    "author": "Molly Danvers",
@@ -9036,11 +8376,6 @@
     "Manualistica e varia"
    ],
    "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 24
-    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -9703,7 +9038,7 @@
    "amazon_url": "https://www.amazon.com/dp/B018V1AW2A",
    "format": "Kindle Edition",
    "rating": 3.6,
-   "reviews": 1010,
+   "reviews": 1009,
    "image": "https://images-na.ssl-images-amazon.com/images/I/818KmznGtlL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -9738,7 +9073,7 @@
    },
    "reasons": [
     "#12 in Amazon Best Sellers · Biographies & Memoirs",
-    "3.6★ su 1.010 recensioni"
+    "3.6★ su 1.009 recensioni"
    ]
   },
   {
@@ -10147,11 +9482,6 @@
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 29
-    },
-    {
-     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 11
     },
@@ -10377,7 +9707,7 @@
    "amazon_url": "https://www.amazon.com/dp/1622038320",
    "format": "Paperback",
    "rating": 4.7,
-   "reviews": 16773,
+   "reviews": 16772,
    "image": "https://images-na.ssl-images-amazon.com/images/I/91gWSXWDVoL._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -10396,7 +9726,7 @@
    },
    "reasons": [
     "#26 in Amazon Best Sellers · Parenting & Relationships",
-    "4.7★ su 16.773 recensioni"
+    "4.7★ su 16.772 recensioni"
    ]
   },
   {
@@ -10459,7 +9789,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HFPYHRN3",
    "format": "Kindle Edition",
    "rating": 4.4,
-   "reviews": 263,
+   "reviews": 260,
    "image": "https://images-na.ssl-images-amazon.com/images/I/71WiG25cNbL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -10499,7 +9829,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HJFVKMG9",
    "format": "Kindle Edition",
    "rating": 4.1,
-   "reviews": 456,
+   "reviews": 452,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81b4d1lU5aL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -10758,8 +10088,8 @@
    "asin": "B0GBYWSX14",
    "amazon_url": "https://www.amazon.com/dp/B0GBYWSX14",
    "format": "Audible Audiobook",
-   "rating": 4.0,
-   "reviews": 20,
+   "rating": 4.1,
+   "reviews": 21,
    "image": "https://images-na.ssl-images-amazon.com/images/I/7138MtOIyNL._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -11218,11 +10548,6 @@
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 3
-    },
-    {
-     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 2
     }
@@ -11668,6 +10993,47 @@
    ]
   },
   {
+   "key": "i:9780142001615",
+   "title": "Salt: A World History",
+   "author": "Mark Kurlansky",
+   "macro": [
+    "Saggistica"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Science & Math",
+     "rank": 25
+    }
+   ],
+   "isbn13": "9780142001615",
+   "asin": "0142001619",
+   "amazon_url": "https://www.amazon.com/dp/0142001619",
+   "format": "Paperback",
+   "rating": 4.3,
+   "reviews": 4651,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/71MSytdEgVL._AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 25,
+   "weeks": 1,
+   "score": 21,
+   "score_parts": {
+    "classifica": 13,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 12
+   },
+   "reasons": [
+    "#25 in Amazon Best Sellers · Science & Math",
+    "4.3★ su 4.651 recensioni"
+   ]
+  },
+  {
    "key": "i:9781645471165",
    "title": "The Happiness Trap (Second Edition): How to Stop Struggling and Start Living",
    "author": "Russ Harris",
@@ -11869,7 +11235,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HJZMZKRQ",
    "format": "Audible Audiobook",
    "rating": 4.8,
-   "reviews": 2497,
+   "reviews": 2495,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81HHvzFr1UL._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -11888,7 +11254,7 @@
    },
    "reasons": [
     "#25 in Amazon Novità · Science & Math",
-    "4.8★ su 2.497 recensioni"
+    "4.8★ su 2.495 recensioni"
    ]
   },
   {
@@ -12094,7 +11460,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0H42M661T",
    "format": "Kindle Edition",
    "rating": 4.2,
-   "reviews": 54,
+   "reviews": 53,
    "image": "https://images-na.ssl-images-amazon.com/images/I/91Uy-9Ft+XL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -12395,136 +11761,6 @@
    ]
   },
   {
-   "key": "a:B0FMYKGJ14",
-   "title": "Spain My Way: Eat, Drink, and Cook Like a Spaniard",
-   "author": "José Andrés",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 19
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0FMYKGJ14",
-   "amazon_url": "https://www.amazon.com/dp/B0FMYKGJ14",
-   "format": "Kindle Edition",
-   "rating": 4.8,
-   "reviews": 128,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81w6oAej9BL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [
-     "Paradiso"
-    ],
-    "publishers": [
-     "Editora Brasiliense"
-    ]
-   },
-   "best_rank": 19,
-   "weeks": 1,
-   "score": 20,
-   "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 8
-   },
-   "reasons": [
-    "#19 in Amazon Best Sellers · Cookbooks, Food & Wine"
-   ]
-  },
-  {
-   "key": "i:9780593138410",
-   "title": "The Perfect Loaf: The Craft and Science of Sourdough Breads, Sweets, and More: A Baking Book",
-   "author": "Maurizio Leo",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 28
-    }
-   ],
-   "isbn13": "9780593138410",
-   "asin": "0593138414",
-   "amazon_url": "https://www.amazon.com/dp/0593138414",
-   "format": "Hardcover",
-   "rating": 4.7,
-   "reviews": 3590,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/91317KnOnRL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [
-     "Le imposte sui redditi nel testo unico"
-    ],
-    "publishers": [
-     "A. Giuffrè"
-    ]
-   },
-   "best_rank": 28,
-   "weeks": 1,
-   "score": 20,
-   "score_parts": {
-    "classifica": 12,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 13
-   },
-   "reasons": [
-    "#28 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.7★ su 3.590 recensioni"
-   ]
-  },
-  {
-   "key": "i:9781948703949",
-   "title": "The Complete Mediterranean Cookbook Gift Edition: 500 Vibrant, Kitchen-Tested Recipes for Living and Eating Well Every Day",
-   "author": "America's Test Kitchen",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 30
-    }
-   ],
-   "isbn13": "9781948703949",
-   "asin": "1948703947",
-   "amazon_url": "https://www.amazon.com/dp/1948703947",
-   "format": "Hardcover",
-   "rating": 4.5,
-   "reviews": 22228,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/918EzSkFnmL._AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 30,
-   "weeks": 1,
-   "score": 20,
-   "score_parts": {
-    "classifica": 10,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 14
-   },
-   "reasons": [
-    "#30 in Amazon Best Sellers · Cookbooks, Food & Wine",
-    "4.5★ su 22.228 recensioni"
-   ]
-  },
-  {
    "key": "a:B0GL4W27PX",
    "title": "Dust to Dust: Aging Wisely in an Anti-Aging World",
    "author": "Jen Wilkin",
@@ -12562,46 +11798,6 @@
    },
    "reasons": [
     "#22 in Amazon Best Sellers · Parenting & Relationships"
-   ]
-  },
-  {
-   "key": "a:B0HHC9PQXB",
-   "title": "My Cheating Husband Didn’t Know I Was an Heiress: a Marriage in Crisis with Revenge Romance",
-   "author": "Diana  Force",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Novità · Parenting & Relationships",
-     "rank": 18
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0HHC9PQXB",
-   "amazon_url": "https://www.amazon.com/dp/B0HHC9PQXB",
-   "format": "Kindle Edition",
-   "rating": 4.2,
-   "reviews": 147,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/81wLOYu4rEL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 18,
-   "weeks": 1,
-   "score": 20,
-   "score_parts": {
-    "classifica": 16,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 7
-   },
-   "reasons": [
-    "#18 in Amazon Novità · Parenting & Relationships"
    ]
   },
   {
@@ -13398,11 +12594,6 @@
    "appearances": [
     {
      "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 8
-    },
-    {
-     "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
      "rank": 5
     }
@@ -13439,11 +12630,6 @@
     "Manualistica e varia"
    ],
    "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 9
-    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -13640,6 +12826,46 @@
    ]
   },
   {
+   "key": "a:B0HHC9PQXB",
+   "title": "My Cheating Husband Didn’t Know I Was an Heiress: a Marriage in Crisis with Revenge Romance",
+   "author": "Diana  Force",
+   "macro": [
+    "Manualistica e varia"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Novità · Parenting & Relationships",
+     "rank": 18
+    }
+   ],
+   "isbn13": null,
+   "asin": "B0HHC9PQXB",
+   "amazon_url": "https://www.amazon.com/dp/B0HHC9PQXB",
+   "format": "Kindle Edition",
+   "rating": 4.1,
+   "reviews": 140,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81wLOYu4rEL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
+   "italy": {
+    "status": "da_verificare",
+    "titles": [],
+    "publishers": []
+   },
+   "best_rank": 18,
+   "weeks": 1,
+   "score": 19,
+   "score_parts": {
+    "classifica": 16,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 7
+   },
+   "reasons": [
+    "#18 in Amazon Novità · Parenting & Relationships"
+   ]
+  },
+  {
    "key": "a:B0HHZJXVLD",
    "title": "Humiliated, Betrayed Wife of a Billionaire Husband: A Billionaire, Marriage-in-Crisis, Second-Chance Romance (Billionaire Mar",
    "author": "CM Maya",
@@ -13658,7 +12884,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HHZJXVLD",
    "format": "Kindle Edition",
    "rating": 4.0,
-   "reviews": 695,
+   "reviews": 693,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81BQG3f3PKL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -13677,7 +12903,7 @@
    },
    "reasons": [
     "#22 in Amazon Novità · Parenting & Relationships",
-    "4.0★ su 695 recensioni"
+    "4.0★ su 693 recensioni"
    ]
   },
   {
@@ -14090,46 +13316,6 @@
    ]
   },
   {
-   "key": "a:B0CQKB3XJZ",
-   "title": "Love Your Gut: Supercharge Your Digestive Health and Transform Your Well-Being from the Inside Out",
-   "author": "Megan Rossi",
-   "macro": [
-    "Manualistica e varia"
-   ],
-   "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 25
-    }
-   ],
-   "isbn13": null,
-   "asin": "B0CQKB3XJZ",
-   "amazon_url": "https://www.amazon.com/dp/B0CQKB3XJZ",
-   "format": "Kindle Edition",
-   "rating": 4.7,
-   "reviews": 311,
-   "image": "https://images-na.ssl-images-amazon.com/images/I/71kGZUAU9sL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
-   "italy": {
-    "status": "da_verificare",
-    "titles": [],
-    "publishers": []
-   },
-   "best_rank": 25,
-   "weeks": 1,
-   "score": 18,
-   "score_parts": {
-    "classifica": 13,
-    "longevita": 1,
-    "crescita": 0,
-    "novita": 0,
-    "recensioni": 9
-   },
-   "reasons": [
-    "#25 in Amazon Best Sellers · Cookbooks, Food & Wine"
-   ]
-  },
-  {
    "key": "i:9781668227725",
    "title": "We Thought They'd Never Leave: Musings on Food and Family",
    "author": "Tony Shalhoub",
@@ -14311,7 +13497,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HH6XZXT4",
    "format": "Kindle Edition",
    "rating": 4.0,
-   "reviews": 585,
+   "reviews": 584,
    "image": "https://images-na.ssl-images-amazon.com/images/I/71of-cn-c4L._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -14330,7 +13516,7 @@
    },
    "reasons": [
     "#25 in Amazon Novità · Parenting & Relationships",
-    "4.0★ su 585 recensioni"
+    "4.0★ su 584 recensioni"
    ]
   },
   {
@@ -14875,11 +14061,6 @@
     "Saggistica"
    ],
    "appearances": [
-    {
-     "source": "amazon",
-     "list": "Amazon Best Sellers · Cookbooks, Food & Wine",
-     "rank": 27
-    },
     {
      "source": "amazon",
      "list": "Amazon Novità · Cookbooks, Food & Wine",
@@ -16491,7 +15672,7 @@
    "amazon_url": "https://www.amazon.com/dp/B0HHGNNZTB",
    "format": "Kindle Edition",
    "rating": 4.1,
-   "reviews": 138,
+   "reviews": 130,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81ZKbgcmXwL._UX300__PJkp-sticker-v1,TopRight,0,-50_AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -17619,8 +16800,8 @@
    "rating": 4.8,
    "reviews": 87633,
    "image": "https://images-na.ssl-images-amazon.com/images/I/91StjD1Gd4L._AC_UL300_SR300,200_.jpg",
+   "pub_date": "2026",
    "pub_date_amz": "April 14, 2026",
-   "pub_date": "2026-04-14",
    "italy": {
     "status": "tradotto",
     "match": "Harry Potter and the Half-Blood Prince",
@@ -17645,7 +16826,7 @@
    },
    "best_rank": 3,
    "weeks": 1,
-   "days_since_pub": 202,
+   "days_since_pub": 305,
    "score": 10,
    "score_parts": {
     "classifica": 24,
@@ -17677,6 +16858,8 @@
    "asin": "B0HPG99ZQL",
    "amazon_url": "https://www.amazon.com/dp/B0HPG99ZQL",
    "format": "Paperback",
+   "rating": 5.0,
+   "reviews": 1,
    "image": "https://images-na.ssl-images-amazon.com/images/I/71SM2s4LvnL._AC_UL300_SR300,200_.jpg",
    "italy": {
     "status": "da_verificare",
@@ -18332,6 +17515,69 @@
    ]
   },
   {
+   "key": "i:9781558585362",
+   "title": "The Rainbow Fish",
+   "author": "Marcus Pfister",
+   "macro": [
+    "Bambini"
+   ],
+   "appearances": [
+    {
+     "source": "amazon",
+     "list": "Amazon Best Sellers · Children's Books",
+     "rank": 17
+    }
+   ],
+   "isbn13": "9781558585362",
+   "asin": "1558585362",
+   "amazon_url": "https://www.amazon.com/dp/1558585362",
+   "format": "Board book",
+   "rating": 4.8,
+   "reviews": 9558,
+   "image": "https://images-na.ssl-images-amazon.com/images/I/81YNkSjQ+XL._AC_UL300_SR300,200_.jpg",
+   "pub_date": "1996",
+   "publisher_us": "North South Books",
+   "description": "The most beautiful fish in the entire ocean discovers the real value of personal beauty and friendship. On board pages.",
+   "age_min": 0,
+   "reading_age": "Baby - 3 years",
+   "pub_date_amz": "January 27, 1999",
+   "italy": {
+    "status": "tradotto",
+    "match": "The Rainbow Fish/Il pesce Arcobaleno English/Italian",
+    "titles": [
+     "Das Regenbogenfisch Puzzlebuch",
+     "Der Regenbogenfisch",
+     "Der Regenbogenfisch stiftet Frieden",
+     "Der kleine Dino",
+     "Fiocco, il coniglietto delle nevi",
+     "Hoppel findet einen Freund"
+    ],
+    "publishers": [
+     "Editions Nord-Sud",
+     "North-South / Night Sky Books",
+     "NorthSouth",
+     "NorthSouth Books",
+     "Parramón",
+     "Sigong Juniŏ"
+    ]
+   },
+   "best_rank": 17,
+   "weeks": 1,
+   "days_since_pub": 11263,
+   "score": 7,
+   "score_parts": {
+    "classifica": 17,
+    "longevita": 1,
+    "crescita": 0,
+    "novita": 0,
+    "recensioni": 14
+   },
+   "reasons": [
+    "#17 in Amazon Best Sellers · Children's Books",
+    "4.8★ su 9.558 recensioni"
+   ]
+  },
+  {
    "key": "a:B0006IU7JK",
    "title": "How to Win Friends & Influence People",
    "author": "Dale Carnegie",
@@ -18686,7 +17932,7 @@
    "amazon_url": "https://www.amazon.com/dp/B07T6BQV2L",
    "format": "Audible Audiobook",
    "rating": 4.7,
-   "reviews": 87717,
+   "reviews": 87732,
    "image": "https://images-na.ssl-images-amazon.com/images/I/81SKNqIndVL._AC_UL300_SR300,200_.jpg",
    "pub_date_amz": "June 17, 2019",
    "pub_date": "2019-06-17",
@@ -18723,7 +17969,7 @@
    },
    "reasons": [
     "#25 in Amazon Best Sellers · Children's Books",
-    "4.7★ su 87.717 recensioni"
+    "4.7★ su 87.732 recensioni"
    ]
   },
   {
