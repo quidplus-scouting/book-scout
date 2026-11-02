@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Scout</title>
+<style>
+:root {
+  --bg: #f6f4ef; --card: #ffffff; --ink: #1d1c1a; --muted: #6b675f; --line: #e3dfd6;
+  --accent: #b4462b; --good: #2f7a4a; --warn: #a86b00; --bad: #8a8a8a; --chip: #efebe2;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161514; --card: #201f1d; --ink: #ece9e3; --muted: #a29d93; --line: #34322e;
+    --accent: #e0745a; --good: #6cc08a; --warn: #e0a640; --bad: #77736c; --chip: #2b2a27;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { padding: 28px 16px 8px; max-width: 1180px; margin: 0 auto; }
+h1 { margin: 0; font: 600 28px/1.1 Georgia, serif; letter-spacing: -.01em; }
+h1 span { color: var(--accent); }
+.sub { color: var(--muted); margin-top: 6px; font-size: 13px; }
+.controls { position: sticky; top: 0; z-index: 2; background: var(--bg);
+  border-bottom: 1px solid var(--line); }
+.controls .in { max-width: 1180px; margin: 0 auto; padding: 10px 16px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { border: 0; background: var(--card); color: var(--ink); padding: 7px 11px;
+  font: inherit; font-size: 13px; cursor: pointer; border-right: 1px solid var(--line); }
+.seg button:last-child { border-right: 0; }
+.seg button.on { background: var(--ink); color: var(--bg); }
+input[type=search], select { font: inherit; font-size: 13px; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+input[type=search] { flex: 1 1 180px; min-width: 0; }
+label.chk { font-size: 13px; color: var(--muted); display: inline-flex; gap: 5px; align-items: center; }
+main { max-width: 1180px; margin: 0 auto; padding: 14px 16px 60px; }
+.count { color: var(--muted); font-size: 13px; margin: 2px 0 12px; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+@media (max-width: 420px) { .grid { grid-template-columns: 1fr; } }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px;
+  display: grid; grid-template-columns: 74px 1fr; gap: 12px; }
+.cover { width: 74px; height: 108px; object-fit: cover; border-radius: 4px; background: var(--chip); }
+.top { display: flex; justify-content: space-between; gap: 8px; align-items: start; }
+.title { font-weight: 600; line-height: 1.25; }
+.author { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.score { flex: none; font: 600 18px/1 Georgia, serif; color: var(--accent); text-align: right; }
+.score small { display: block; font: 11px system-ui; color: var(--muted); margin-top: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 6px; }
+.chip { font-size: 11.5px; padding: 2px 7px; border-radius: 99px; background: var(--chip); color: var(--ink); }
+.it { font-size: 12.5px; margin-top: 4px; }
+.it b { font-weight: 600; }
+.it.autore_inedito b { color: var(--good); }
+.it.autore_tradotto b { color: var(--warn); }
+.it.da_verificare b { color: var(--muted); }
+.it.tradotto b { color: var(--bad); }
+.pubs { color: var(--muted); font-size: 12px; }
+.links { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 10px; font-size: 12.5px; }
+.links a { color: var(--accent); text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+details { font-size: 12px; color: var(--muted); margin-top: 6px; }
+.empty, .err { padding: 40px; text-align: center; color: var(--muted); }
+.status { font-size: 12px; color: var(--muted); margin-top: 30px; border-top: 1px solid var(--line); padding-top: 10px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Book <span>Scout</span></h1>
+  <div class="sub" id="sub">Caricamento…</div>
+</header>
+<div class="controls"><div class="in">
+  <div class="seg" id="macro">
+    <button data-v="" class="on">Tutti</button>
+    <button data-v="Bambini">Bambini</button>
+    <button data-v="Manualistica e varia">Manualistica e varia</button>
+    <button data-v="Saggistica">Saggistica</button>
+  </div>
+  <select id="italy">
+    <option value="opp">Italia: opportunità (non tradotti)</option>
+    <option value="autore_inedito">Solo autori inediti in Italia</option>
+    <option value="autore_tradotto">Autore tradotto, titolo no</option>
+    <option value="da_verificare">Da verificare</option>
+    <option value="tradotto">Già tradotti</option>
+    <option value="">Tutti</option>
+  </select>
+  <select id="sort">
+    <option value="score">Ordina: punteggio</option>
+    <option value="growth">Ordina: crescita</option>
+    <option value="weeks">Ordina: longevità</option>
+    <option value="new">Ordina: più recenti</option>
+    <option value="reviews">Ordina: recensioni</option>
+  </select>
+  <label class="chk"><input type="checkbox" id="age" checked> Bambini solo 0–10 anni</label>
+  <input type="search" id="q" placeholder="Cerca titolo, autore, editore…">
+</div></div>
+<main>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="status" id="status"></div>
+</main>
+<script>
+const IT_LABEL = {
+  autore_inedito: "Autore mai pubblicato in Italia",
+  autore_tradotto: "Autore già tradotto, questo titolo no",
+  da_verificare: "Da verificare",
+  tradotto: "Già pubblicato in Italia",
+};
+const state = { macro: "", italy: "opp", sort: "score", age: true, q: "" };
+let DATA = null;
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const enc = encodeURIComponent;
+
+function card(it) {
+  const st = it.italy?.status || "da_verificare";
+  const chips = (it.reasons || []).map(r => `<span class="chip">${esc(r)}</span>`).join("");
+  const age = it.reading_age ? `<span class="chip">Età ${esc(it.reading_age)}</span>` : "";
+  const pubs = it.italy?.publishers?.length ? `<div class="pubs">Editori italiani dell'autore: ${esc(it.italy.publishers.join(", "))}</div>` : "";
+  const match = it.italy?.match ? ` <span class="pubs">(“${esc(it.italy.match)}”)</span>` : "";
+  const amz = it.amazon_url || (it.asin ? `https://www.amazon.com/dp/${it.asin}` : `https://www.amazon.com/s?k=${enc(it.title + " " + it.author)}`);
+  const parts = Object.entries(it.score_parts || {}).map(([k, v]) => `${k} ${v}`).join(" · ");
+  const lists = (it.appearances || []).map(a => `#${a.rank} ${a.list}`).join("<br>");
+  return `<article class="card">
+    <img class="cover" loading="lazy" src="${esc(it.image || "")}" alt="" onerror="this.style.visibility='hidden'">
+    <div>
+      <div class="top">
+        <div><div class="title">${esc(it.title)}</div>
+        <div class="author">${esc(it.author)}${it.publisher_us ? " · " + esc(it.publisher_us) : ""}${it.pub_date ? " · " + esc(it.pub_date) : ""}</div></div>
+        <div class="score">${it.score}<small>punti</small></div>
+      </div>
+      <div class="chips">${age}${chips}</div>
+      <div class="it ${st}"><b>${IT_LABEL[st]}</b>${match}</div>${pubs}
+      <div class="links">
+        <a href="${esc(amz)}" target="_blank" rel="noopener">Amazon.com</a>
+        <a href="https://www.amazon.it/s?k=${enc(it.author)}&i=stripbooks" target="_blank" rel="noopener">Cerca su Amazon.it</a>
+        <a href="https://www.ibs.it/search/?ts=as&query=${enc(it.author)}" target="_blank" rel="noopener">IBS</a>
+        <a href="https://www.google.com/search?q=${enc('"' + it.title.split(/[:(]/)[0].trim() + '" ' + it.author + ' foreign rights agent')}" target="_blank" rel="noopener">Chi ha i diritti?</a>
+      </div>
+      <details><summary>Dettagli punteggio</summary>${esc(parts)}<br>${lists}</details>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const q = state.q.toLowerCase();
+  let items = DATA.items.filter(it => {
+    if (state.macro && !it.macro.includes(state.macro)) return false;
+    const st = it.italy?.status;
+    if (state.italy === "opp" ? st === "tradotto" : state.italy && st !== state.italy) return false;
+    if (state.age && it.macro.length === 1 && it.macro[0] === "Bambini" && it.age_min != null && it.age_min > 10) return false;
+    if (q && !`${it.title} ${it.author} ${it.publisher_us || ""} ${(it.italy?.publishers || []).join(" ")}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  const by = {
+    score: it => -it.score,
+    growth: it => -(it.delta || (it.new_entry ? 30 : 0)),
+    weeks: it => -(it.weeks || 0),
+    new: it => (it.days_since_pub ?? 99999),
+    reviews: it => -(it.reviews || 0),
+  }[state.sort];
+  items.sort((a, b) => by(a) - by(b));
+  document.getElementById("count").textContent = `${items.length} titoli`;
+  document.getElementById("grid").innerHTML = items.length
+    ? items.map(card).join("")
+    : `<div class="empty">Nessun titolo con questi filtri.</div>`;
+}
+
+function bind() {
+  document.querySelectorAll("#macro button").forEach(b => b.onclick = () => {
+    document.querySelectorAll("#macro button").forEach(x => x.classList.toggle("on", x === b));
+    state.macro = b.dataset.v; render();
+  });
+  document.getElementById("italy").onchange = e => { state.italy = e.target.value; render(); };
+  document.getElementById("sort").onchange = e => { state.sort = e.target.value; render(); };
+  document.getElementById("age").onchange = e => { state.age = e.target.checked; render(); };
+  document.getElementById("q").oninput = e => { state.q = e.target.value; render(); };
+}
+
+fetch("data.json?" + Date.now()).then(r => r.json()).then(d => {
+  DATA = d;
+  const when = d.generated ? new Date(d.generated).toLocaleString("it-IT", { dateStyle: "long", timeStyle: "short" }) : "mai";
+  document.getElementById("sub").textContent =
+    `Bestseller USA non ancora pubblicati in Italia · aggiornato ${when} · ${d.weeks_of_history || 0} settimane di storico`;
+  const s = d.status || {};
+  document.getElementById("status").textContent =
+    `Fonti — Amazon: ${s.amazon_ok ?? 0} classifiche lette, ${s.amazon_blocked ?? 0} bloccate · NYT: ${s.nyt ?? "-"} · Google Books: ${s.google_calls ?? 0} richieste (${s.google_errors ?? 0} errori). ` +
+    `"Già tradotto" e "inedito" sono stime automatiche: verificare sempre lo stato dei diritti con l'agente o l'editore.`;
+  bind(); render();
+}).catch(() => {
+  document.getElementById("sub").textContent = "";
+  document.getElementById("grid").innerHTML = `<div class="err">Dati non ancora disponibili: il primo aggiornamento non è stato eseguito.</div>`;
+});
+</script>
+</body>
+</html>
