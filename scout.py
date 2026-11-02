@@ -58,7 +58,7 @@ NYT_LISTS = {
     "series-books": ("Bambini", "NYT Series"),
     "advice-how-to-and-miscellaneous": ("Manualistica e varia", "NYT Advice & How-To"),
     "hardcover-nonfiction": ("Saggistica", "NYT Hardcover Nonfiction"),
-    "paperback-nonfiction": ("Saggistica", "NYT Paperback Nonfiction"),
+    "combined-print-and-e-book-nonfiction": ("Saggistica", "NYT Combined Nonfiction"),
 }
 
 FORMATS = {"hardcover", "paperback", "board book", "kindle", "kindle edition",
@@ -90,7 +90,8 @@ def short_title(t):
 
 def first_author(a):
     a = re.split(r",| and | & |;", a or "")[0]
-    return re.sub(r"^(by|illustrated by)\s+", "", a.strip(), flags=re.I)
+    a = re.sub(r"^(by|illustrated by|dr\.?)\s+", "", a.strip(), flags=re.I)
+    return re.sub(r"\s+(ph\.?\s?d\.?|m\.?d\.?|jr\.?)$", "", a, flags=re.I).strip()
 
 
 def isbn10_to_13(i10):
@@ -268,7 +269,8 @@ def google_books(q, **params):
     # dopo 8 errori consecutivi (quota esaurita o chiave non valida) si smette di insistere
     if status["google_calls"] >= GB_BUDGET or google_fail_streak >= 8:
         return None
-    params = {"q": q, "maxResults": 40, "printType": "books", **params}
+    # country=IT: senza, Google filtra il catalogo sul Paese del server (USA) e nasconde le edizioni italiane
+    params = {"q": q, "maxResults": 40, "printType": "books", "country": "IT", **params}
     if GB_KEY:
         params["key"] = GB_KEY
     status["google_calls"] += 1
@@ -504,9 +506,9 @@ def main():
         cache.setdefault(k, {})
     # le ricerche di titolo vanno ripetute ogni volta: i libri vengono tradotti nel tempo
     cache["title_hits"] = {}
-    # le verifiche autore fatte senza Google Books (versione 1) non sono affidabili
-    if cache.get("version") != 2:
-        cache["authors"], cache["version"] = {}, 2
+    # le verifiche autore delle versioni precedenti (senza Google o senza country=IT) non sono affidabili
+    if cache.get("version") != 3:
+        cache["authors"], cache["version"] = {}, 3
 
     col = Collector()
     log("== Amazon.com")
