@@ -260,17 +260,29 @@ def collect_nyt(col):
 
 # ---------------------------------------------------------------- arricchimento
 
+google_fail_streak = 0
+
+
 def google_books(q, **params):
-    if status["google_calls"] >= GB_BUDGET:
+    global google_fail_streak
+    # dopo 5 errori consecutivi (quota esaurita o chiave mancante) si smette di insistere
+    if status["google_calls"] >= GB_BUDGET or google_fail_streak >= 5:
         return None
     params = {"q": q, "maxResults": 40, "printType": "books", **params}
     if GB_KEY:
         params["key"] = GB_KEY
     status["google_calls"] += 1
-    r = get("https://www.googleapis.com/books/v1/volumes", params=params)
+    try:
+        r = session.get("https://www.googleapis.com/books/v1/volumes", params=params, timeout=30)
+    except requests.RequestException:
+        r = None
     if r is None or r.status_code != 200:
         status["google_errors"] += 1
+        google_fail_streak += 1
+        if google_fail_streak == 5:
+            log("  Google Books non disponibile (quota o chiave): uso solo Open Library")
         return None
+    google_fail_streak = 0
     return r.json().get("items", [])
 
 
