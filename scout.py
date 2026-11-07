@@ -32,34 +32,77 @@ TODAY = dt.date.today()
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
 
-# Categorie Amazon.com (browse node) raggruppate per area editoriale
+# Categorie Amazon.com (browse node) raggruppate per pilastro del catalogo
+SELF, REL, CRIT, EARTH, KIDS = "Conoscenza di sé", "Relazioni umane", "Pensiero critico", "Terra e origini", "Bambini"
+PILLARS = [SELF, REL, CRIT, EARTH, KIDS]
 AMAZON_CATEGORIES = {
-    "Bambini": {"Children's Books": "4"},
-    "Manualistica e varia": {
+    SELF: {
         "Self-Help": "4736",
-        "Crafts, Hobbies & Home": "48",
-        "Cookbooks, Food & Wine": "6",
-        "Health, Fitness & Dieting": "10",
+        "Emotions": "10166950011",
+        "Stress Management": "4747",
+        "Psychology & Counseling": "11119",
+        "Mental Health": "4682",
+        "New Age & Spirituality": "12621",
+    },
+    REL: {
+        "Relationships": "4729",
+        "Communication & Social Skills": "10166949011",
         "Parenting & Relationships": "20",
     },
-    "Saggistica": {
-        "Business & Money": "3",
+    CRIT: {
+        "Philosophy": "11019",
+        "Politics & Government": "5571255011",
         "Science & Math": "75",
-        "History": "9",
+        "Behavioral Sciences": "226685",
+        "Business & Money": "3",
         "Biographies & Memoirs": "2",
-        "Politics & Social Sciences": "3377866011",
+    },
+    EARTH: {
+        "Gardening & Landscape Design": "5241",
+        "Sustainable Living": "14916051",
+        "Nature & Ecology": "14452",
+        "Agricultural Sciences": "226680",
+    },
+    KIDS: {
+        "Children's Books": "4",
+        "Early Learning": "7009080011",
+        "Growing Up & Facts of Life": "1084192",
+        "Science, Nature & How It Works": "3207",
+        "Animals": "2787",
     },
 }
 AMAZON_LISTS = {"bestsellers": "Best Sellers", "new-releases": "Novità"}
 
+# None = pilastro deciso dalle parole chiave
 NYT_LISTS = {
-    "picture-books": ("Bambini", "NYT Picture Books"),
-    "childrens-middle-grade-hardcover": ("Bambini", "NYT Middle Grade"),
-    "series-books": ("Bambini", "NYT Series"),
-    "advice-how-to-and-miscellaneous": ("Manualistica e varia", "NYT Advice & How-To"),
-    "hardcover-nonfiction": ("Saggistica", "NYT Hardcover Nonfiction"),
-    "combined-print-and-e-book-nonfiction": ("Saggistica", "NYT Combined Nonfiction"),
+    "picture-books": (KIDS, "NYT Picture Books"),
+    "childrens-middle-grade-hardcover": (KIDS, "NYT Middle Grade"),
+    "series-books": (KIDS, "NYT Series"),
+    "advice-how-to-and-miscellaneous": (None, "NYT Advice & How-To"),
+    "hardcover-nonfiction": (None, "NYT Hardcover Nonfiction"),
+    "combined-print-and-e-book-nonfiction": (None, "NYT Combined Nonfiction"),
 }
+
+# Parole chiave (titolo + descrizione) che collegano un libro a un pilastro
+PILLAR_KEYWORDS = {
+    SELF: r"self[- ]?(awareness|esteem|worth|compassion|care)|emotion|anxiety|stress|burnout|trauma|healing|"
+          r"mindful|meditat|overthink|inner |soul|spiritual|nervous system|psycholog|mental health|"
+          r"wellbeing|well-being|body|purpose|resilien|intuition|calm",
+    REL: r"relationship|marriage|couple|love|communicat|conversation|empathy|attachment|friend|"
+         r"family|parent|boundar|listen|kindness|connection|loneliness|social skill|conflict",
+    CRIT: r"philosoph|geopolit|politic|democra|power|science|physics|universe|cosmos|brain|"
+          r"artificial intelligence|\bai\b|technolog|econom|truth|misinformation|media|reason|"
+          r"thinking|founder|entrepreneur|innovation|future|history of|ideas",
+    EARTH: r"garden|soil|seed|plants?\b(?!-based)|farm|homestead|compost|forag|herb|trees?\b|"
+           r"nature|wild|bees?\b|chicken|sustainab|climate|earth|permaculture|harvest|country living|"
+           r"self-reliance|outdoors",
+}
+# Prodotti fuori linea editoriale: esclusi dalla verifica Italia e nascosti di default
+OFF_LINE = re.compile(
+    r"coloring|colouring|calendar|planner|puzzle|sticker|crossword|word search|sudoku|"
+    r"cookbook|recipes|bible|devotional|scripture|get(ting)? rich|wealth|millionaire|invest",
+    re.I)
+ILLUSTRATED = re.compile(r"illustrat|picture book|graphic|visual|full[- ]colou?r|photograph|board book", re.I)
 
 FORMATS = {"hardcover", "paperback", "board book", "kindle", "kindle edition",
            "audible audiobook", "mass market paperback", "spiral-bound",
@@ -159,7 +202,7 @@ class Collector:
             "key": key, "title": title, "author": author or "", "macro": [],
             "appearances": [], "isbn13": isbn13, "asin": asin,
         })
-        if macro not in it["macro"]:
+        if macro and macro not in it["macro"]:
             it["macro"].append(macro)
         it["appearances"].append({"source": source, "list": list_name, "rank": rank})
         it["isbn13"] = it["isbn13"] or isbn13
@@ -364,11 +407,11 @@ def italian_author_check(author, cache):
     if cached and (TODAY - dt.date.fromisoformat(cached["checked"])).days < AUTHOR_RECHECK_DAYS:
         return cached
     surname = norm(name)[-1] if norm(name) else ""
-    titles, publishers, ok = [], [], False
+    titles, publishers = [], []
 
     res = google_books(f'inauthor:"{name}"', langRestrict="it")
-    if res is not None:
-        ok = True
+    gb_ok = res is not None
+    if gb_ok:
         for v in res:
             info = v.get("volumeInfo", {})
             authors = " ".join(info.get("authors", [])).lower()
@@ -383,15 +426,26 @@ def italian_author_check(author, cache):
         docs = r.json().get("docs", [])
         # gli editori di Open Library mescolano tutte le edizioni (anche non italiane): si usano solo i titoli
         titles += [d.get("title", "") for d in docs]
-        # Open Library da sola e' incompleta: un risultato vuoto non basta a dire "inedito"
-        ok = ok or bool(docs)
 
-    result = {"checked": TODAY.isoformat(), "ok": ok,
+    # Open Library da sola e' incompleta: senza Google un risultato vuoto non basta a dire "inedito",
+    # e il risultato parziale non va in cache (verra' ricontrollato al giro successivo)
+    result = {"checked": TODAY.isoformat(), "ok": gb_ok or bool(titles),
               "titles": sorted(set(t for t in titles if t))[:15],
               "publishers": sorted(set(publishers))[:8]}
-    if ok:
+    if gb_ok:
         cache["authors"][key] = result
     return result
+
+
+def google_self_test():
+    """Verifica a inizio giro che la ricerca autori in italiano trovi autori sicuramente tradotti."""
+    for name in ("Jeff Kinney", "Stephanie Garber"):
+        res = google_books(f'inauthor:"{name}"', langRestrict="it")
+        if res is None:
+            log(f"  self-test {name}: Google non disponibile")
+            continue
+        it_titles = [v["volumeInfo"].get("title") for v in res if v.get("volumeInfo", {}).get("language") == "it"]
+        log(f"  self-test {name}: {len(res)} risultati, {len(it_titles)} in italiano, es. {it_titles[:3]}")
 
 
 def italian_title_check(it, author_info, cache):
@@ -430,6 +484,21 @@ def italy_status(it, cache):
     if hit is None:
         return {"status": "da_verificare", **base}
     return {"status": "autore_tradotto", **base}
+
+
+# ---------------------------------------------------------------- pilastri
+
+def classify(it):
+    """Pilastri del libro: dalle categorie Amazon/NYT, piu' quelli suggeriti dalle parole chiave."""
+    text = f"{it['title']} {it.get('description') or ''}"
+    pillars = list(it["macro"])
+    if KIDS not in pillars:
+        for p, rx in PILLAR_KEYWORDS.items():
+            if p not in pillars and re.search(rx, text, re.I):
+                pillars.append(p)
+    it["pillars"] = pillars
+    it["off_line"] = bool(OFF_LINE.search(it["title"])) or not pillars
+    it["illustrated"] = bool(ILLUSTRATED.search(f"{text} {it.get('format') or ''}"))
 
 
 # ---------------------------------------------------------------- punteggio
@@ -488,13 +557,22 @@ def score(it, history):
         if it["reviews"] >= 500:
             reasons.append(f"{it['rating']}★ su {it['reviews']:,} recensioni".replace(",", "."))
 
-    raw = s_rank + s_long + s_growth + s_new + s_rev
+    s_fit = 0
+    if not it["off_line"]:
+        # un libro trasversale a piu' pilastri vale di piu'; l'illustrato e' la cifra del catalogo
+        s_fit = min(len(it["pillars"]), 2) * 5 + (5 if it["illustrated"] else 0)
+        if it["illustrated"]:
+            reasons.append("illustrato")
+
+    raw = s_rank + s_long + s_growth + s_new + s_rev + s_fit
     mult = {"autore_inedito": 1.0, "autore_tradotto": 0.85,
             "da_verificare": 0.8, "tradotto": 0.2}[it["italy"]["status"]]
-    it["score"] = round(raw * mult)
+    if it["off_line"]:
+        mult *= 0.4
+    it["score"] = min(100, round(raw * mult))
     it["score_parts"] = {"classifica": round(s_rank), "longevita": round(s_long),
                          "crescita": round(s_growth), "novita": round(s_new),
-                         "recensioni": round(s_rev)}
+                         "recensioni": round(s_rev), "pilastri": s_fit}
     it["reasons"] = reasons
 
 
@@ -506,9 +584,9 @@ def main():
         cache.setdefault(k, {})
     # le ricerche di titolo vanno ripetute ogni volta: i libri vengono tradotti nel tempo
     cache["title_hits"] = {}
-    # le verifiche autore delle versioni precedenti (senza Google o senza country=IT) non sono affidabili
-    if cache.get("version") != 3:
-        cache["authors"], cache["version"] = {}, 3
+    # le verifiche autore delle versioni precedenti hanno salvato risultati senza Google: non affidabili
+    if cache.get("version") != 4:
+        cache["authors"], cache["version"] = {}, 4
 
     col = Collector()
     log("== Amazon.com")
@@ -517,13 +595,25 @@ def main():
     collect_nyt(col)
     items = list(col.items.values())
     log(f"== {len(items)} titoli unici. Arricchimento e verifica Italia...")
+    google_self_test()
 
+    # la quota Google e' limitata (1000/giorno): prima i titoli piu' in alto in classifica,
+    # i prodotti fuori linea non si verificano
+    items.sort(key=lambda i: min(a["rank"] for a in i["appearances"]))
     for n, it in enumerate(items, 1):
+        if OFF_LINE.search(it["title"]):
+            it["italy"] = {"status": "da_verificare", "titles": [], "publishers": []}
+            continue
         enrich_metadata(it, cache)
         enrich_children(it, cache)
         it["italy"] = italy_status(it, cache)
-        if n % 50 == 0:
+        if n % 100 == 0:
             log(f"  {n}/{len(items)} (Google: {status['google_calls']} chiamate)")
+    for it in items:
+        classify(it)
+    log("  per pilastro: " + ", ".join(
+        f"{p} {sum(p in i['pillars'] and not i['off_line'] for i in items)}" for p in PILLARS)
+        + f", fuori linea {sum(i['off_line'] for i in items)}")
 
     history = load_history()
     for it in items:
