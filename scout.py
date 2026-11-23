@@ -95,12 +95,12 @@ PILLAR_KEYWORDS = {
           r"thinking|founder|entrepreneur|innovation|future|history of|ideas",
     EARTH: r"garden|soil|seed|plants?\b(?!-based)|farm|homestead|compost|forag|herb|trees?\b|"
            r"nature|wild|bees?\b|chicken|sustainab|climate|earth|permaculture|harvest|country living|"
-           r"self-reliance|outdoors",
+           r"self-reliance|self-sufficien|outdoors|backyard|homestead|orchard|vegetable",
 }
 # Prodotti fuori linea editoriale: esclusi dalla verifica Italia e nascosti di default
 OFF_LINE = re.compile(
     r"coloring|colouring|calendar|planner|puzzle|sticker|crossword|word search|sudoku|"
-    r"cookbook|recipes|bible|devotional|scripture|get(ting)? rich|wealth|millionaire|invest",
+    r"cookbook|recipes|bible|devotional|scripture|get(ting)? rich|wealth|millionaire|invest|road atlas",
     re.I)
 ILLUSTRATED = re.compile(r"illustrat|picture book|graphic|visual|full[- ]colou?r|photograph|board book", re.I)
 
@@ -499,6 +499,18 @@ def classify(it):
         for p, rx in PILLAR_KEYWORDS.items():
             if p not in pillars and re.search(rx, text, re.I):
                 pillars.append(p)
+        # Il pilastro principale non dipende dall'ordine in cui sono state lette le categorie Amazon
+        # (un manuale d'orto compare anche tra i libri di scienze): vince quello con piu' parole
+        # chiave, contando doppie quelle nel titolo; a parita', le categorie di provenienza.
+        def weight(p):
+            rx = PILLAR_KEYWORDS.get(p)
+            if not rx:
+                return 0
+            def hits(s):
+                return len({m.group(0).lower() for m in re.finditer(rx, s or "", re.I)})
+            return 2 * hits(it["title"]) + hits(it.get("description"))
+        order = {p: i for i, p in enumerate(pillars)}
+        pillars.sort(key=lambda p: (-weight(p), p not in it["macro"], order[p]))
     it["pillars"] = pillars
     it["off_line"] = bool(OFF_LINE.search(it["title"])) or not pillars
     it["illustrated"] = bool(ILLUSTRATED.search(f"{text} {it.get('format') or ''}"))
