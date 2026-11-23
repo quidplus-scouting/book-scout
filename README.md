@@ -18,8 +18,9 @@ non ancora pubblicati in Italia, per lo scouting dei diritti di traduzione.
 
 ## Punteggio (0-100)
 
-Classifica (25) + longevità in classifica (25) + crescita settimanale (20) + novità (15) + recensioni (15)
-+ aderenza ai pilastri (fino a 15: uno o più pilastri, libro illustrato),
+Orientato alla storia di mercato: recensioni accumulate (25) + classifica (20) + longevità in classifica (20)
++ storia (fino a 15: ancora in classifica 1, 3 o 5+ anni dopo l'uscita, o 26+ settimane NYT) + crescita (10) + novità (5)
++ aderenza ai pilastri (fino a 15: uno o più pilastri, libro illustrato), massimo 100,
 moltiplicato per lo stato in Italia: autore inedito ×1, autore tradotto ×0,85, da verificare ×0,8, già tradotto ×0,2.
 I titoli fuori linea (libri da colorare, calendari, ricettari, finanza personale…) valgono ×0,4 e sono nascosti di default.
 

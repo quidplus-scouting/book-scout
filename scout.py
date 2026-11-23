@@ -255,8 +255,11 @@ def parse_amazon_grid(html):
 def collect_amazon(col):
     for macro, cats in AMAZON_CATEGORIES.items():
         for cat_name, node in cats.items():
-            for list_slug, list_label in AMAZON_LISTS.items():
-                url = f"https://www.amazon.com/gp/{list_slug}/books/{node}"
+            # per i Best Sellers anche la seconda pagina (posizioni 51-80), dove stanno molti longseller
+            pages = [(slug, label, pg) for slug, label in AMAZON_LISTS.items()
+                     for pg in ((1, 2) if slug == "bestsellers" else (1,))]
+            for list_slug, list_label, pg in pages:
+                url = f"https://www.amazon.com/gp/{list_slug}/books/{node}" + (f"?pg={pg}" if pg > 1 else "")
                 r = get(url)
                 time.sleep(2)
                 if r is None or r.status_code != 200 or is_blocked(r.text):
@@ -265,7 +268,7 @@ def collect_amazon(col):
                     continue
                 rows = parse_amazon_grid(r.text)
                 status["amazon_ok"] += 1
-                log(f"  Amazon {cat_name} / {list_label}: {len(rows)} titoli")
+                log(f"  Amazon {cat_name} / {list_label} pag.{pg}: {len(rows)} titoli")
                 for row in rows:
                     asin = row.pop("asin")
                     isbn13 = isbn10_to_13(asin) if re.fullmatch(r"\d{9}[\dX]", asin) else None
@@ -509,16 +512,18 @@ def load_history():
 
 
 def score(it, history):
+    # Pesi orientati alla storia di mercato (richiesta dell'editore, 23/11/2026): contano di piu' le
+    # recensioni accumulate e gli anni in classifica, meno la novita' e i picchi di una settimana.
     reasons = []
     best = min(a["rank"] for a in it["appearances"])
     it["best_rank"] = best
-    s_rank = max(0, (51 - min(best, 50)) / 50) * 25
+    s_rank = max(0, (51 - min(best, 50)) / 50) * 20
     reasons.append(f"#{best} in {sorted(it['appearances'], key=lambda a: a['rank'])[0]['list']}")
 
     weeks_seen = sum(1 for _, snap in history if it["key"] in snap) + 1
     weeks = max(weeks_seen, it.get("nyt_weeks") or 0)
     it["weeks"] = weeks
-    s_long = min(weeks, 20) / 20 * 25
+    s_long = min(weeks, 20) / 20 * 20
     if weeks >= 3:
         reasons.append(f"{weeks} settimane in classifica")
 
@@ -528,32 +533,46 @@ def score(it, history):
         delta = prev["best_rank"] - best
         it["delta"] = delta
         if delta > 0:
-            s_growth = min(delta / 25, 1) * 20
+            s_growth = min(delta / 25, 1) * 10
             reasons.append(f"in salita di {delta} posizioni")
     elif it.get("nyt_new") and (it.get("nyt_weeks") or 0) <= 1:
-        s_growth, it["new_entry"] = 15, True
+        s_growth, it["new_entry"] = 7, True
         reasons.append("nuovo ingresso NYT")
     elif history:
-        s_growth, it["new_entry"] = 12, True
+        s_growth, it["new_entry"] = 5, True
         reasons.append("nuovo ingresso in classifica")
 
-    s_new = 0
+    s_new = s_hist = 0
     pub = parse_date(it.get("pub_date") or "")
     if pub:
         age = (TODAY - pub).days
         it["days_since_pub"] = age
         if age < 0:
-            s_new = 15
+            s_new = 5
             reasons.append("in uscita prossimamente")
         elif age <= 180:
-            s_new = 15
+            s_new = 5
             reasons.append(f"uscito da {max(1, age // 30)} mesi")
         elif age <= 365:
-            s_new = 8
+            s_new = 3
+        # longseller: ancora in classifica anni dopo l'uscita
+        years = age // 365
+        if years >= 5:
+            s_hist = 15
+        elif years >= 3:
+            s_hist = 10
+        elif years >= 1:
+            s_hist = 5
+        if years >= 3:
+            it["longseller"] = True
+            reasons.append(f"longseller: in classifica a {years} anni dall'uscita")
+    if (it.get("nyt_weeks") or 0) >= 26:
+        s_hist = max(s_hist, 10)
 
     s_rev = 0
     if it.get("reviews"):
-        s_rev = min(math.log10(it["reviews"]) / 4, 1) * 15 * ((it.get("rating") or 4) / 5)
+        # ~30.000 recensioni valgono il massimo: misura le vendite accumulate negli anni
+        s_rev = min(math.log10(it["reviews"]) / 4.5, 1) * 25 * ((it.get("rating") or 4) / 5)
         if it["reviews"] >= 500:
             reasons.append(f"{it['rating']}★ su {it['reviews']:,} recensioni".replace(",", "."))
 
@@ -564,7 +583,7 @@ def score(it, history):
         if it["illustrated"]:
             reasons.append("illustrato")
 
-    raw = s_rank + s_long + s_growth + s_new + s_rev + s_fit
+    raw = s_rank + s_long + s_growth + s_new + s_rev + s_hist + s_fit
     mult = {"autore_inedito": 1.0, "autore_tradotto": 0.85,
             "da_verificare": 0.8, "tradotto": 0.2}[it["italy"]["status"]]
     if it["off_line"]:
@@ -572,7 +591,7 @@ def score(it, history):
     it["score"] = min(100, round(raw * mult))
     it["score_parts"] = {"classifica": round(s_rank), "longevita": round(s_long),
                          "crescita": round(s_growth), "novita": round(s_new),
-                         "recensioni": round(s_rev), "pilastri": s_fit}
+                         "recensioni": round(s_rev), "storia": s_hist, "pilastri": s_fit}
     it["reasons"] = reasons
 
 
