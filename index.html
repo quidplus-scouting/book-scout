@@ -97,6 +97,7 @@ details { font-size: 12px; color: var(--muted); margin-top: 6px; }
   </select>
   <label class="chk"><input type="checkbox" id="age" checked> Bambini solo 0–10 anni</label>
   <label class="chk"><input type="checkbox" id="illus"> Solo illustrati</label>
+  <label class="chk"><input type="checkbox" id="prio" checked> Solo prioritari (1.000+ recensioni)</label>
   <label class="chk"><input type="checkbox" id="longs"> Solo longseller</label>
   <label class="chk"><input type="checkbox" id="off"> Mostra fuori linea</label>
   <input type="search" id="q" placeholder="Cerca titolo, autore, editore…">
@@ -113,8 +114,9 @@ const IT_LABEL = {
   da_verificare: "Da verificare",
   tradotto: "Già pubblicato in Italia",
 };
-const state = { macro: "", italy: "opp", sort: "score", age: true, illus: false, longs: false, off: false, q: "" };
+const state = { macro: "", italy: "opp", sort: "score", age: true, illus: false, prio: true, longs: false, off: false, q: "" };
 const pillarsOf = it => it.pillars || it.macro || [];
+const isPrio = it => it.priority ?? ((it.reviews || 0) >= 1000);
 let DATA = null;
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -160,6 +162,7 @@ function render() {
     if (state.macro && !pils.includes(state.macro)) return false;
     if (!state.off && it.off_line) return false;
     if (state.illus && !it.illustrated) return false;
+    if (state.prio && !isPrio(it)) return false;
     if (state.longs && !it.longseller) return false;
     const st = it.italy?.status;
     if (state.italy === "opp" ? st === "tradotto" : state.italy && st !== state.italy) return false;
@@ -175,7 +178,10 @@ function render() {
     reviews: it => -(it.reviews || 0),
   }[state.sort];
   items.sort((a, b) => by(a) - by(b));
-  document.getElementById("count").textContent = `${items.length} titoli`;
+  const nPrio = items.filter(isPrio).length;
+  document.getElementById("count").textContent = state.prio
+    ? `${items.length} titoli prioritari (almeno 1.000 recensioni su Amazon)`
+    : `${items.length} titoli, di cui ${nPrio} prioritari`;
   document.getElementById("grid").innerHTML = items.length
     ? items.map(card).join("")
     : `<div class="empty">Nessun titolo con questi filtri.</div>`;
@@ -190,6 +196,7 @@ function bind() {
   document.getElementById("sort").onchange = e => { state.sort = e.target.value; render(); };
   document.getElementById("age").onchange = e => { state.age = e.target.checked; render(); };
   document.getElementById("illus").onchange = e => { state.illus = e.target.checked; render(); };
+  document.getElementById("prio").onchange = e => { state.prio = e.target.checked; render(); };
   document.getElementById("longs").onchange = e => { state.longs = e.target.checked; render(); };
   document.getElementById("off").onchange = e => { state.off = e.target.checked; render(); };
   document.getElementById("q").oninput = e => { state.q = e.target.value; render(); };

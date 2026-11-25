@@ -27,6 +27,7 @@ GB_KEY = os.environ.get("GOOGLE_BOOKS_KEY", "").strip()
 GB_BUDGET = 900          # chiamate Google Books massime per esecuzione
 PRODUCT_PAGE_BUDGET = 80 # pagine prodotto Amazon (eta' di lettura) per esecuzione
 AUTHOR_RECHECK_DAYS = 30
+MIN_REVIEWS = 1000       # soglia dei titoli prioritari (storia di vendita dimostrata)
 
 TODAY = dt.date.today()
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -600,6 +601,16 @@ def score(it, history):
             "da_verificare": 0.8, "tradotto": 0.2}[it["italy"]["status"]]
     if it["off_line"]:
         mult *= 0.4
+    # Priorita' ai titoli con una storia di vendita dimostrata (richiesta dell'editore, 25/11/2026):
+    # almeno MIN_REVIEWS recensioni Amazon. Sotto la soglia il punteggio scende; se il dato manca, scende meno.
+    revs = it.get("reviews")
+    it["priority"] = bool(revs and revs >= MIN_REVIEWS)
+    if it["priority"]:
+        reasons.insert(0, f"prioritario: oltre {MIN_REVIEWS:,} recensioni".replace(",", "."))
+    elif revs is not None:
+        mult *= 0.7
+    else:
+        mult *= 0.85
     it["score"] = min(100, round(raw * mult))
     it["score_parts"] = {"classifica": round(s_rank), "longevita": round(s_long),
                          "crescita": round(s_growth), "novita": round(s_new),
